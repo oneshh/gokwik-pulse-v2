@@ -1,0 +1,28 @@
+[
+ {
+  "run_at": "2026-11-13T13:13:25+00:00",
+  "status": "ok",
+  "fetched": 162,
+  "new": 152,
+  "per_company": {
+   "gokwik": {
+    "fetched": 66,
+    "new": 59
+   },
+   "shopflo": {
+    "fetched": 33,
+    "new": 32
+   },
+   "simpl": {
+    "fetched": 53,
+    "new": 53
+   },
+   "razorpay_magic": {
+    "fetched": 10,
+    "new": 8
+   }
+  },
+  "problems": [],
+  "warnings": []
+ }
+]

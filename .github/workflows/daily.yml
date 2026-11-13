@@ -1,0 +1,133 @@
+name: Daily tracker
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # 02:30 UTC = 08:00 IST, every day
+  workflow_dispatch:
+    inputs:
+      simulate:
+        description: "Test the alert: 'failure' = crash, 'empty' = run returns nothing. Nothing is saved."
+        type: choice
+        options: [none, failure, empty]
+        default: none
+
+concurrency:
+  group: daily-tracker
+  cancel-in-progress: false
+
+env:
+  SIMULATE: ${{ inputs.simulate || 'none' }}
+
+jobs:
+  track:
+    name: Fetch, de-duplicate, save
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      status: ${{ steps.run.outputs.status }}
+      reason: ${{ steps.run.outputs.reason }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Run tracker
+        id: run
+        run: python -m pulse.run --simulate "$SIMULATE"
+
+      - name: Save history to the repo
+        if: ${{ !cancelled() && env.SIMULATE == 'none' }}
+        run: |
+          git config user.name  "pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "data: daily run $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+
+      - name: Package dashboard
+        if: ${{ !cancelled() && env.SIMULATE == 'none' }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    name: Publish dashboard
+    needs: track
+    # Publish even when the health check failed, so the page shows the red status.
+    if: ${{ !cancelled() && (inputs.simulate || 'none') == 'none' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+  alert:
+    name: Alert on failure
+    needs: [track, deploy]
+    if: ${{ failure() }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open (or update) the alert issue
+        uses: actions/github-script@v8
+        env:
+          REASON: ${{ needs.track.outputs.reason }}
+          TRACK: ${{ needs.track.result }}
+          DEPLOY: ${{ needs.deploy.result }}
+        with:
+          script: |
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const reason = process.env.REASON && process.env.REASON !== 'none'
+              ? process.env.REASON
+              : (process.env.TRACK === 'failure' ? 'The tracker job failed before reporting a reason. See the run log.' : 'Publishing the dashboard failed.');
+            const sim = process.env.SIMULATE !== 'none' ? `\n\n> This was a **simulated** failure (\`simulate=${process.env.SIMULATE}\`) to prove the alert works.` : '';
+            const when = new Date().toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+            const body = `### GoKwik Pulse run failed\n\n**When:** ${when}\n**Why:** ${reason}\n**Tracker job:** ${process.env.TRACK} · **Publish job:** ${process.env.DEPLOY}\n\n[Open the failed run](${run})${sim}\n\nThis issue closes itself after the next healthy run.`;
+            const label = 'pulse-alert';
+            try { await github.rest.issues.createLabel({ ...context.repo, name: label, color: 'd73a4a', description: 'Opened automatically when the daily tracker fails' }); } catch (e) {}
+            const open = await github.rest.issues.listForRepo({ ...context.repo, labels: label, state: 'open' });
+            if (open.data.length) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: open.data[0].number, body });
+              core.notice(`Commented on alert issue #${open.data[0].number}`);
+            } else {
+              const { data } = await github.rest.issues.create({ ...context.repo, title: `🚨 Tracker alert: ${reason.split('\n')[0].slice(0, 90)}`, body, labels: [label], assignees: [context.repo.owner] });
+              core.notice(`Opened alert issue #${data.number}`);
+            }
+
+      - name: Also post to Slack/Discord (only if a webhook secret is set)
+        env:
+          HOOK: ${{ secrets.ALERT_WEBHOOK_URL }}
+          REASON: ${{ needs.track.outputs.reason }}
+        if: ${{ env.HOOK != '' }}
+        run: |
+          msg="🚨 GoKwik Pulse run failed: ${REASON:-see run log} — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          payload=$(jq -n --arg m "$msg" '{text:$m, content:$m}')
+          curl -fsS -X POST -H 'Content-Type: application/json' -d "$payload" "$HOOK"
+
+  recover:
+    name: Close alert after a healthy run
+    needs: [track, deploy]
+    if: ${{ success() && (inputs.simulate || 'none') == 'none' }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v8
+        with:
+          script: |
+            // Silent when nothing is open: no API writes, no notifications.
+            const open = await github.rest.issues.listForRepo({ ...context.repo, labels: 'pulse-alert', state: 'open' });
+            for (const i of open.data) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: i.number, body: '✅ Recovered: the latest daily run was healthy. Closing.' });
+              await github.rest.issues.update({ ...context.repo, issue_number: i.number, state: 'closed', state_reason: 'completed' });
+            }

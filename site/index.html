@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GoKwik Pulse</title>
+<meta name="description" content="Daily share-of-coverage tracker for GoKwik, Shopflo, Simpl and Razorpay Magic Checkout.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235b4bdb'/><path d='M5 17h5l3-8 5 15 3-7h6' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f6f9;
+  --surface: #ffffff;
+  --surface-2: #f1f1f6;
+  --border: #e5e5ee;
+  --text: #13131a;
+  --text-2: #4d4d5c;
+  --muted: #7b7b8c;
+  --brand: #5b4bdb;
+  --brand-soft: #ecebfd;
+  --grid: #ececf3;
+  --good: #0f8a4f; --good-soft: #e3f6ec;
+  --warn: #b26b00; --warn-soft: #fff3dc;
+  --bad: #c9312f;  --bad-soft: #fde8e7;
+  --s-gokwik: #2a78d6; --s-shopflo: #eb6834; --s-simpl: #1baf7a; --s-razorpay_magic: #eda100;
+  --shadow: 0 1px 2px rgba(20,20,40,.04), 0 4px 16px rgba(20,20,40,.05);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #101015; --surface: #18181f; --surface-2: #20202a; --border: #2b2b37;
+    --text: #f1f1f5; --text-2: #c3c3d0; --muted: #8e8ea0;
+    --brand: #8f84f0; --brand-soft: #24213f; --grid: #262631;
+    --good: #3ccf86; --good-soft: #10291d; --warn: #f0b23c; --warn-soft: #2d2410; --bad: #ff6b68; --bad-soft: #341717;
+    --s-gokwik: #3987e5; --s-shopflo: #d95926; --s-simpl: #199e70; --s-razorpay_magic: #c98500;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101015; --surface: #18181f; --surface-2: #20202a; --border: #2b2b37;
+  --text: #f1f1f5; --text-2: #c3c3d0; --muted: #8e8ea0;
+  --brand: #8f84f0; --brand-soft: #24213f; --grid: #262631;
+  --good: #3ccf86; --good-soft: #10291d; --warn: #f0b23c; --warn-soft: #2d2410; --bad: #ff6b68; --bad-soft: #341717;
+  --s-gokwik: #3987e5; --s-shopflo: #d95926; --s-simpl: #199e70; --s-razorpay_magic: #c98500;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--text);
+  font: 15px/1.55 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 16px; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* header */
+header.top { padding: 28px 0 8px; }
+.bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.logo { width: 40px; height: 40px; border-radius: 11px; background: var(--brand); display: grid; place-items: center; flex: none; }
+.brand h1 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
+.brand h1 span { color: var(--brand); }
+.brand p { margin: 0; color: var(--muted); font-size: 13.5px; }
+.spacer { flex: 1; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; border: 1px solid transparent; white-space: nowrap; }
+.pill .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 22%, transparent); }
+.pill.ok { color: var(--good); background: var(--good-soft); }
+.pill.warn { color: var(--warn); background: var(--warn-soft); }
+.pill.fail { color: var(--bad); background: var(--bad-soft); }
+.iconbtn { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; display: grid; place-items: center; }
+.iconbtn:hover { color: var(--text); }
+
+/* highlights */
+.hero { margin: 18px 0 8px; background: linear-gradient(120deg, var(--brand) 0%, #7a5be0 55%, #a35bd6 100%); color: #fff; border-radius: 20px; padding: 22px 24px; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.hero::after { content: ""; position: absolute; right: -60px; top: -60px; width: 240px; height: 240px; border-radius: 50%; background: rgba(255,255,255,.08); }
+.hero .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .8; }
+.hero h2 { margin: 6px 0 14px; font-size: 24px; line-height: 1.25; font-weight: 750; letter-spacing: -.015em; max-width: 760px; }
+.hl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; position: relative; z-index: 1; }
+.hl { background: rgba(255,255,255,.13); border: 1px solid rgba(255,255,255,.18); border-radius: 14px; padding: 12px 14px; font-size: 13.5px; }
+.hl b { display: block; font-size: 20px; font-weight: 750; letter-spacing: -.01em; }
+
+/* sections */
+section { margin: 26px 0; }
+.sec-head { display: flex; align-items: end; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+.sec-head h3 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.01em; }
+.sec-head p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--shadow); }
+
+/* company cards */
+.companies { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 980px) { .companies { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .companies { grid-template-columns: 1fr; } }
+.co { padding: 16px 16px 14px; position: relative; overflow: hidden; }
+.co::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--c); }
+.co .name { display: flex; align-items: center; gap: 8px; font-weight: 650; font-size: 14px; color: var(--text-2); }
+.co .sw { width: 10px; height: 10px; border-radius: 3px; background: var(--c); }
+.co .big { font-size: 34px; font-weight: 800; letter-spacing: -.03em; margin: 6px 0 0; line-height: 1.1; }
+.co .big small { font-size: 15px; font-weight: 600; color: var(--muted); margin-left: 2px; }
+.co .sub { color: var(--muted); font-size: 12.5px; }
+.co .meta span { white-space: nowrap; }
+.co .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 10px; font-size: 12.5px; color: var(--text-2); }
+.co .meta b { color: var(--text); }
+.co .lead { position: absolute; top: 14px; right: 14px; font-size: 11px; font-weight: 700; color: var(--brand); background: var(--brand-soft); padding: 3px 8px; border-radius: 999px; }
+.spark { display: block; margin-top: 10px; width: 100%; height: 34px; }
+
+/* chart */
+.chart-card { padding: 18px 18px 10px; }
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-left: auto; }
+.seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 3px; }
+.seg button { border: 0; background: none; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 7px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--text-2); margin: 0 0 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+#chart { width: 100%; display: block; overflow: visible; }
+#chart text { fill: var(--muted); font-size: 11.5px; font-family: inherit; }
+#chart .gl { stroke: var(--grid); stroke-width: 1; }
+#chart .seg-rect { transition: opacity .12s; }
+#chart .col:hover .seg-rect { opacity: .85; }
+#chart .empty { fill: none; stroke: var(--border); stroke-dasharray: 3 3; }
+.tip { position: fixed; pointer-events: none; z-index: 20; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 8px 28px rgba(0,0,0,.18); padding: 10px 12px; font-size: 13px; min-width: 200px; opacity: 0; transition: opacity .1s; }
+.tip h4 { margin: 0 0 6px; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.tip .row { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
+.tip .row i { width: 9px; height: 9px; border-radius: 3px; }
+.tip .row span:last-child { margin-left: auto; font-weight: 650; }
+table.data { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.data th, table.data td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+table.data th:first-child, table.data td:first-child { text-align: left; }
+table.data th { color: var(--muted); font-weight: 600; font-size: 12px; }
+.table-scroll { overflow-x: auto; }
+
+/* two-column */
+.cols { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+
+/* articles */
+.articles { list-style: none; margin: 0; padding: 4px 0; }
+.articles li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; padding: 12px 16px; border-bottom: 1px solid var(--border); }
+.articles li:last-child { border-bottom: 0; }
+.articles .rank { font-size: 12px; font-weight: 700; color: var(--muted); padding-top: 2px; font-family: "JetBrains Mono", monospace; }
+.articles a.t { font-weight: 600; text-decoration: none; line-height: 1.4; }
+.articles a.t:hover { color: var(--brand); text-decoration: underline; }
+.articles .m { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 5px; font-size: 12.5px; color: var(--muted); }
+.chip { display: inline-flex; align-items: center; gap: 5px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: 11.5px; font-weight: 600; }
+.chip i { width: 7px; height: 7px; border-radius: 50%; }
+.new-badge { background: var(--brand-soft); color: var(--brand); font-weight: 700; font-size: 10.5px; padding: 2px 7px; border-radius: 999px; letter-spacing: .03em; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; padding: 12px 16px 4px; }
+.filters button { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); border-radius: 999px; font: inherit; font-size: 12.5px; font-weight: 600; padding: 4px 11px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.filters button i { width: 8px; height: 8px; border-radius: 50%; }
+.filters button[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
+
+/* health */
+.health { padding: 16px; }
+.health .statusline { display: flex; align-items: center; gap: 10px; }
+.health .statusline .ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; font-size: 18px; flex: none; }
+.health .statusline b { display: block; font-size: 15px; }
+.health .statusline small { color: var(--muted); font-size: 12.5px; }
+.runs { display: flex; gap: 4px; margin: 14px 0 4px; flex-wrap: wrap; }
+.runs span { width: 14px; height: 26px; border-radius: 4px; background: var(--good); opacity: .85; }
+.runs span.warn { background: var(--warn); } .runs span.fail { background: var(--bad); }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; font-size: 13px; margin-top: 12px; }
+.kv dt { color: var(--muted); } .kv dd { margin: 0; font-weight: 600; text-align: right; }
+.steps { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
+.steps li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; font-size: 13px; color: var(--text-2); }
+.steps li b { color: var(--text); display: block; font-size: 13.5px; }
+.steps .n { width: 26px; height: 26px; border-radius: 8px; background: var(--brand-soft); color: var(--brand); font-weight: 800; font-size: 12.5px; display: grid; place-items: center; }
+.problems { margin: 10px 0 0; padding: 10px 12px; border-radius: 10px; font-size: 13px; }
+.problems.fail { background: var(--bad-soft); color: var(--bad); }
+.problems.warn { background: var(--warn-soft); color: var(--warn); }
+
+footer { color: var(--muted); font-size: 12.5px; padding: 24px 0 40px; border-top: 1px solid var(--border); margin-top: 30px; }
+footer a { color: var(--text-2); }
+.loading { padding: 80px 0; text-align: center; color: var(--muted); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+@media (max-width: 560px) {
+  .hero h2 { font-size: 20px; }
+  .co .big { font-size: 30px; }
+  .articles li { grid-template-columns: 1fr; gap: 2px; }
+  .articles .rank { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="bar">
+      <div class="logo" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 32 32"><path d="M3 17h6l3.5-9 5.5 16 3.5-8H29" stroke="#fff" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="brand">
+        <h1>GoKwik <span>Pulse</span></h1>
+        <p>Daily share-of-coverage tracker for India's checkout players</p>
+      </div>
+      <div class="spacer"></div>
+      <span id="status-pill" class="pill ok"><span class="dot"></span><span>Loading…</span></span>
+      <button class="iconbtn" id="theme" title="Toggle light / dark" aria-label="Toggle light or dark theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app"><div class="loading">Loading the latest coverage…</div></main>
+
+  <footer>
+    <div>Sources: Google News RSS (all-time + last-30-days searches) and Bing News RSS. Updated automatically every day at 08:00 IST by GitHub Actions.
+    An article is counted once, no matter how many days or feeds it shows up in. Share = that company's articles ÷ all tracked company-articles in the period.</div>
+    <div style="margin-top:6px">Built as <b>GoKwik Pulse V2</b> · <a id="repo-link" href="#">Source &amp; method on GitHub</a> · <a href="data.json">Raw data (JSON)</a></div>
+  </footer>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+  // ---------- theme toggle (works with OS preference; remembers choice per viewer)
+  const root = document.documentElement;
+  try { const t = localStorage.getItem("pulse-theme"); if (t) root.dataset.theme = t; } catch (e) {}
+  document.getElementById("theme").onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("pulse-theme", root.dataset.theme); } catch (e) {}
+  };
+
+  // repo link from the Pages URL: https://<user>.github.io/<repo>/
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  if (m) document.getElementById("repo-link").href = `https://github.com/${m[1]}/${location.pathname.split("/")[1]}`;
+
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtPct = v => (Math.round(v * 10) / 10).toString().replace(/\.0$/, "") + "%";
+  const ago = iso => {
+    const s = (Date.now() - new Date(iso)) / 1000;
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+    if (s < 86400) return Math.round(s / 3600) + " h ago";
+    const d = Math.round(s / 86400);
+    return d === 1 ? "yesterday" : d < 30 ? d + " days ago" : new Date(iso).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" });
+  };
+  const dateIN = iso => new Date(iso).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
+  const col = id => `var(--s-${id})`;
+
+  fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(render).catch(err => {
+    document.getElementById("app").innerHTML = `<div class="loading">Could not load data.json (${esc(err.message)}).</div>`;
+  });
+
+  function render(D) {
+    const C = D.companies, byId = Object.fromEntries(C.map(c => [c.id, c]));
+    const weeks = D.weeks, cur = weeks[weeks.length - 1], prev = weeks[weeks.length - 2];
+    const W = D.window;
+    const leader = [...C].sort((a, b) => W.counts[b.id] - W.counts[a.id])[0];
+    const curLeader = cur.total ? [...C].sort((a, b) => cur.counts[b.id] - cur.counts[a.id])[0] : null;
+    const run = D.health.last_run || { status: "ok", run_at: D.generated_at, problems: [], warnings: [] };
+
+    // status pill
+    // A missed schedule is also a problem: flag the page if the last run is older than 36 h.
+    if ((Date.now() - new Date(run.run_at)) > 36 * 3600e3 && run.status === "ok") {
+      run.status = "warn"; run.warnings = [...(run.warnings || []), "No run in the last 36 hours - the daily schedule may have stopped."];
+    }
+    const pill = document.getElementById("status-pill");
+    const label = { ok: "All systems healthy", warn: "Running with a warning", fail: "Last run failed" }[run.status];
+    pill.className = "pill " + run.status;
+    pill.innerHTML = `<span class="dot"></span><span>${label} · updated ${ago(run.run_at)}</span>`;
+
+    // ---------- highlights
+    const delta = cur.total - prev.total;
+    const sinceWeeks = weeks.filter(w => w.total).length;
+    const highlights = [
+      { k: `${fmtPct(W.shares[leader.id])}`, v: `${esc(leader.name)}'s share of coverage over the last ${W.weeks} weeks (${W.counts[leader.id]} of ${W.total} articles)` },
+      { k: `${cur.total} article${cur.total === 1 ? "" : "s"}`, v: `this week so far · ${delta === 0 ? "same as" : delta > 0 ? `${delta} more than` : `${-delta} fewer than`} last week (${prev.total})` },
+      { k: curLeader ? esc(curLeader.name) : "Quiet week", v: curLeader ? `leads this week with ${cur.counts[curLeader.id]} article${cur.counts[curLeader.id] === 1 ? "" : "s"} (${fmtPct(cur.shares[curLeader.id])})` : "no articles about any tracked company yet this week" },
+      { k: `${D.totals.articles}`, v: `unique articles in history · ${D.totals.added_today} added in the latest run` },
+    ];
+    const headline = curLeader && curLeader.id === leader.id
+      ? `${esc(leader.name)} owns ${fmtPct(W.shares[leader.id])} of checkout coverage over the last ${W.weeks} weeks, and leads again this week.`
+      : curLeader
+      ? `${esc(leader.name)} owns ${fmtPct(W.shares[leader.id])} of checkout coverage over ${W.weeks} weeks, but ${esc(curLeader.name)} is leading this week.`
+      : `${esc(leader.name)} owns ${fmtPct(W.shares[leader.id])} of checkout coverage over the last ${W.weeks} weeks.`;
+
+    // ---------- company cards
+    const cards = C.map(c => {
+      const series = weeks.map(w => w.counts[c.id]);
+      const max = Math.max(1, ...weeks.map(w => Math.max(...C.map(x => w.counts[x.id]))));
+      const bw = 100 / series.length;
+      const bars = series.map((v, i) => {
+        const h = v ? Math.max(2, (v / max) * 30) : 1;
+        return `<rect x="${i * bw + bw * .18}" y="${32 - h}" width="${bw * .64}" height="${h}" rx="1.5" fill="${v ? col(c.id) : "var(--grid)"}"><title>Week of ${weeks[i].label}: ${v}</title></rect>`;
+      }).join("");
+      return `<div class="card co" style="--c:${col(c.id)}">
+        ${c.id === leader.id ? '<span class="lead">#1 share</span>' : ""}
+        <div class="name"><span class="sw"></span>${esc(c.name)}</div>
+        <div class="big num">${fmtPct(W.shares[c.id])}</div>
+        <div class="sub">share of the last ${W.weeks} weeks</div>
+        <div class="meta"><span><b class="num">${W.counts[c.id]}</b> articles</span><span><b class="num">${cur.counts[c.id]}</b> this week</span><span><b class="num">${D.totals.by_company[c.id]}</b> all-time</span></div>
+        <svg class="spark" viewBox="0 0 100 34" preserveAspectRatio="none" aria-label="Weekly article counts">${bars}</svg>
+      </div>`;
+    }).join("");
+
+    // ---------- health panel
+    const recent = D.health.recent_runs.slice(-21);
+    const issues = [...(run.problems || []).map(p => ["fail", p]), ...(run.warnings || []).map(w => ["warn", w])];
+    const health = `
+      <div class="statusline">
+        <div class="ic" style="background:var(--${run.status === "ok" ? "good" : run.status === "warn" ? "warn" : "bad"}-soft);color:var(--${run.status === "ok" ? "good" : run.status === "warn" ? "warn" : "bad"})">${run.status === "ok" ? "✓" : run.status === "warn" ? "!" : "✕"}</div>
+        <div><b>${label}</b><small>Last run ${ago(run.run_at)} · next run daily 08:00 IST</small></div>
+      </div>
+      ${issues.map(([k, t]) => `<div class="problems ${k}">${esc(t)}</div>`).join("")}
+      <div class="runs" aria-label="Recent runs, oldest first">${recent.map(r => `<span class="${r.status}" title="${esc(new Date(r.run_at).toLocaleString("en-IN"))}: ${r.status} · fetched ${r.fetched}, new ${r.new}"></span>`).join("")}</div>
+      <small style="color:var(--muted);font-size:12px">Last ${recent.length} run${recent.length === 1 ? "" : "s"} · green = healthy</small>
+      <dl class="kv">
+        <dt>Articles fetched last run</dt><dd class="num">${run.fetched ?? "–"}</dd>
+        <dt>New unique articles</dt><dd class="num">${run.new ?? "–"}</dd>
+        <dt>Tracking since</dt><dd>${dateIN(D.tracking_since)}</dd>
+        <dt>Articles in the last 30 days</dt><dd class="num">${D.totals.last_30_days}</dd>
+      </dl>
+      <ol class="steps">
+        <li><span class="n">1</span><div><b>Collect</b>Every morning, 3 free news feeds are searched for each company.</div></li>
+        <li><span class="n">2</span><div><b>De-duplicate</b>Each story is stored once by its headline, so repeats across days and feeds never double count.</div></li>
+        <li><span class="n">3</span><div><b>Publish</b>This page is rebuilt from the saved history.</div></li>
+        <li><span class="n">4</span><div><b>Alert</b>If a run crashes or comes back empty, a GitHub issue is opened. Healthy runs stay silent.</div></li>
+      </ol>`;
+
+    document.getElementById("app").innerHTML = `
+      <div class="hero">
+        <div class="eyebrow">Key highlights · week of ${esc(cur.label)}</div>
+        <h2>${headline}</h2>
+        <div class="hl-grid">${highlights.map(h => `<div class="hl"><b class="num">${h.k}</b>${h.v}</div>`).join("")}</div>
+      </div>
+
+      <section>
+        <div class="sec-head"><div><h3>Share of coverage, last ${W.weeks} weeks</h3><p>Each company's slice of all articles about these four players since ${dateIN(W.from)}.</p></div></div>
+        <div class="companies">${cards}</div>
+      </section>
+
+      <section>
+        <div class="card chart-card">
+          <div class="sec-head">
+            <div><h3>Weekly share of articles</h3><p>Weeks start Monday (IST). Hover a week for exact numbers.</p></div>
+            <div class="toolbar">
+              <div class="seg" role="group" aria-label="Measure">
+                <button data-mode="share" aria-pressed="true">Share %</button>
+                <button data-mode="count" aria-pressed="false">Article count</button>
+              </div>
+              <div class="seg" role="group" aria-label="View">
+                <button data-view="chart" aria-pressed="true">Chart</button>
+                <button data-view="table" aria-pressed="false">Table</button>
+              </div>
+            </div>
+          </div>
+          <div class="legend">${C.map(c => `<span><i style="background:${col(c.id)}"></i>${esc(c.name)}</span>`).join("")}<span><i style="border:1px dashed var(--muted)"></i>No articles that week</span></div>
+          <div id="chart-wrap"></div>
+        </div>
+      </section>
+
+      <section class="cols">
+        <div class="card">
+          <div class="sec-head" style="padding:16px 16px 0;margin:0"><div><h3>20 latest articles</h3><p>Newest first. Click a headline to read it at the source.</p></div></div>
+          <div class="filters" id="filters"></div>
+          <ol class="articles" id="articles"></ol>
+        </div>
+        <div class="card health">
+          <h3 style="margin:0 0 12px;font-size:17px">Tracker health</h3>
+          ${health}
+        </div>
+      </section>`;
+
+    // ---------- weekly chart
+    let mode = "share", view = "chart";
+    const wrap = document.getElementById("chart-wrap"), tip = document.getElementById("tip");
+    function drawChart() {
+      if (view === "table") {
+        wrap.innerHTML = `<div class="table-scroll"><table class="data"><thead><tr><th>Week of</th>${C.map(c => `<th>${esc(c.name)}</th>`).join("")}<th>Total</th></tr></thead><tbody>${
+          [...weeks].reverse().map(w => `<tr><td>${esc(w.label)}${w.is_current ? " (this week)" : ""}</td>${C.map(c => `<td class="num">${w.counts[c.id]}${w.total ? ` <span style="color:var(--muted)">(${fmtPct(w.shares[c.id])})</span>` : ""}</td>`).join("")}<td class="num"><b>${w.total}</b></td></tr>`).join("")
+        }</tbody></table></div>`;
+        return;
+      }
+      const Wd = Math.max(320, wrap.clientWidth), H = 280, pl = 40, pr = 8, pt = 10, pb = 28;
+      const iw = Wd - pl - pr, ih = H - pt - pb, n = weeks.length, slot = iw / n, bw = Math.min(46, slot * .62);
+      const maxCount = Math.max(1, ...weeks.map(w => w.total));
+      const niceMax = mode === "share" ? 100 : Math.ceil(maxCount / (maxCount > 10 ? 5 : 2)) * (maxCount > 10 ? 5 : 2);
+      const ticks = mode === "share" ? [0, 25, 50, 75, 100] : Array.from({ length: 5 }, (_, i) => Math.round(niceMax * i / 4));
+      const y = v => pt + ih - (v / niceMax) * ih;
+      let g = ticks.map(t => `<line class="gl" x1="${pl}" x2="${Wd - pr}" y1="${y(t)}" y2="${y(t)}"/><text x="${pl - 8}" y="${y(t) + 4}" text-anchor="end">${t}${mode === "share" ? "%" : ""}</text>`).join("");
+      weeks.forEach((w, i) => {
+        const x = pl + slot * i + (slot - bw) / 2;
+        let acc = 0, segs = "";
+        if (!w.total) {
+          segs = `<rect class="empty" x="${x}" y="${y(mode === "share" ? 100 : 0) - (mode === "share" ? 0 : 3)}" width="${bw}" height="${mode === "share" ? ih : 3}" rx="4"/>`;
+        } else {
+          const parts = C.map(c => ({ c, v: mode === "share" ? w.counts[c.id] * 100 / w.total : w.counts[c.id] })).filter(p => p.v > 0);
+          parts.forEach((p, j) => {
+            const y0 = y(acc), y1 = y(acc + p.v); acc += p.v;
+            const top = j === parts.length - 1;
+            const h = Math.max(0, y0 - y1 - (top ? 0 : 2));
+            // rounded top on the last segment only (data end), flat elsewhere
+            if (top) {
+              const r = Math.min(4, h / 2, bw / 2);
+              segs += `<path class="seg-rect" fill="${col(p.c.id)}" d="M${x},${y0} V${y1 + r} Q${x},${y1} ${x + r},${y1} H${x + bw - r} Q${x + bw},${y1} ${x + bw},${y1 + r} V${y0} Z"/>`;
+            } else {
+              segs += `<rect class="seg-rect" fill="${col(p.c.id)}" x="${x}" y="${y1 + 2}" width="${bw}" height="${h}"/>`;
+            }
+          });
+        }
+        g += `<g class="col" data-i="${i}">${segs}<rect x="${pl + slot * i}" y="${pt}" width="${slot}" height="${ih}" fill="transparent"/>
+          <text x="${pl + slot * i + slot / 2}" y="${H - 8}" text-anchor="middle" style="${w.is_current ? "fill:var(--text);font-weight:700" : ""}">${n > 8 && Wd < 560 && i % 2 ? "" : esc(w.label)}</text></g>`;
+      });
+      wrap.innerHTML = `<svg id="chart" viewBox="0 0 ${Wd} ${H}" height="${H}" role="img" aria-label="Stacked bar chart of weekly share of articles per company">${g}</svg>`;
+      wrap.querySelectorAll(".col").forEach(el => {
+        const w = weeks[+el.dataset.i];
+        el.addEventListener("mousemove", e => {
+          tip.innerHTML = `<h4>Week of ${esc(w.label)}${w.is_current ? " · this week" : ""} · ${w.total} article${w.total === 1 ? "" : "s"}</h4>` +
+            (w.total ? C.map(c => `<div class="row"><i style="background:${col(c.id)}"></i><span>${esc(c.name)}</span><span class="num">${w.counts[c.id]} · ${fmtPct(w.shares[c.id])}</span></div>`).join("") : `<div class="row">No articles about any tracked company.</div>`);
+          const tx = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+          tip.style.left = tx + "px"; tip.style.top = (e.clientY + 14) + "px"; tip.style.opacity = 1;
+        });
+        el.addEventListener("mouseleave", () => tip.style.opacity = 0);
+      });
+    }
+    document.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => {
+      mode = b.dataset.mode; document.querySelectorAll("[data-mode]").forEach(x => x.setAttribute("aria-pressed", x === b)); drawChart();
+    });
+    document.querySelectorAll("[data-view]").forEach(b => b.onclick = () => {
+      view = b.dataset.view; document.querySelectorAll("[data-view]").forEach(x => x.setAttribute("aria-pressed", x === b)); drawChart();
+    });
+    drawChart();
+    let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(drawChart, 120); });
+
+    // ---------- latest articles + filter
+    let filter = "all";
+    const fEl = document.getElementById("filters"), aEl = document.getElementById("articles");
+    function drawArticles() {
+      fEl.innerHTML = [`<button data-f="all" aria-pressed="${filter === "all"}">All</button>`, ...C.map(c => `<button data-f="${c.id}" aria-pressed="${filter === c.id}"><i style="background:${col(c.id)}"></i>${esc(c.name)}</button>`)].join("");
+      fEl.querySelectorAll("button").forEach(b => b.onclick = () => { filter = b.dataset.f; drawArticles(); });
+      const list = D.latest.filter(a => filter === "all" || a.companies.includes(filter));
+      aEl.innerHTML = list.length ? list.map((a, i) => {
+        const fresh = (Date.now() - new Date(a.published)) < 2 * 86400e3;
+        const more = (a.outlets || []).length - 1;
+        return `<li><span class="rank">${String(i + 1).padStart(2, "0")}</span><div>
+          <a class="t" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+          <div class="m">${fresh ? '<span class="new-badge">NEW</span>' : ""}
+            ${a.companies.map(id => byId[id] ? `<span class="chip"><i style="background:${col(id)}"></i>${esc(byId[id].name)}</span>` : "").join("")}
+            <span>${esc(a.publisher || "Unknown outlet")}${more > 0 ? ` +${more} more` : ""}</span><span>·</span><span title="${esc(a.published)}">${dateIN(a.published)}</span>
+          </div></div></li>`;
+      }).join("") : `<li><span></span><div style="color:var(--muted)">No recent articles for this company among the 20 latest.</div></li>`;
+    }
+    drawArticles();
+  }
+})();
+</script>
+</body>
+</html>
