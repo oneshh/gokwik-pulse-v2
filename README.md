@@ -13,6 +13,24 @@
 
 ---
 
+## Part 2: COD return-rate analysis
+
+The data-quality analysis of `orders.csv` lives in **[`analysis/`](analysis/README.md)**: the script, its outputs and a full write-up.
+
+- **Weekly COD return rate (IST, Mon–Sun):** flat at about 28% (26.7% to 29.4%; the differences are within sampling noise). Whole period: **28.37%**.
+- **Top 3 stores (≥ 200 final COD orders):** **M122 39.53%**, **M108 38.84%**, **M110 38.14%**. M112 (37.10%) is close enough to swap with #3.
+- **12 data problems found and handled**, including:
+  - two test merchants that would otherwise top the ranking;
+  - COD and status labels written many different ways;
+  - 1,439 duplicate rows;
+  - UTC timestamps that have to become IST weeks;
+  - two missing days (14–15 Sep);
+  - orders stuck in "in transit" for months;
+  - undated orders;
+  - placeholder order values.
+
+---
+
 ## What you see on the dashboard
 
 1. **Key highlights.** A one-line summary in plain English (who leads, how this week compares with last week), plus four headline numbers.
@@ -169,6 +187,7 @@ pulse/run.py       daily entry point
 site/index.html    the dashboard (one file, no build step, light & dark mode)
 .github/workflows/daily.yml   schedule → track → publish → alert / auto-recover
 .github/workflows/ci.yml      tests on every push
+analysis/cod_returns.py       Part 2: COD return-rate analysis (outputs in analysis/output/)
 ```
 
 ## How it runs every day (everything is on GitHub)

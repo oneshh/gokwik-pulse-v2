@@ -1,0 +1,63 @@
+{
+  "input_sha256": "45c370099f3c735898cdd199575c0ff7dd29de2dd9780cad0e397169bb8ace16",
+  "rows_raw": 97378,
+  "rows_after_dedup": 95939,
+  "rows_analysed_real_stores": 94253,
+  "real_stores": 24,
+  "overall_cod_return_rate_pct": 28.37,
+  "overall_final_cod": 46211,
+  "overall_returned": 13108,
+  "top3": [
+    {
+      "store": "M122",
+      "return_rate_pct": 39.53,
+      "final_cod": 1968,
+      "returned": 778,
+      "ci95": [
+        37.39,
+        41.71
+      ]
+    },
+    {
+      "store": "M108",
+      "return_rate_pct": 38.84,
+      "final_cod": 2495,
+      "returned": 969,
+      "ci95": [
+        36.94,
+        40.77
+      ]
+    },
+    {
+      "store": "M110",
+      "return_rate_pct": 38.14,
+      "final_cod": 2601,
+      "returned": 992,
+      "ci95": [
+        36.29,
+        40.02
+      ]
+    }
+  ],
+  "sensitivity": {
+    "max_weekly_change_if_undated_orders_dropped_pts": 0.11,
+    "max_weekly_rise_if_all_stale_were_returns_pts": 6.75,
+    "top3_if_all_stale_were_returns": [
+      "M122",
+      "M108",
+      "M112"
+    ],
+    "top3_unchanged_under_worst_case": false,
+    "weekly_chi2": 15.8,
+    "weekly_chi2_critical_p05_df12": 21.03,
+    "weekly_rates_differ_beyond_noise": false,
+    "naive_top3_raw_file": [
+      "M_TEST_01",
+      "M_TEST_02",
+      "M122"
+    ],
+    "rank4_store": "M112",
+    "rank3_vs_rank4_ci_overlap": true,
+    "rank1_vs_rank3_ci_overlap": true
+  }
+}
