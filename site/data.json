@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T21:02:28+00:00",
+ "generated_at": "2026-11-13T21:03:23+00:00",
  "today": "2026-11-14",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 151,
+  "articles": 166,
   "by_company": {
-   "gokwik": 60,
-   "shopflo": 32,
-   "simpl": 52,
-   "razorpay_magic": 7
+   "gokwik": 64,
+   "shopflo": 37,
+   "simpl": 56,
+   "razorpay_magic": 9
   },
   "by_company_headline": {
-   "gokwik": 56,
-   "shopflo": 29,
-   "simpl": 50,
-   "razorpay_magic": 1
+   "gokwik": 60,
+   "shopflo": 34,
+   "simpl": 54,
+   "razorpay_magic": 2
   },
   "shares": {
-   "gokwik": 39.7,
-   "shopflo": 21.2,
-   "simpl": 34.4,
-   "razorpay_magic": 4.6
+   "gokwik": 38.6,
+   "shopflo": 22.3,
+   "simpl": 33.7,
+   "razorpay_magic": 5.4
   },
-  "added_today": 0,
+  "added_today": 15,
   "last_30_days": 15
  },
  "window": {
@@ -862,7 +862,8 @@
     "gokwik"
    ],
    "outlets": [
-    "Inc42"
+    "Inc42",
+    "Newspoint on MSN"
    ],
    "sources": [
     "google",
@@ -883,7 +884,8 @@
     "gokwik"
    ],
    "outlets": [
-    "Inc42"
+    "Inc42",
+    "Newspoint on MSN"
    ],
    "sources": [
     "google",
@@ -1059,7 +1061,7 @@
   {
    "id": "017bacc1d776f64a",
    "title": "GoKwik appoints Aashima Chowdhry as Brand Manager",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGhrVUdIbzVHZUV3SG9uTU1CTHhjTV9IYkdWd283aERQT1VVblpLUWVTT0RxODhJWVBndXFQOWU5ZktUM2F3TGRUczEtZHhocnRXak9pMGNNNjdLaEFWT2NCcE9RTXFWcVJsQ0hoM1daeGYwblFfbk0yc0UyYmNjdTdNRncwM3JzYzVORmp5S3V4YTFWNWR3Ukl6cm5iT2huVWcxdy14OEt6UzVfemQtcDJmUQ?oc=5",
+   "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aashima-chowdhry-as-brand-manager-159441.html",
    "publisher": "Exchange4Media",
    "published": "2026-10-23T07:00:00+00:00",
    "first_seen": "2026-11-13",
@@ -1070,7 +1072,8 @@
     "Exchange4Media"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1209,7 +1212,8 @@
     "gokwik"
    ],
    "outlets": [
-    "Inc42"
+    "Inc42",
+    "Newspoint on MSN"
    ],
    "sources": [
     "google",
@@ -1230,7 +1234,8 @@
     "gokwik"
    ],
    "outlets": [
-    "Inc42"
+    "Inc42",
+    "Newspoint on MSN"
    ],
    "sources": [
     "google",
@@ -1346,7 +1351,7 @@
   {
    "id": "017bacc1d776f64a",
    "title": "GoKwik appoints Aashima Chowdhry as Brand Manager",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGhrVUdIbzVHZUV3SG9uTU1CTHhjTV9IYkdWd283aERQT1VVblpLUWVTT0RxODhJWVBndXFQOWU5ZktUM2F3TGRUczEtZHhocnRXak9pMGNNNjdLaEFWT2NCcE9RTXFWcVJsQ0hoM1daeGYwblFfbk0yc0UyYmNjdTdNRncwM3JzYzVORmp5S3V4YTFWNWR3Ukl6cm5iT2huVWcxdy14OEt6UzVfemQtcDJmUQ?oc=5",
+   "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aashima-chowdhry-as-brand-manager-159441.html",
    "publisher": "Exchange4Media",
    "published": "2026-10-23T07:00:00+00:00",
    "first_seen": "2026-11-13",
@@ -1357,7 +1362,8 @@
     "Exchange4Media"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1526,18 +1532,20 @@
   {
    "id": "2cfb8026bccc984a",
    "title": "GoKwik appoints Aseem Goyal as Vice President of Business for \u2018Kwik Ship\u2019",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWnN6UmpBYmY3dTNZWE00UzBmdHVUWVNpeHF5b1g5N2U0b1VONnVpS1NwVFNkQlZPbWlJV1dUeEQyb3hyRV9GWkJFRXEza2tkZTBCYlJUbF84eGZkSDR6endjZ2RrMDlRdjRWR0d6aFlWaWxvYUlTeE5UaHJFTjI0WTlFR1htajh3Y2dIekh0OHp5Y282M0J4bWdyYXE4R09VOEE0bU42elBLZXh0eURWS0hGUFF3UzhQc3ZKRi1uUVZFUDl4S2ZfbUNOVzdLZXZL?oc=5",
+   "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aseem-goyal-as-vice-president-of-business-for-kwik-ship-156146.html",
    "publisher": "Exchange4Media",
-   "published": "2026-07-08T07:00:00+00:00",
+   "published": "2026-07-08T04:23:00+00:00",
    "first_seen": "2026-11-13",
    "companies": [
     "gokwik"
    ],
    "outlets": [
-    "Exchange4Media"
+    "Exchange4Media",
+    "Exchange 4 Media"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1605,35 +1613,35 @@
   }
  ],
  "review": {
-  "company_articles": 151,
-  "headline": 136,
-  "mention_only": 15,
+  "company_articles": 166,
+  "headline": 150,
+  "mention_only": 16,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 26
+  "same_story_other_outlets": 35
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-13T13:50:28+00:00",
+   "run_at": "2026-11-13T21:03:23+00:00",
    "status": "ok",
-   "fetched": 161,
-   "new": 0,
+   "fetched": 185,
+   "new": 15,
    "per_company": {
     "gokwik": {
-     "fetched": 66,
-     "new": 0
+     "fetched": 69,
+     "new": 4
     },
     "shopflo": {
-     "fetched": 33,
-     "new": 0
+     "fetched": 43,
+     "new": 5
     },
     "simpl": {
-     "fetched": 52,
-     "new": 0
+     "fetched": 60,
+     "new": 4
     },
     "razorpay_magic": {
-     "fetched": 10,
-     "new": 0
+     "fetched": 13,
+     "new": 2
     }
    },
    "problems": [],
@@ -1713,6 +1721,32 @@
      "razorpay_magic": {
       "fetched": 10,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-13T21:03:23+00:00",
+    "status": "ok",
+    "fetched": 185,
+    "new": 15,
+    "per_company": {
+     "gokwik": {
+      "fetched": 69,
+      "new": 4
+     },
+     "shopflo": {
+      "fetched": 43,
+      "new": 5
+     },
+     "simpl": {
+      "fetched": 60,
+      "new": 4
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 2
      }
     },
     "problems": [],
