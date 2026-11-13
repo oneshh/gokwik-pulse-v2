@@ -13,6 +13,39 @@
 
 ---
 
+## Part 3: Handover note
+
+### How to run it, and what runs when
+
+| When | What runs | Where |
+|---|---|---|
+| **Every day, 08:00 IST** | `Daily tracker` workflow: fetch 3 feeds × 4 companies → de-duplicate → `pulse.audit` → commit `data/` → publish the page → open an alert issue on failure, or close an open one after a healthy run | [`daily.yml`](.github/workflows/daily.yml) on GitHub Actions |
+| **Every day, 20:00 IST** | The same run again, as a backup in case GitHub skips the morning slot. De-duplication makes a second run harmless. | same |
+| **Every push** | The 43 tests (tracker + Part 2) | [`ci.yml`](.github/workflows/ci.yml) |
+| **On demand** | Actions → Daily tracker → *Run workflow*: `none` = a normal run, `empty` / `failure` = fire a test alert (nothing is saved) | GitHub UI |
+| **By hand** | Part 2: `pip install -r requirements-dev.txt && python analysis/cod_returns.py` (rewrites `analysis/output/`) | any laptop |
+
+Nothing runs on a laptop and there are no secrets to rotate. To change companies or queries, edit [`pulse/config.py`](pulse/config.py). To exclude an off-topic article, add it to [`data/overrides.json`](data/overrides.json). Local commands are under [Run it locally](#run-it-locally).
+
+### What will break first, and how I'd find out
+
+| Likely to break | How I'd find out | Gap / mitigation |
+|---|---|---|
+| **1. A news feed changes or blocks GitHub's servers.** Google News RSS is unofficial and can throttle cloud IPs. | A company drops to 0 → **alert issue + email**. A drop below 40% of its usual level → amber warning on the page. One source down → amber. | Amber warnings don't email anyone. A slow decline could be missed if nobody looks at the page. |
+| **2. GitHub retires the Node 20 actions** (`deploy-pages@v4`, and the upload step inside `upload-pages-artifact@v4`). The run logs already warn about it. | The run fails → alert issue. | It's a planned deprecation, so bump the versions before GitHub's cut-off rather than wait for the failure. |
+| **3. Counts drift without anything "failing"**, e.g. a new company named Simpl, or listicles that mention everyone. | Nothing alerts. It shows up only as more "body mention" articles in each run's summary and in `pulse.audit`. | This is the riskiest failure because it's silent. It needs a person to skim the list weekly (see "next", item 2). |
+| **4. GitHub Actions itself stops** (schedule disabled, account or billing issue). | The page turns amber after 36 h with no run. No email, because the alert runs on the same system that stopped. | An outside watchdog (see "next", item 1). |
+| **5. Alert emails don't arrive** (GitHub notification settings, spam filter). | Only when an alert is missed. | Fire `simulate=empty` once a month and check the inbox. |
+
+### What I'd build next with two more days
+
+1. **Outside watchdog (½ day).** Ping a free healthchecks.io check at the end of each healthy run; it emails if no ping arrives within 26 h. That closes the "GitHub itself stopped" gap.
+2. **Weekly digest issue (½ day).** Every Monday, one GitHub issue listing amber warnings, new body-mention articles to review, and the week's shares. That makes the silent failures (rows 1 and 3) visible without making the daily alert noisy.
+3. **Read the article, not just the headline (1 day).** Resolve the Google redirect links, fetch the page text, and count how often and where the company is named. That replaces the headline-vs-body heuristic with a real "is this article about them" score, and lets near-identical syndicated stories be grouped as one *story* alongside the *article* count.
+4. **Production-grade Part 2.** Turn [`cod_returns.py`](analysis/cod_returns.py)'s checks (duplicates, label variants, test merchants, missing days, stale statuses) into a scheduled data-quality gate that runs on each new orders export, and refuses to publish a return rate when a check fails.
+
+---
+
 ## Part 2: COD return-rate analysis
 
 The data-quality analysis of `orders.csv` lives in **[`analysis/`](analysis/README.md)**: the script, its outputs and a full write-up.
@@ -168,7 +201,7 @@ python3 -m pulse.run                 # fetch, save, rebuild site/data.json
 python3 -m pulse.run --simulate empty  # try the "returned nothing" check (exit code 2, nothing saved)
 python3 -m http.server -d site 8000  # open http://localhost:8000
 python3 -m pulse.audit               # data-quality report (duplicates, relevance, overrides)
-pip install -r requirements-dev.txt && python3 -m pytest -q   # 36 offline tests
+pip install -r requirements-dev.txt && python3 -m pytest -q   # 43 offline tests
 ```
 
 The tracker needs only the Python standard library.
