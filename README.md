@@ -85,7 +85,14 @@ Go to **Actions → Daily tracker → Run workflow** and pick `simulate = failur
 
 ### Alert proof
 
-<!-- PROOF -->
+The alert was tested end to end on 13 Nov 2026. Everything is recorded in **[issue #1](https://github.com/oneshh/gokwik-pulse-v2/issues/1)**:
+
+| Step | Run | What happened |
+|---|---|---|
+| 1. Simulated **empty run** (`simulate=empty`) | [run 43437011991](https://github.com/oneshh/gokwik-pulse-v2/actions/runs/43437011991) ❌ | Issue #1 opened: *"The run returned nothing: 0 articles across all companies and sources."* |
+| 2. Simulated **crash** (`simulate=failure`) | [run 43437101524](https://github.com/oneshh/gokwik-pulse-v2/actions/runs/43437101524) ❌ | Added a comment to the open issue instead of opening a duplicate |
+| 3. Real **healthy run** | [run 43437162614](https://github.com/oneshh/gokwik-pulse-v2/actions/runs/43437162614) ✅ | Issue closed automatically: *"Recovered"* |
+| Earlier healthy run | [run 43436821089](https://github.com/oneshh/gokwik-pulse-v2/actions/runs/43436821089) ✅ | Alert job skipped, nothing sent |
 
 ---
 
