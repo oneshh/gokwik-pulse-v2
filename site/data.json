@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T13:48:09+00:00",
+ "generated_at": "2026-11-13T13:50:28+00:00",
  "today": "2026-11-13",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -916,21 +916,21 @@
  ],
  "health": {
   "last_run": {
-   "run_at": "2026-11-13T13:48:09+00:00",
+   "run_at": "2026-11-13T13:50:28+00:00",
    "status": "ok",
-   "fetched": 162,
-   "new": 1,
+   "fetched": 161,
+   "new": 0,
    "per_company": {
     "gokwik": {
      "fetched": 66,
-     "new": 1
+     "new": 0
     },
     "shopflo": {
      "fetched": 33,
      "new": 0
     },
     "simpl": {
-     "fetched": 53,
+     "fetched": 52,
      "new": 0
     },
     "razorpay_magic": {
@@ -984,6 +984,32 @@
      },
      "simpl": {
       "fetched": 53,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 10,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-13T13:50:28+00:00",
+    "status": "ok",
+    "fetched": 161,
+    "new": 0,
+    "per_company": {
+     "gokwik": {
+      "fetched": 66,
+      "new": 0
+     },
+     "shopflo": {
+      "fetched": 33,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 52,
       "new": 0
      },
      "razorpay_magic": {
