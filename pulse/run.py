@@ -13,7 +13,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-from . import config, health, report, sources, store
+from . import audit, config, health, report, sources, store
 
 MAX_RUNS_KEPT = 400
 
@@ -33,6 +33,16 @@ def _summary(md: str) -> None:
         with open(path, "a") as fh:
             fh.write(md + "\n")
     print(md)
+
+
+def _write_site(articles: dict, runs: list, now: datetime) -> None:
+    overrides = store.load_overrides(config.OVERRIDES_FILE)
+    data = report.build(store.apply_overrides(articles, overrides), runs, now)
+    data["review"]["excluded"] = len(overrides)
+    a = audit.run(articles, overrides)
+    data["review"]["duplicates"] = len(a["exact"]) + len(a["same_outlet"])
+    data["review"]["same_story_other_outlets"] = len(a["cross_outlet"])
+    config.SITE_DATA_FILE.write_text(json.dumps(data, indent=1))
 
 
 def fetch_all(simulate: str | None) -> tuple[list[sources.RawItem], dict, list[str]]:
@@ -76,11 +86,12 @@ def main(argv: list[str] | None = None) -> int:
     runs = json.loads(config.RUNS_FILE.read_text()) if config.RUNS_FILE.exists() else []
 
     if args.rebuild_only:
-        config.SITE_DATA_FILE.write_text(json.dumps(report.build(articles, runs, now), indent=1))
+        _write_site(articles, runs, now)
         return 0
 
     items, raw_counts, errors = fetch_all(simulate)
-    verdict = health.evaluate(raw_counts, errors, [c["id"] for c in config.COMPANIES], list(sources.SOURCES))
+    verdict = health.evaluate(raw_counts, errors, [c["id"] for c in config.COMPANIES],
+                              list(sources.SOURCES), recent_runs=runs)
 
     new_by_company = store.merge(articles, items, today)
     run = {
@@ -112,6 +123,14 @@ def main(argv: list[str] | None = None) -> int:
         + "".join(f"\n- :x: {p}" for p in verdict["problems"])
         + "".join(f"\n- :warning: {w}" for w in verdict["warnings"])
     )
+    to_review = [
+        (articles[aid], cid) for cid, ids in new_by_company.items() for aid in ids
+        if articles[aid]["relevance"].get(cid) == "mention"
+    ]
+    if to_review:
+        _summary("\n### New articles that only mention a company in the body (worth a glance)\n"
+                 + "\n".join(f"- `{a['id']}` [{names[c]}] [{a['title']}]({a['url']}) ({a['publisher']})" for a, c in to_review)
+                 + "\n\nTo exclude one, add it to `data/overrides.json`.")
 
     if simulate:
         print("Simulation run: nothing written to disk.")
@@ -120,7 +139,7 @@ def main(argv: list[str] | None = None) -> int:
         store.save(config.ARTICLES_FILE, articles)
         runs = (runs + [run])[-MAX_RUNS_KEPT:]
         config.RUNS_FILE.write_text(json.dumps(runs, indent=1) + "\n")
-        config.SITE_DATA_FILE.write_text(json.dumps(report.build(articles, runs, now), indent=1))
+        _write_site(articles, runs, now)
 
     _gh_output(status=verdict["status"], reason="\n".join(verdict["problems"]) or "none")
     return 2 if verdict["status"] == "fail" else 0

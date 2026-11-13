@@ -2,7 +2,9 @@ name: Daily tracker
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # 02:30 UTC = 08:00 IST, every day
+    - cron: "30 2 * * *"    # 02:30 UTC = 08:00 IST: the daily run
+    - cron: "30 14 * * *"   # 14:30 UTC = 20:00 IST: backup. GitHub's scheduler is best-effort and
+                            # occasionally skips a slot; de-duplication makes a second run harmless.
   workflow_dispatch:
     inputs:
       simulate:
@@ -37,6 +39,10 @@ jobs:
       - name: Run tracker
         id: run
         run: python -m pulse.run --simulate "$SIMULATE"
+
+      - name: Audit data quality (fails on duplicates)
+        if: ${{ env.SIMULATE == 'none' }}
+        run: python -m pulse.audit >> "$GITHUB_STEP_SUMMARY"
 
       - name: Save history to the repo
         if: ${{ !cancelled() && env.SIMULATE == 'none' }}

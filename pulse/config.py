@@ -8,6 +8,7 @@ SITE_DIR = ROOT / "site"
 ARTICLES_FILE = DATA_DIR / "articles.json"
 RUNS_FILE = DATA_DIR / "runs.json"
 SITE_DATA_FILE = SITE_DIR / "data.json"
+OVERRIDES_FILE = DATA_DIR / "overrides.json"
 
 # Indian timezone offset: weeks and "today" are counted in IST, where these companies operate.
 IST_OFFSET_HOURS = 5.5

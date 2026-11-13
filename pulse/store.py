@@ -7,13 +7,23 @@ remembers every company it mentions, every source that returned it and every out
 
 from __future__ import annotations
 
+import difflib
 import hashlib
 import json
 import re
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 
+from . import config
 from .sources import RawItem
+
+# Same outlet + headline at least this similar + published within MAX_DAYS -> same article
+# (catches an outlet editing its headline, or Google and Bing showing slightly different titles).
+FUZZY_RATIO = 0.85
+FUZZY_MAX_DAYS = 3
+
+_MATCHERS = {c["id"]: re.compile(c["match"], re.I) for c in config.COMPANIES}
 
 
 def normalise_title(title: str) -> str:
@@ -32,6 +42,57 @@ def article_id(title: str) -> str:
     return hashlib.sha1(normalise_title(title).encode()).hexdigest()[:16]
 
 
+def publisher_key(name: str) -> str:
+    """'Moneycontrol.com', 'moneycontrol' and 'https://www.moneycontrol.com/' -> 'moneycontrol'."""
+    k = name.casefold()
+    k = re.sub(r"^https?://", "", k)
+    k = re.sub(r"^www\.", "", k)
+    k = re.sub(r"\.(com|in|co|org|net|news)(\.[a-z]{2})?/?$", "", k)
+    k = re.sub(r"^the\s+", "", k)
+    return re.sub(r"[^\w]+", "", k)
+
+
+def relevance(company: str, title: str) -> str:
+    """'headline' when the headline names the company, else 'mention' (named only in the body)."""
+    m = _MATCHERS.get(company)
+    return "headline" if m and m.search(title) else "mention"
+
+
+def same_numbers(a: str, b: str) -> bool:
+    """Headlines that cite different numbers ('Q1' vs 'Q2', '100 jobs' vs '150 jobs') are
+    different stories, however similar the wording."""
+    nums = lambda t: set(re.findall(r"\d+(?:\.\d+)?", normalise_title(t)))
+    return nums(a) == nums(b)
+
+
+def _days_apart(a: str, b: str) -> float:
+    return abs((datetime.fromisoformat(a) - datetime.fromisoformat(b)).total_seconds()) / 86400
+
+
+def find_existing(store: dict[str, dict], it: RawItem) -> str | None:
+    """Return the id of the stored record this item duplicates, or None if it's a new article."""
+    aid = article_id(it.title)
+    if aid in store:
+        return aid
+    if _is_direct(it.url):
+        for rid, rec in store.items():
+            if rec["url"] == it.url:
+                return rid
+    pk = publisher_key(it.publisher)
+    if not pk:
+        return None
+    norm = normalise_title(it.title)
+    for rid, rec in store.items():
+        if pk not in {publisher_key(o) for o in rec["outlets"] + [rec["publisher"]]}:
+            continue
+        if _days_apart(rec["published"], it.published) > FUZZY_MAX_DAYS:
+            continue
+        if same_numbers(it.title, rec["title"]) and \
+                difflib.SequenceMatcher(None, norm, normalise_title(rec["title"])).ratio() >= FUZZY_RATIO:
+            return rid
+    return None
+
+
 def _is_direct(url: str) -> bool:
     return bool(url) and "news.google.com" not in url
 
@@ -39,7 +100,31 @@ def _is_direct(url: str) -> bool:
 def load(path: Path) -> dict[str, dict]:
     if not path.exists():
         return {}
-    return json.loads(path.read_text() or "{}")
+    data = json.loads(path.read_text() or "{}")
+    for rec in data.values():  # back-fill fields added after a record was first saved
+        rel = rec.setdefault("relevance", {})
+        for cid in rec["companies"]:
+            rel.setdefault(cid, relevance(cid, rec["title"]))
+    return data
+
+
+def load_overrides(path: Path) -> dict[tuple[str, str], str]:
+    """Human review decisions: {(article_id, company_id): reason} to exclude from all counts."""
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text() or "{}")
+    return {(e["id"], e["company"]): e.get("reason", "") for e in data.get("exclude", [])}
+
+
+def apply_overrides(store: dict[str, dict], overrides: dict[tuple[str, str], str]) -> dict[str, dict]:
+    """Copy of the store with excluded (article, company) pairs removed. Articles left with no
+    company are dropped. The saved history itself is never edited, so a decision can be undone."""
+    out = {}
+    for aid, rec in store.items():
+        comps = [c for c in rec["companies"] if (aid, c) not in overrides]
+        if comps:
+            out[aid] = {**rec, "companies": comps}
+    return out
 
 
 def save(path: Path, store: dict[str, dict]) -> None:
@@ -58,7 +143,7 @@ def merge(store: dict[str, dict], items: list[RawItem], today: str) -> dict[str,
     for it in items:
         if not it.title:
             continue
-        aid = article_id(it.title)
+        aid = find_existing(store, it) or article_id(it.title)
         rec = store.get(aid)
         if rec is None:
             rec = store[aid] = {
@@ -72,6 +157,7 @@ def merge(store: dict[str, dict], items: list[RawItem], today: str) -> dict[str,
                 "companies": [],
                 "sources": [],
                 "outlets": [],
+                "relevance": {},
             }
         rec["last_seen"] = max(rec["last_seen"], today)
         # Prefer a direct publisher link over a news.google.com redirect.
@@ -85,6 +171,10 @@ def merge(store: dict[str, dict], items: list[RawItem], today: str) -> dict[str,
             rec["outlets"].append(it.publisher)
         if not rec["publisher"] and it.publisher:
             rec["publisher"] = it.publisher
+        # Relevance per company: upgrade to 'headline' if any version of the headline names it.
+        rel = rec.setdefault("relevance", {})
+        if rel.get(it.company) != "headline":
+            rel[it.company] = relevance(it.company, it.title)
         if it.company not in rec["companies"]:
             rec["companies"].append(it.company)
             new_by_company.setdefault(it.company, []).append(aid)

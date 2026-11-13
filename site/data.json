@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T13:50:28+00:00",
- "today": "2026-11-13",
+ "generated_at": "2026-11-13T21:02:28+00:00",
+ "today": "2026-11-14",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,21 +33,27 @@
   }
  ],
  "totals": {
-  "articles": 153,
+  "articles": 151,
   "by_company": {
    "gokwik": 60,
    "shopflo": 32,
-   "simpl": 53,
-   "razorpay_magic": 8
+   "simpl": 52,
+   "razorpay_magic": 7
+  },
+  "by_company_headline": {
+   "gokwik": 56,
+   "shopflo": 29,
+   "simpl": 50,
+   "razorpay_magic": 1
   },
   "shares": {
-   "gokwik": 39.2,
-   "shopflo": 20.9,
-   "simpl": 34.6,
-   "razorpay_magic": 5.2
+   "gokwik": 39.7,
+   "shopflo": 21.2,
+   "simpl": 34.4,
+   "razorpay_magic": 4.6
   },
-  "added_today": 153,
-  "last_30_days": 17
+  "added_today": 0,
+  "last_30_days": 15
  },
  "window": {
   "weeks": 12,
@@ -55,21 +61,39 @@
   "counts": {
    "gokwik": 12,
    "shopflo": 2,
-   "simpl": 1,
-   "razorpay_magic": 4
+   "simpl": 0,
+   "razorpay_magic": 3
   },
   "shares": {
-   "gokwik": 63.2,
-   "shopflo": 10.5,
-   "simpl": 5.3,
-   "razorpay_magic": 21.1
+   "gokwik": 70.6,
+   "shopflo": 11.8,
+   "simpl": 0.0,
+   "razorpay_magic": 17.6
   },
-  "total": 19
+  "total": 17
+ },
+ "window_headline": {
+  "weeks": 12,
+  "from": "2026-08-24",
+  "counts": {
+   "gokwik": 9,
+   "shopflo": 1,
+   "simpl": 0,
+   "razorpay_magic": 0
+  },
+  "shares": {
+   "gokwik": 90.0,
+   "shopflo": 10.0,
+   "simpl": 0.0,
+   "razorpay_magic": 0.0
+  },
+  "total": 10
  },
  "weeks": [
   {
    "week_start": "2026-08-24",
    "label": "24 Aug",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -83,11 +107,26 @@
     "razorpay_magic": 0.0
    },
    "total": 0,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-08-31",
    "label": "31 Aug",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -101,11 +140,26 @@
     "razorpay_magic": 0.0
    },
    "total": 0,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-09-07",
    "label": "07 Sep",
+   "is_current": false,
    "counts": {
     "gokwik": 1,
     "shopflo": 0,
@@ -119,11 +173,26 @@
     "razorpay_magic": 0.0
    },
    "total": 1,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 1,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 100.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 1
+   }
   },
   {
    "week_start": "2026-09-14",
    "label": "14 Sep",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -137,11 +206,26 @@
     "razorpay_magic": 0.0
    },
    "total": 0,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-09-21",
    "label": "21 Sep",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -155,11 +239,26 @@
     "razorpay_magic": 0.0
    },
    "total": 0,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-09-28",
    "label": "28 Sep",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -173,29 +272,59 @@
     "razorpay_magic": 0.0
    },
    "total": 0,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-10-05",
    "label": "05 Oct",
+   "is_current": false,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
     "simpl": 0,
-    "razorpay_magic": 1
+    "razorpay_magic": 0
    },
    "shares": {
     "gokwik": 0.0,
     "shopflo": 0.0,
     "simpl": 0.0,
-    "razorpay_magic": 100.0
+    "razorpay_magic": 0.0
    },
-   "total": 1,
-   "is_current": false
+   "total": 0,
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
   },
   {
    "week_start": "2026-10-12",
    "label": "12 Oct",
+   "is_current": false,
    "counts": {
     "gokwik": 1,
     "shopflo": 1,
@@ -209,11 +338,26 @@
     "razorpay_magic": 0.0
    },
    "total": 2,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 1,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 100.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 1
+   }
   },
   {
    "week_start": "2026-10-19",
    "label": "19 Oct",
+   "is_current": false,
    "counts": {
     "gokwik": 1,
     "shopflo": 0,
@@ -227,11 +371,26 @@
     "razorpay_magic": 0.0
    },
    "total": 1,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 1,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 100.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 1
+   }
   },
   {
    "week_start": "2026-10-26",
    "label": "26 Oct",
+   "is_current": false,
    "counts": {
     "gokwik": 2,
     "shopflo": 1,
@@ -245,11 +404,26 @@
     "razorpay_magic": 0.0
    },
    "total": 3,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 1,
+     "shopflo": 1,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 50.0,
+     "shopflo": 50.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 2
+   }
   },
   {
    "week_start": "2026-11-02",
    "label": "02 Nov",
+   "is_current": false,
    "counts": {
     "gokwik": 2,
     "shopflo": 0,
@@ -263,38 +437,57 @@
     "razorpay_magic": 0.0
    },
    "total": 2,
-   "is_current": false
+   "headline": {
+    "counts": {
+     "gokwik": 2,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 100.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 2
+   }
   },
   {
    "week_start": "2026-11-09",
    "label": "09 Nov",
+   "is_current": true,
    "counts": {
     "gokwik": 5,
     "shopflo": 0,
-    "simpl": 1,
+    "simpl": 0,
     "razorpay_magic": 3
    },
    "shares": {
-    "gokwik": 55.6,
+    "gokwik": 62.5,
     "shopflo": 0.0,
-    "simpl": 11.1,
-    "razorpay_magic": 33.3
+    "simpl": 0.0,
+    "razorpay_magic": 37.5
    },
-   "total": 9,
-   "is_current": true
+   "total": 8,
+   "headline": {
+    "counts": {
+     "gokwik": 3,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 100.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 3
+   }
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-15",
-   "counts": {
-    "gokwik": 1,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 1
-  },
   {
    "date": "2026-10-16",
    "counts": {
@@ -580,14 +773,25 @@
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
-    "simpl": 1,
+    "simpl": 0,
     "razorpay_magic": 3
    },
-   "total": 4
+   "total": 3
+  },
+  {
+   "date": "2026-11-14",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
   {
+   "id": "1e440d904b13099b",
    "title": "Razorpay announces Vulcan AI catching 8x more international card fraud",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObGlRRldvSVZEaFNmQVE0N2gxZ3lseVVkMEVOUWRialotalFDYWUzS3NtSjV3MVNUcXlMLWxiZUx2N0s2SEN5NzZpb0xab0hvTXBTcHdwVjV2M3hzbGl1TkZIeU5kMXlQbUdVNGFkSEJidllpdDRVZG1icDF4eVhTVHdzb2t0TXMzR19XZXlFMTZtTFFDaE43YXduRVAtOXBZeEtwSms5ZHZRWFJ5bFFNT08xYUlXb0hBNWc?oc=5",
    "publisher": "NewsBytes",
@@ -601,25 +805,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
   },
   {
-   "title": "How Indian Fintech Teams Can Prepare BNPL App Development for RBI Digital Lending Rules",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHZmOFRMLXVLTFhtQW5NdFdYeXFsOGFOT0gtcHN5cHZSdXNxSk0zX2xYYzVGT3Rvek1vQTdKcFBrYmNBa0E4clluQ3BXQVpydVJDSDZYZ1dNenoySW5LLTY4R3Nmel9rU0dpVWtnc3MzRVB4dXpkYjBlTENQUHlETWZXaUFIWUJUTnpCd2VZTFBtMUg2ZC1ISFRXSHZZY2RqQy1tQzRzemZQRFE2VE1XU01WX3dsUndmam1HempLOA?oc=5",
-   "publisher": "Nasscom",
-   "published": "2026-11-13T08:43:59+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "simpl"
-   ],
-   "outlets": [
-    "Nasscom"
-   ],
-   "sources": [
-    "google"
-   ]
-  },
-  {
+   "id": "abda31fe62463571",
    "title": "When every second counts: How Razorpay powers Comet's sneaker drops",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2p2XzlJMmdtOGZZU3lWS2k4Y1dabXVtNzdZVHBXTGNVR3h5Y28yc0hXLWlhUmFrOFhDUTBNb0tiRmRCTExqeXp2LURYSF9sV0lkYjg3azNGclEzTEtHWU9ZQjY1UFQtSENSWW9xU3F1MUEwWFJPNTB1UTB2cEhoel9xNVZDMW40UUhEYjR4WU5tTVVja0UzNFU2VQ?oc=5",
    "publisher": "YourStory.com",
@@ -633,9 +825,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
   },
   {
+   "id": "111bdc4d96462c40",
    "title": "8x More International Card Fraud Stopped: Early Results from Razorpay's Vulcan AI Payments Model",
    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxONUladG1MM1Fid2UweGVlX1VqUy11S1BQdEZOMTYwTHNvbk9XNUl6VWR1NVBHNXZkX1dZVkVTSkdvWjhOQ0EzMGFNTVZlQTZEY1JOU29Ob1VNU0hHRTJsTzNkc2FvMGhwZjBjV0d1WEFqaTRPY3BZUEhrQ1A4eVRSd0tLQ1lXUnpaNmZUaG9LUWp0ME8xQnlEY1lZdjN2bGEzQ3J4TUx4UkxuM2RjVGlnUUhNRERNdUo0R1FGMF9XZ3dQQlRNdHNYdkp5VG5oNWpyRG04dWd6R01ueTgzQW11eDlGMHhGQldjeE1Sd3VGUnNtNnVlSDg0RXYyOWxjUFFjUlE4WDFfQm1EQm4z0gGMAkFVX3lxTE41SVp0bUwzUWJ3ZTB4ZWVfVWpTLXVLUFB0Rk4xNjBMc29uT1c1SXpVZHU1UEc1dmRfV1lWRVNKR29aOE5DQTMwYU1NVmVBNkRjUk5Tb05vVU1TSEdFMmxPM2RzYW8waHBmMGNXR3VYQWppNE9jcFlQSGtDUDh5VFJ3S0tDWVdSelo2ZlRob0tRanQwTzFCeURjWVl2M3ZsYTNDcnhNTHhSTG4zZGNUaWdRSE1ERE11SjRHUUYwX1dnd1BCVE10c1h2SnlUbmg1anJEbTh1Z3pHTW55ODNBbXV4OUYweEZCV2N4TVJ3dUZSc202dWVIODRFdjI5bGNQUWNSUThYMV9CbURCbjM?oc=5",
    "publisher": "Business Standard",
@@ -650,9 +846,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
   },
   {
+   "id": "f90d0c5bc3ac856e",
    "title": "GoKwik\u2019s ESOP Twist, New CEO At Unacademy & More",
    "url": "https://inc42.com/buzz/gokwiks-esop-twist-new-ceo-at-unacademy-more/",
    "publisher": "Inc42",
@@ -667,9 +867,13 @@
    "sources": [
     "google",
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "bac96c40b9924fdc",
    "title": "GoKwik\u2019s Golden Handcuffs: Non-Compete Clause Puts Vested ESOPs In Jeopardy",
    "url": "https://inc42.com/features/gokwiks-golden-handcuffs-non-compete-clause-puts-vested-esops-in-jeopardy/",
    "publisher": "Inc42",
@@ -684,9 +888,13 @@
    "sources": [
     "google",
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "89662afaa7433a92",
    "title": "Diwali spending shifts to high-value purchases as average order value rises 8%",
    "url": "https://www.storyboard18.com/brand-marketing/diwali-spending-shifts-to-high-value-purchases-as-average-order-value-rises-8-ws-l-114448.htm",
    "publisher": "Storyboard18",
@@ -700,9 +908,13 @@
    ],
    "sources": [
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
   },
   {
+   "id": "b12b8a43c7815956",
    "title": "GoKwik\u2019s Diwali 2026 study finds 81% GMV growth across D2C network",
    "url": "https://mediabrief.com/gokwiks-diwali-2026-study-finds-81-gmv-growth-across-d2c-network/",
    "publisher": "Mediabrief",
@@ -716,9 +928,13 @@
    ],
    "sources": [
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "d013207dada7a85b",
    "title": "Festive shopping: Home, kitchen products drive 81% jump in D2C sales to Rs 1,328 crore",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObERvS3dDZDc0Qk1XZG1OZURSdjNNdVhxdHlqcGEwVWp1X3dmcktmZTJiRHJXNVNjS1FKcFU1THBKM1VvTVpZaDI0WVJybzZqQktvN0JkdS1KaGtIOXpYV0tfRjRXOS0yMU5pVEQ4dTVkYy1kVDBmOV9xMkRqM18zTDlNY0thQXhQQjE5SWNMNTlwWEtmaVN1NDZ5VnV5YVp5dWVOZEd1VTlPNUxBelVNajN1R3pNcGNybzR3dWs4NFM3OUNRekNXd0kxejFZNndRQXFfQ1BwaW9BeE5BV1IwX05QRUJyeUJDVlU5SHBNblQ0RVVRV3d30gH8AUFVX3lxTE9uWXNiemlwMnU0UnJhdXZRYzZiR3NVeUtOaGtyQVlzdWlpVFZQQko2VXZjSTlPOE9XYkN6VVl6VTFTd0RVd3psNkMtWldwdm9jUWtPVGFkcVJvc3Nqb2twdkRWTGwzSVdBbldFMnQ2WldkbVl5eFh5S3Y5UmRBeXlpNXhhYXh0cnFxMDVsYWJjM3BTeHlyNS1uUlVKNmxlazlKNWp6X3I5ZVhyZThzUzRRVmRtb2ZreG40ZGVoeXhreGprYVluczhmUUdwdVlMcWFhNWpyZGRsMmE0cHBNTHpMckpKQXhjeXJ0TFd0SWhDb1YxT1ZmdThXbVNmTg?oc=5",
    "publisher": "The Economic Times",
@@ -732,9 +948,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
   },
   {
+   "id": "6f0e6df4959877b5",
    "title": "GoKwik Offers Rs 7.57 Cr ESOP Liquidity To 69 Employees",
    "url": "https://www.bwpeople.in/article/gokwik-offers-rs-7-57-cr-esop-liquidity-to-69-employees-631850",
    "publisher": "BW People",
@@ -749,9 +969,13 @@
    "sources": [
     "google",
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "189dd8cf638fc079",
    "title": "GoKwik\u2019s earliest ESOP holders are expected to get 9x average returns",
    "url": "https://hr.economictimes.indiatimes.com/news/industry/gokwiks-earliest-esop-holders-are-expected-to-get-9x-average-returns/135461821",
    "publisher": "ETHRWorld.com",
@@ -767,9 +991,13 @@
    "sources": [
     "google",
     "bing"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "8d844f88d6bc7a30",
    "title": "D2C brands don't need an AI team to get discovered and grow, says Shopflo",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelBMdU91SlRKeXI2eFdhVjcwTFYxQlJCUlZmT1ZqcmlHV3g3LU5jOEpiT3YxQW55dnNfYjdsWC1PQjRvNTgxa2tOMWp0R19FQ3dFOGlUZDVlbWRqV1QyOXJiSmhULVhBck9vWktPTHU5cnduOGh3ajRJODZFeVo0MDNvM0ptMUFSQlBxYmxocw?oc=5",
    "publisher": "YourStory.com",
@@ -783,9 +1011,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "shopflo": "headline"
+   }
   },
   {
+   "id": "7177fd8b6c4350e8",
    "title": "Karwa Chauth shopping spreads beyond north India as GoKwik records 64% D2C sales growth",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdko5SG95REdodjhldE5DVVFxdU9iR2FoM0dJa3pPNzkzX1FFTl90UnpycHlJT0taeUs3RkxhdTB3all2SFU4dTlnU2puWjVmZGRyMTdBMk5GcG1rZTlxM01jWGhvVUZRMUxRbDFLU2dRV2MxdVQ3UlA1OWJDVC1hbzkzVzY2ZXpkeFIzcjl4bHJpZlhGbUk0N0x3RThROEJQdkF6b3JPOGM4enMzM3kxOU1CdDYzRVhQbk9QWkY0a05RaHM?oc=5",
    "publisher": "Passionate In Marketing",
@@ -799,9 +1031,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "746d295cfb231532",
    "title": "Karwa Chauth shopping spreads beyond the North as D2C sales surge 64%",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVENNQml3QmhvMWRkY0lLSkJIcGQ0aVpzSlBlN0JkcDlrbVpJeXJJaFZHalFFV1h2S0hTengtOVlVdzc2ZkE1Y1JwV04xLUFzb3NpMkNuWnJKRU9MWFNQUjIzemU2eWRiLWVrR2p2Q1BjdHo3YUxfLXBJYnFQZTlZbmZCRDBSNjk4N3NZTGMteFk2cXpfcVBXSWN6M3Z3bVl6cmM1R1JKcEpGVUpKcXpXQWhuOC0zSzA4MlVVNTFvak5tOHB5X0Vwenk4UmhsV3FMeFdaMDd2T2kwNXlMZHlOWtIB5gFBVV95cUxPbWQ2SmozZ20wSVhoZ252bFVFckJ1NmR3LUZRdS0yNVl3LXIxbWxLb1ZVSGhBQnYyRlpBMUF3NE45ZzZ3QkVlQUZPeURuNC1ZOVkza3VaekxFVlZhQmZZQTlzMmlFUTVIc3pueUxvNDZYZi1LenZtRnFuM1lzTmFGX3M4SUduYVhLWGRUeEYzNENfNmhTd2Y0eGlvZWhRMWpZRDVuOUl5SHRteDNoOFFNeDhsVXoweFB5UDNFMVBlMHk0ZW4tYVI5dWVLSlZtT2N5ZVRBRnlLaXBFeEJpT3lrZF9Mbmk0UQ?oc=5",
    "publisher": "The Economic Times",
@@ -815,9 +1051,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
   },
   {
+   "id": "017bacc1d776f64a",
    "title": "GoKwik appoints Aashima Chowdhry as Brand Manager",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGhrVUdIbzVHZUV3SG9uTU1CTHhjTV9IYkdWd283aERQT1VVblpLUWVTT0RxODhJWVBndXFQOWU5ZktUM2F3TGRUczEtZHhocnRXak9pMGNNNjdLaEFWT2NCcE9RTXFWcVJsQ0hoM1daeGYwblFfbk0yc0UyYmNjdTdNRncwM3JzYzVORmp5S3V4YTFWNWR3Ukl6cm5iT2huVWcxdy14OEt6UzVfemQtcDJmUQ?oc=5",
    "publisher": "Exchange4Media",
@@ -831,9 +1071,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "bfcb655a41325f3b",
    "title": "Shopify to launch Shop Pay accelerated checkout in India by Q1 2027",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0xfa0ZDTDQtVW5jTmNqSUlrTkJySWdrcmFaNThQaDBETDhwQW9iRGZtcWYxNlJma1F3VWpDNl90MmRWbjBRNm1jSjQ2OVotN29kOGtUZDRCc2dXaG9ueWMwNG9WNnF0clZoYjdhRnZiWldiRzZSMVVHWjJMSk1FM2VYdDdjTTBiektEdUJuZXpIOTlkcFF0QWJNMlI3QmZsWHlSN3V6VVRSbm90Q2xLTQ?oc=5",
    "publisher": "TechGig",
@@ -847,9 +1091,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "shopflo": "mention"
+   }
   },
   {
+   "id": "0ac6d7ece3fbafa9",
    "title": "GoKwik leverages its festive data to rank revenue opportunities for D2C brands",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZk1EU1NaZzcweU9PZzlPcF9LZWpBVlRmd1d1YzBlSlQ4a3oyY3RvNVFjSXgtcHJ5dEZBaFhBQjR3cE01UmQ5dW5fb2tYY0JFTXdxOEJWRDZFMkRNNHBJVFRxRzRXdGtDemhzWldPc0NadWdtMk1uMlFCdkFiZDV5eDFicjktWFB4T3BzdklRTWVxSVk5bUNzSUhUX0pHd25DZjVaZlRUZzFxRXNxZXcybXNLdTZTQQ?oc=5",
    "publisher": "CXOToday.com",
@@ -863,25 +1111,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
-   "title": "Shiprocket Checkout as a Conversion Optimization Platform",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQblhyZTlvY2tnNWRxczNhSks1aUdvVUlsLVVoQklMc2k1RTRHSUU0TlhkbkFHUjRtZTNqODRReG5WcTQxdEtjOU14bGEwM09mUGtPTzVVU2dIOEYyUzhjMUN1SUxqWnRYVEI4LUtxMEJVeUt0dWtHQ2hIOVJ3emdoeVQ5SXdqdHI2aDhkXzFQdkdKdw?oc=5",
-   "publisher": "MarkHub24",
-   "published": "2026-10-08T04:00:24+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "razorpay_magic"
-   ],
-   "outlets": [
-    "MarkHub24"
-   ],
-   "sources": [
-    "google"
-   ]
-  },
-  {
+   "id": "4bdf4286e3f7d967",
    "title": "GoKwik releases brand film on e-commerce checkout trust",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeldLRC0zakEzUGlJOFBJLWxWWDVCd2tGSmVVRVB1SmptVDR4NFUzY3lqTk9nTmtHNHZYUkxUdnZtZUV2aWw4Z3dJZks3ZVl0c3FNRXFQVUZlRHRSa01MbFlNZ2QwNUJCNHVxX0FqU0dTeWJhemhnanE4WFoxTUdIMTZsZERCTTVHTlBZVHZxSl8zUGY4ZngyNzktSVlrbWxhLVFHNUNDeFMzQVJMYVdCWjN1UnVxN2s4amV5bmRoVGlRcnlGY1BFY3FxUmRFUVZXM0p5enBFd9IB3AFBVV95cUxORXVJdl9TNy1sX2dESjJBSDhzSmZCZmF4XzJjSHpHR043azdNYnFpeU5MMkxFaGlOTnJWVHdGRTlwSUVTZ29ubkdnbWxRMEQ1SFRFUWFFRFgyUnA1bHdWV0ZlMk9KcjZONjNiRHAwWEJPUGZnMmpfbi1DdlVhTjI3ckExLWoyN0ZITDVnQnNBdHY5RFBVQUlCTTNpN28wNERfbzBWTEFLY0FUYmdWVG5GS0dRczNXOUFPU3JWZnBtZDZtQUxkeURuTFVfNl8wVEtWbzVFVXJtLW95SFNo?oc=5",
    "publisher": "ET BrandEquity",
@@ -895,9 +1131,13 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   },
   {
+   "id": "55799007202a7fa8",
    "title": "Razorpay Launches Vulcan, an AI Foundation Model Built for Payments With NVIDIA and AWS",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGNGbFJITUs1LU9FSHFSc2Z4dXNpRWJ5MDFrdS1WQjlleE80My1Cd3gybkgySmpndTluaFA3TEs4ZkVJWURaNUxXc0hweTRZZ0V0WFdFSUhEdkFVUm54QTJ3WlBGZ2JXTG02Z3NMaXhKLXpyeWJrM0I4QnVjaWJSWTVDNzk3OWFaMTE3em9uODZfZjhaMDdPbVhKelpfbENXMklSTWRwUUlFX0xkSkF0V0JRZ2otVnpHYXBjc1FNTXhrLTdmRFE?oc=5",
    "publisher": "Indian Startup Times",
@@ -911,9 +1151,467 @@
    ],
    "sources": [
     "google"
-   ]
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
+  },
+  {
+   "id": "247dfc5f835bb322",
+   "title": "Top 5 Checkout Platforms to Improve eCommerce Conversions in India",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHdBOVBiQkpWVlJuODJuY1pQbS00YndQemVFT2lZSGlLcTExWnFIWTlZelRya1lreG1BVFhuN0k0V0k4TXE0SXA3RnhCUkpxQUd2dEtyWm05Ri1UTVpKMlE5YjlMUUVpMW1sbFd4Q3gyakNrV0VkbTZHN3pCVWFIdnZIeDl5dno1TXJXMEN0THZ1VmdlNE0tMmRCRW5HRFhYaWtOT3ZXVHFCMkRwNEFSQmVsYXJUTEJj?oc=5",
+   "publisher": "ANI News",
+   "published": "2026-08-07T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "razorpay_magic"
+   ],
+   "outlets": [
+    "ANI News"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
+  },
+  {
+   "id": "821b4470c67a113a",
+   "title": "GoKwik and PayU bring multi-brand D2C shopping to ChatGPT, launch AI-powered commerce experience",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM1liU0t1UDJWSjBtaHFpQjZmdnoycktLWXpHQTZDZzFCUjROT3JkaEZ5M2JJRURKV0VRZWZpc2lsWDBCNGZCSjRVbmtuZExvMHF2SF9hOWQtV2Uxc09mZEVzQ0UzTVhFQV9ldHBZemVVNUVDRmJpdnhiWE1oZG5MNGdn?oc=5",
+   "publisher": "Express Computer",
+   "published": "2026-07-30T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Express Computer"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
   }
  ],
+ "latest_headline": [
+  {
+   "id": "f90d0c5bc3ac856e",
+   "title": "GoKwik\u2019s ESOP Twist, New CEO At Unacademy & More",
+   "url": "https://inc42.com/buzz/gokwiks-esop-twist-new-ceo-at-unacademy-more/",
+   "publisher": "Inc42",
+   "published": "2026-11-11T16:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Inc42"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "bac96c40b9924fdc",
+   "title": "GoKwik\u2019s Golden Handcuffs: Non-Compete Clause Puts Vested ESOPs In Jeopardy",
+   "url": "https://inc42.com/features/gokwiks-golden-handcuffs-non-compete-clause-puts-vested-esops-in-jeopardy/",
+   "publisher": "Inc42",
+   "published": "2026-11-10T17:30:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Inc42"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "b12b8a43c7815956",
+   "title": "GoKwik\u2019s Diwali 2026 study finds 81% GMV growth across D2C network",
+   "url": "https://mediabrief.com/gokwiks-diwali-2026-study-finds-81-gmv-growth-across-d2c-network/",
+   "publisher": "Mediabrief",
+   "published": "2026-11-10T03:13:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Mediabrief"
+   ],
+   "sources": [
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "6f0e6df4959877b5",
+   "title": "GoKwik Offers Rs 7.57 Cr ESOP Liquidity To 69 Employees",
+   "url": "https://www.bwpeople.in/article/gokwik-offers-rs-7-57-cr-esop-liquidity-to-69-employees-631850",
+   "publisher": "BW People",
+   "published": "2026-11-02T16:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "BW People"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "189dd8cf638fc079",
+   "title": "GoKwik\u2019s earliest ESOP holders are expected to get 9x average returns",
+   "url": "https://hr.economictimes.indiatimes.com/news/industry/gokwiks-earliest-esop-holders-are-expected-to-get-9x-average-returns/135461821",
+   "publisher": "ETHRWorld.com",
+   "published": "2026-11-02T04:25:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "ETHRWorld.com",
+    "ETHRWorld"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "8d844f88d6bc7a30",
+   "title": "D2C brands don't need an AI team to get discovered and grow, says Shopflo",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelBMdU91SlRKeXI2eFdhVjcwTFYxQlJCUlZmT1ZqcmlHV3g3LU5jOEpiT3YxQW55dnNfYjdsWC1PQjRvNTgxa2tOMWp0R19FQ3dFOGlUZDVlbWRqV1QyOXJiSmhULVhBck9vWktPTHU5cnduOGh3ajRJODZFeVo0MDNvM0ptMUFSQlBxYmxocw?oc=5",
+   "publisher": "YourStory.com",
+   "published": "2026-10-30T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "shopflo"
+   ],
+   "outlets": [
+    "YourStory.com"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "shopflo": "headline"
+   }
+  },
+  {
+   "id": "7177fd8b6c4350e8",
+   "title": "Karwa Chauth shopping spreads beyond north India as GoKwik records 64% D2C sales growth",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdko5SG95REdodjhldE5DVVFxdU9iR2FoM0dJa3pPNzkzX1FFTl90UnpycHlJT0taeUs3RkxhdTB3all2SFU4dTlnU2puWjVmZGRyMTdBMk5GcG1rZTlxM01jWGhvVUZRMUxRbDFLU2dRV2MxdVQ3UlA1OWJDVC1hbzkzVzY2ZXpkeFIzcjl4bHJpZlhGbUk0N0x3RThROEJQdkF6b3JPOGM4enMzM3kxOU1CdDYzRVhQbk9QWkY0a05RaHM?oc=5",
+   "publisher": "Passionate In Marketing",
+   "published": "2026-10-29T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Passionate In Marketing"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "017bacc1d776f64a",
+   "title": "GoKwik appoints Aashima Chowdhry as Brand Manager",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGhrVUdIbzVHZUV3SG9uTU1CTHhjTV9IYkdWd283aERQT1VVblpLUWVTT0RxODhJWVBndXFQOWU5ZktUM2F3TGRUczEtZHhocnRXak9pMGNNNjdLaEFWT2NCcE9RTXFWcVJsQ0hoM1daeGYwblFfbk0yc0UyYmNjdTdNRncwM3JzYzVORmp5S3V4YTFWNWR3Ukl6cm5iT2huVWcxdy14OEt6UzVfemQtcDJmUQ?oc=5",
+   "publisher": "Exchange4Media",
+   "published": "2026-10-23T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Exchange4Media"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "0ac6d7ece3fbafa9",
+   "title": "GoKwik leverages its festive data to rank revenue opportunities for D2C brands",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZk1EU1NaZzcweU9PZzlPcF9LZWpBVlRmd1d1YzBlSlQ4a3oyY3RvNVFjSXgtcHJ5dEZBaFhBQjR3cE01UmQ5dW5fb2tYY0JFTXdxOEJWRDZFMkRNNHBJVFRxRzRXdGtDemhzWldPc0NadWdtMk1uMlFCdkFiZDV5eDFicjktWFB4T3BzdklRTWVxSVk5bUNzSUhUX0pHd25DZjVaZlRUZzFxRXNxZXcybXNLdTZTQQ?oc=5",
+   "publisher": "CXOToday.com",
+   "published": "2026-10-15T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "CXOToday.com"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "4bdf4286e3f7d967",
+   "title": "GoKwik releases brand film on e-commerce checkout trust",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeldLRC0zakEzUGlJOFBJLWxWWDVCd2tGSmVVRVB1SmptVDR4NFUzY3lqTk9nTmtHNHZYUkxUdnZtZUV2aWw4Z3dJZks3ZVl0c3FNRXFQVUZlRHRSa01MbFlNZ2QwNUJCNHVxX0FqU0dTeWJhemhnanE4WFoxTUdIMTZsZERCTTVHTlBZVHZxSl8zUGY4ZngyNzktSVlrbWxhLVFHNUNDeFMzQVJMYVdCWjN1UnVxN2s4amV5bmRoVGlRcnlGY1BFY3FxUmRFUVZXM0p5enBFd9IB3AFBVV95cUxORXVJdl9TNy1sX2dESjJBSDhzSmZCZmF4XzJjSHpHR043azdNYnFpeU5MMkxFaGlOTnJWVHdGRTlwSUVTZ29ubkdnbWxRMEQ1SFRFUWFFRFgyUnA1bHdWV0ZlMk9KcjZONjNiRHAwWEJPUGZnMmpfbi1DdlVhTjI3ckExLWoyN0ZITDVnQnNBdHY5RFBVQUlCTTNpN28wNERfbzBWTEFLY0FUYmdWVG5GS0dRczNXOUFPU3JWZnBtZDZtQUxkeURuTFVfNl8wVEtWbzVFVXJtLW95SFNo?oc=5",
+   "publisher": "ET BrandEquity",
+   "published": "2026-09-09T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "ET BrandEquity"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "821b4470c67a113a",
+   "title": "GoKwik and PayU bring multi-brand D2C shopping to ChatGPT, launch AI-powered commerce experience",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM1liU0t1UDJWSjBtaHFpQjZmdnoycktLWXpHQTZDZzFCUjROT3JkaEZ5M2JJRURKV0VRZWZpc2lsWDBCNGZCSjRVbmtuZExvMHF2SF9hOWQtV2Uxc09mZEVzQ0UzTVhFQV9ldHBZemVVNUVDRmJpdnhiWE1oZG5MNGdn?oc=5",
+   "publisher": "Express Computer",
+   "published": "2026-07-30T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Express Computer"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "5570a2ac7c59f848",
+   "title": "GoKwik & PayU Enable Multi-Brand D2C Commerce Experience On ChatGPT",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmZlbnVQb2VTQzFrTnJ5ZmRPUHlxV1NQS1Z0cW5FdmxrbEpZemlsWTFOTVAzZkNpX21mUG5SSU1FWHNYZzhaeC1UTWdmbkdoYWJHMDRYdzQycnBrQk9tLVVhTUVxTkNyTFVOUnlsTnZwNHVoNHR2UWVJTUV6aDJydWF2X0hmMkc5amlweDRKd2Y4bkpuNTU4cUNKY1NMM292dkVDZDhiT0wwcHpJWUtPbGVVa0pDQQ?oc=5",
+   "publisher": "https://www.fintechbiznews.com/",
+   "published": "2026-07-28T07:21:04+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "https://www.fintechbiznews.com/"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "d9844f61b9538ead",
+   "title": "GoKwik & PayU bring multi-brand D2C shopping to ChatGPT",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaVYxYU5QRTJJaVVJT0NrQjJaeEY3Y3I5T0I3OWIwa0d6Qm1lbS1qV3piVFlVRzAyajB5eU4xQTRYMV9tVDdkSnFtMXlGeDRfOVJnTnFkR1pzT25Ma2tkeFZGTHliRFpKNVBZdzZRZjZXUmpkbWZRUWI1Qk1PbURiX2k5aE80TWFsQjRvVFBIaHlaRG1sS1kxOE1BT0xwZw?oc=5",
+   "publisher": "afaqs!",
+   "published": "2026-07-28T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "afaqs!"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "35f40b6a77d1e3a2",
+   "title": "GoKwik, PayU launch multi-brand D2C shopping experience on ChatGPT",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaHBVM1VjblFhTFc0anU5VTg2amU2YXJkQ05OTHJZYjRZVm1Gc2x0c2xBS3BIemgyOG5ObWNwMjFXcHg4Rkx6aFZDek85ZndabDdxelY5YnZVMTRmLWt3MW9Gemw4T21aeWtEekRMZkFyQmswcmRCTUREc0FabWYxb0RDcnRnNy15VzNSbGFNbGJnc1ZBMkQweUxOZEpKZkVRLS1RQ3d3ZE9aQzZJYVc0YkZPV1dybTUyY0w2clNLMGlqbk5FV0Jn0gHHAUFVX3lxTE9ocFUzVWNuUWFMVzRqdTlVODZqZTZhcmRDTk5MclliNFlWbUZzbHRzbEFLcEh6aDI4bk5tY3AyMVdweDhGTHpoVkN6Tzlmd1psN3F6VjlidlUxNGYta3cxb0Z6bDhPbVp5a0R6RExmQXJCazByZEJNRERzQVptZjFvRENydGc3LXlXM1JsYU1sYmdzVkEyRDB5TE5kSkpmRVEtLVFDd3dkT1pDNklhVzRiRk9XV3JtNTJjTDZyU0swaWpuTkVXQmc?oc=5",
+   "publisher": "BMI",
+   "published": "2026-07-28T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "BMI"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "2ca51817701a24a2",
+   "title": "GoKwik LayOff Around 120 Employees",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JTWVDeElGbVBsNEI4c2FsWTEzQnJoZ0U4Y2F4c3dFSF8yUndxOXBqLXllaUx5LUFJalhWYW1WazJaLS1KaWRsSUYtcFhLb3owYS1JenRXekxaRmwyUktVdVVUTjhCRFlTU2dvbw?oc=5",
+   "publisher": "Lapaas Voice",
+   "published": "2026-07-12T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Lapaas Voice"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "c59f4819f78820a1",
+   "title": "Exclusive: GoKwik Lays Off Around 120 Employees Amid AI Push",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGRFY0VMOHhFcloyNWlCNGp4bGVxRVpiR2dIdm5ZOExIWlAyUlpuOGZTV2JBazBybE0xZG5IZm5SSG51SDBJbl9sWFY1ejZUYmVnVmpnS0lBLWxYa2NGTGgxdzBjT1VJdl9SVUNSajdEbnZiOXY3OUp1Qm1jSndkZXFkdlV6anc1ZTE4?oc=5",
+   "publisher": "Inc42",
+   "published": "2026-07-11T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Inc42"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "2cfb8026bccc984a",
+   "title": "GoKwik appoints Aseem Goyal as Vice President of Business for \u2018Kwik Ship\u2019",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWnN6UmpBYmY3dTNZWE00UzBmdHVUWVNpeHF5b1g5N2U0b1VONnVpS1NwVFNkQlZPbWlJV1dUeEQyb3hyRV9GWkJFRXEza2tkZTBCYlJUbF84eGZkSDR6endjZ2RrMDlRdjRWR0d6aFlWaWxvYUlTeE5UaHJFTjI0WTlFR1htajh3Y2dIekh0OHp5Y282M0J4bWdyYXE4R09VOEE0bU42elBLZXh0eURWS0hGUFF3UzhQc3ZKRi1uUVZFUDl4S2ZfbUNOVzdLZXZL?oc=5",
+   "publisher": "Exchange4Media",
+   "published": "2026-07-08T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Exchange4Media"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "1488a88c99b2cf94",
+   "title": "Pine Labs completes 100% acquisition of Shopflo Technologies",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVFQ3dHliYzlSZGVnSnNGR0FxaUZmdWFBWEtjWktUcUhqb3dDU2FYWWNkanVaRmpJbjdTZThnRWdsZzVxcFdaUnduQTZ6QURRVWFBVU1yOFVLVW1CTmU0UkNmQ0RzMUZWUV90QmdIZFUtZ2FaUHhQblQ1eUxoLVRkSDJPVDZKYl9vejY3T2VMNTNIdFlRd2thMEZSaDBaOXRBN2tvNVVNUEVVT1NPS2RLT2d3ZHYzUzA?oc=5",
+   "publisher": "scanx.trade",
+   "published": "2026-06-11T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "shopflo"
+   ],
+   "outlets": [
+    "scanx.trade"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "shopflo": "headline"
+   }
+  },
+  {
+   "id": "f807d637be6a460d",
+   "title": "Pine Labs concludes acquisition of 100% stake in Shopflo Technologies",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQX0NHb0Y2Z3hOalptUnZBTmtxbi12V09rdFU4alhoYXZWYkNTdEloVWN0a25uWlpWQUFfVjJDMHIya0U5aWVWSE4tZUpaUEhLVVdpMmVlVXdjcmxPaGNCRGRzT1cyVkdPTWFVNzA2UElSa0VlM0ZZeC10ZmdPcVc0aFB5aTVRSnp6RUdpXzZXTzFZTXRNRU1pQzdBRzk2WHZWWHRoMVltUXF4b3JYNm9qSFZBcGtDVExjSzFqMDgzY21aSkQ5SGozZ3NCSnQ2bkt6eHltVVNWem5zbUp2aGlnSkdKczbSAeoBQVVfeXFMT0YzaWUzd3BBRlYwdC1WYTRiWmg0Z0ROQkhVVWJ4bEduZnFTckUwS2RDb1Y1TWtfNGZFZ3ZXMWhZSjBKSk1Dd3pCS2g0b1BlOUxULUFLUkphV1Vmb3hrY2FFRW5hVkkwbmpKMmVUOWhiMmg2UVdJSjM3NjZFRnAtaHEzZENfS292dmVvRDdmdGdZWnNaYTY4ek5nR1NqUDVWaEl6aGY4TmxZV1htX2xIRmZ1M3VnNHk2WDFjSTJRUU9jajk5WEhJQ2NHRnN5WEMteEpoMzJweGg2THZyT1haUkJSdUltTjF4blBB?oc=5",
+   "publisher": "Business Standard",
+   "published": "2026-06-11T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "shopflo"
+   ],
+   "outlets": [
+    "Business Standard"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "shopflo": "headline"
+   }
+  },
+  {
+   "id": "1fb771606ee3a17b",
+   "title": "GoKwik partners with boAt co-founder Aman Gupta for first brand campaign",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTTdOVDdSXzduemx5a3hzNzBPRTZUcTZCOE0tbXhCMl8tRlY0cHBOOVdGWjJfRm53aUcyMEZUdFBpUTNCWUZpbF9pSWVNOUpXMkJXMDh0ZVB4am04S3p4RW5ySDBjTDVfanNTZEVDbGhMNldCUjdyYTBJZUpxR3RpTEpEQ0ZkNGo4dmxwTFlaQjdOVXRRTnZmMlF1NU51WHBGVHBXeGR1NW5wUXJ0aHJjOEtLZ1B4dUJ6WHhOYWRwYjBSRVFpVjNr0gHMAUFVX3lxTE1KX2NvUlBFV0RhRS1Lcml4YW1MLUgwVmFVbXdyaXIxUTNsZzZueFkwd3NCeW1XdWY2ZjFfcDk2dlRBT2FyQXE3SnZvc1lOQ1lDcXJJc0VQenViU0FaMUh2TXZNYnlPQXhIc2Q5WUtJWUhlbzhFVTAzUG82clVQQi1qZTMtME5yM2N2dHFJWEJUUHBuNld5Y3djWUVHUXNES1BLLWphVDJyX1QwYXhOSEVYRGRIZTRjRjlGaVlMVjlWUjlLaW5OXzFYb0h3QQ?oc=5",
+   "publisher": "Storyboard18",
+   "published": "2026-06-07T07:00:00+00:00",
+   "first_seen": "2026-11-13",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Storyboard18"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  }
+ ],
+ "review": {
+  "company_articles": 151,
+  "headline": 136,
+  "mention_only": 15,
+  "excluded": 2,
+  "duplicates": 0,
+  "same_story_other_outlets": 26
+ },
  "health": {
   "last_run": {
    "run_at": "2026-11-13T13:50:28+00:00",

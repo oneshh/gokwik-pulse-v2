@@ -163,3 +163,139 @@ def test_report_weekly_shares_and_latest():
 def test_ist_week_boundary():
     # Sunday 20:00 UTC = Monday 01:30 IST -> belongs to the new week
     assert report.week_start(report.ist_date("2026-11-08T20:00:00+00:00")).isoformat() == "2026-11-09"
+
+
+# ------------------------------------------------------------------ RCA edge cases
+
+def test_outlet_edits_headline_is_same_article():
+    db = {}
+    store.merge(db, [item("GoKwik raises $13 million in Series B led by RTP Global", publisher="Inc42")], "2026-11-12")
+    new = store.merge(db, [item("GoKwik raises $13 million in Series B, led by RTP Global Ventures", publisher="Inc42")], "2026-11-13")
+    assert len(db) == 1 and new == {}
+
+
+def test_publisher_name_variants_match_for_fuzzy_dedup():
+    assert store.publisher_key("Moneycontrol.com") == store.publisher_key("moneycontrol") == store.publisher_key("https://www.moneycontrol.com/")
+    db = {}
+    store.merge(db, [item("Pine Labs acquires D2C checkout startup Shopflo in Rs 88 crore deal", "shopflo", publisher="Moneycontrol.com")], "2026-11-12")
+    store.merge(db, [item("Pine Labs acquires D2C checkout startup Shopflo in ₹88 crore deal", "shopflo", source="bing",
+                          url="https://moneycontrol.com/x", publisher="moneycontrol")], "2026-11-13")
+    assert len(db) == 1
+
+
+def test_different_outlets_same_story_are_separate_articles():
+    db = {}
+    store.merge(db, [item("GoKwik secures $13 M in round led by RTP Global", publisher="YourStory.com"),
+                     item("GoKwik raises $13 million round led by RTP Global", publisher="Moneycontrol.com")], "2026-11-13")
+    assert len(db) == 2
+
+
+def test_similar_headline_months_apart_is_not_merged():
+    db = {}
+    store.merge(db, [item("GoKwik appoints new CFO", pub="2025-01-10T00:00:00+00:00")], "2025-01-10")
+    store.merge(db, [item("GoKwik appoints new CTO", pub="2026-06-10T00:00:00+00:00")], "2026-06-10")
+    assert len(db) == 2
+
+
+def test_same_direct_url_with_different_title_is_one_article():
+    db = {}
+    store.merge(db, [item("Shopflo bought", "shopflo", source="bing", url="https://et.com/a", publisher="ET")], "2026-11-13")
+    store.merge(db, [item("Pine Labs buys checkout startup Shopflo", "shopflo", source="bing", url="https://et.com/a", publisher="ET")], "2026-11-13")
+    assert len(db) == 1
+
+
+def test_relevance_headline_vs_body_mention():
+    db = {}
+    store.merge(db, [item("Diwali D2C sales jump 81%"), item("GoKwik launches AI checkout")], "2026-11-13")
+    rel = {r["title"]: r["relevance"]["gokwik"] for r in db.values()}
+    assert rel == {"Diwali D2C sales jump 81%": "mention", "GoKwik launches AI checkout": "headline"}
+
+
+def test_relevance_upgrades_when_another_feed_names_company_in_headline():
+    db = {}
+    store.merge(db, [item("Checkout startup bought by Pine Labs", "shopflo", url="https://x.com/a", source="bing", publisher="X")], "2026-11-13")
+    store.merge(db, [item("Shopflo bought by Pine Labs", "shopflo", url="https://x.com/a", source="bing", publisher="X")], "2026-11-13")
+    assert next(iter(db.values()))["relevance"]["shopflo"] == "headline"
+
+
+def test_overrides_exclude_per_company_without_deleting_history(tmp_path):
+    db = {}
+    store.merge(db, [item("GoKwik vs Shopflo", "gokwik"), item("GoKwik vs Shopflo", "shopflo")], "2026-11-13")
+    aid = next(iter(db))
+    p = tmp_path / "o.json"
+    p.write_text(json.dumps({"exclude": [{"id": aid, "company": "shopflo", "reason": "test"}]}))
+    view = store.apply_overrides(db, store.load_overrides(p))
+    assert view[aid]["companies"] == ["gokwik"]
+    assert db[aid]["companies"] == ["gokwik", "shopflo"]   # history untouched
+
+
+def test_malformed_items_are_not_counted():
+    assert not sources.is_valid(item("", url="https://a"))
+    assert not sources.is_valid(item("GoKwik", url="javascript:alert(1)"))
+    assert sources.is_valid(item("GoKwik", url="https://a.com"))
+
+
+def test_sudden_drop_is_a_warning_not_an_alert():
+    past = [{"status": "ok", "per_company": {c: {"fetched": 50} for c in IDS}} for _ in range(5)]
+    low = counts(gokwik=5)
+    v = health.evaluate(low, [], IDS, SRCS, recent_runs=past)
+    assert v["status"] == "warn" and "far below" in v["warnings"][0]
+
+
+def test_report_headline_only_mode():
+    db = {}
+    store.merge(db, [item("Diwali D2C sales jump", pub="2026-11-10T05:00:00+00:00"),
+                     item("GoKwik launches AI", pub="2026-11-11T05:00:00+00:00")], "2026-11-13")
+    now = datetime(2026, 11, 13, 6, 0, tzinfo=timezone.utc)
+    d = report.build(db, [], now)
+    assert d["weeks"][-1]["counts"]["gokwik"] == 2
+    assert d["weeks"][-1]["headline"]["counts"]["gokwik"] == 1
+    assert d["review"]["mention_only"] == 1
+
+
+def test_audit_flags_same_outlet_duplicates_only():
+    from pulse import audit
+    db = {
+        "a": {"id": "a", "title": "GoKwik raises $13 million in Series B", "url": "https://x/1", "publisher": "Inc42",
+              "outlets": ["Inc42"], "published": "2026-11-10T00:00:00+00:00", "companies": ["gokwik"], "relevance": {"gokwik": "headline"}},
+        "b": {"id": "b", "title": "GoKwik raises $13 million in Series B round", "url": "https://x/2", "publisher": "Inc42",
+              "outlets": ["Inc42"], "published": "2026-11-11T00:00:00+00:00", "companies": ["gokwik"], "relevance": {"gokwik": "headline"}},
+    }
+    assert len(audit.run(db, {})["same_outlet"]) == 1
+    db["b"]["publisher"] = db["b"]["outlets"][0] = "Mint"
+    assert audit.run(db, {})["same_outlet"] == []
+
+
+def test_committed_history_has_no_duplicates():
+    from pulse import audit
+    r = audit.run(store.load(config.ARTICLES_FILE), store.load_overrides(config.OVERRIDES_FILE))
+    assert r["exact"] == [] and r["same_outlet"] == []
+    assert r["missing_overrides"] == []
+
+
+def test_bing_url_has_no_sortbydate():
+    # regression: sortbydate makes Bing RSS ignore the query
+    assert "sortbydate" not in sources.bing_url('"Shopflo"')
+
+
+def test_strict_source_drops_results_that_do_not_name_the_company(monkeypatch):
+    xml = (FIX / "bing.xml").read_bytes().replace(b"Shopflo", b"Somebody")
+    monkeypatch.setattr(sources, "_http_get", lambda url: xml)
+    comp = next(c for c in config.COMPANIES if c["id"] == "shopflo")
+    assert sources.fetch("bing", comp) == []
+
+
+def test_headline_mode_still_lists_twenty_latest():
+    db = {}
+    store.merge(db, [item(f"GoKwik story {i}", pub=f"2026-10-{i+1:02d}T00:00:00+00:00") for i in range(25)]
+                + [item(f"Body mention {i}", pub=f"2026-11-{i+1:02d}T00:00:00+00:00") for i in range(10)], "2026-11-13")
+    d = report.build(db, [], datetime(2026, 11, 13, tzinfo=timezone.utc))
+    assert len(d["latest_headline"]) == config.LATEST_COUNT
+    assert all(a["relevance"]["gokwik"] == "headline" for a in d["latest_headline"])
+
+
+def test_headlines_with_different_numbers_are_not_merged():
+    db = {}
+    store.merge(db, [item("GoKwik posts Q1 results, revenue up"), item("GoKwik posts Q2 results, revenue up"),
+                     item("Simpl lays off 100 employees", "simpl"), item("Simpl lays off 150 employees", "simpl")], "2026-11-13")
+    assert len(db) == 4

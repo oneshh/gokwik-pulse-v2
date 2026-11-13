@@ -93,7 +93,9 @@ def parse_google(xml_bytes: bytes, company: str) -> list[RawItem]:
 
 def bing_url(query: str) -> str:
     q = urllib.parse.quote(query)
-    return f"https://www.bing.com/news/search?q={q}&format=rss&mkt=en-IN&qft=sortbydate%3d%221%22"
+    # NOTE: do not add Bing's "sortbydate" option - in RSS mode it ignores the query and returns
+    # unrelated stories (seen 2026-11-14: a "Shopflo" search returned GoKwik articles).
+    return f"https://www.bing.com/news/search?q={q}&format=rss&mkt=en-IN"
 
 
 def _bing_real_url(link: str) -> str:
@@ -150,7 +152,13 @@ def fetch(source: str, company: dict) -> list[RawItem]:
     if source in config.STRICT_MATCH_SOURCES:
         pat = re.compile(company["match"], re.I)
         items = [i for i in items if pat.search(i.title + " " + i.summary)]
-    return [i for i in items if not is_blocked(i.publisher)]
+    return [i for i in items if is_valid(i) and not is_blocked(i.publisher)]
+
+
+def is_valid(item: RawItem) -> bool:
+    """Drop malformed entries so a half-broken parser can't look like a healthy run.
+    Only http(s) links are kept (no javascript: or data: URLs reach the page)."""
+    return bool(item.title.strip()) and item.url.lower().startswith(("https://", "http://"))
 
 
 def is_blocked(publisher: str) -> bool:

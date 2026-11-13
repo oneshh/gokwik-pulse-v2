@@ -1,0 +1,17 @@
+{
+  "_how_to_use": "Exclude an article from one company's counts. Copy the article id from the run summary or data/articles.json. History is never deleted, so removing an entry here undoes the exclusion on the next run.",
+  "exclude": [
+    {
+      "id": "af9805c6789d6618",
+      "company": "simpl",
+      "reason": "Generic BNPL app-development explainer (Nasscom); not about Simpl.",
+      "reviewed": "2026-11-14"
+    },
+    {
+      "id": "bf4cc7da41641855",
+      "company": "razorpay_magic",
+      "reason": "About Shiprocket Checkout, a competitor; Magic Checkout only mentioned in passing.",
+      "reviewed": "2026-11-14"
+    }
+  ]
+}

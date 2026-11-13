@@ -15,8 +15,12 @@ One source failing while the other works is a warning shown on the dashboard, no
 from __future__ import annotations
 
 
+DROP_RATIO = 0.4      # fetched < 40% of the usual amount ...
+DROP_MIN_USUAL = 10   # ... for a company that usually returns at least this many -> warning
+
+
 def evaluate(raw_counts: dict[str, dict[str, int]], errors: list[str], company_ids: list[str],
-             sources: list[str]) -> dict:
+             sources: list[str], recent_runs: list[dict] | None = None) -> dict:
     """raw_counts[company][source] = items fetched. errors = ["source/company: message", ...]."""
     total = sum(sum(v.values()) for v in raw_counts.values())
     problems: list[str] = []
@@ -35,9 +39,22 @@ def evaluate(raw_counts: dict[str, dict[str, int]], errors: list[str], company_i
     for src in sources:
         failed = [e for e in errors if e.startswith(src + "/")]
         if failed and len(failed) == len(company_ids):
-            warnings.append(f"Source '{src}' failed for every company; running on the other source.")
+            warnings.append(f"Source '{src}' failed for every company; still running on the remaining sources.")
         elif failed and not problems:
             warnings.extend(failed)
+
+    # Partial breakage: a query that suddenly returns far less than usual (e.g. a source
+    # changed its feed). Not zero, so not an alert, but flagged amber for a human to look at.
+    if not problems and recent_runs:
+        past = [r for r in recent_runs[-7:] if r.get("status") in ("ok", "warn")]
+        for cid in company_ids:
+            vals = sorted(r.get("per_company", {}).get(cid, {}).get("fetched", 0) for r in past)
+            if len(vals) < 3:
+                continue
+            usual = vals[len(vals) // 2]
+            now = sum(raw_counts.get(cid, {}).values())
+            if usual >= DROP_MIN_USUAL and now < usual * DROP_RATIO:
+                warnings.append(f"'{cid}' returned {now} articles, far below its usual {usual}. A query or source may be degrading.")
 
     status = "fail" if problems else ("warn" if warnings else "ok")
     return {"status": status, "problems": problems, "warnings": warnings, "raw_total": total}
