@@ -24,5 +24,31 @@
   },
   "problems": [],
   "warnings": []
+ },
+ {
+  "run_at": "2026-11-13T13:48:09+00:00",
+  "status": "ok",
+  "fetched": 162,
+  "new": 1,
+  "per_company": {
+   "gokwik": {
+    "fetched": 66,
+    "new": 1
+   },
+   "shopflo": {
+    "fetched": 33,
+    "new": 0
+   },
+   "simpl": {
+    "fetched": 53,
+    "new": 0
+   },
+   "razorpay_magic": {
+    "fetched": 10,
+    "new": 0
+   }
+  },
+  "problems": [],
+  "warnings": []
  }
 ]
