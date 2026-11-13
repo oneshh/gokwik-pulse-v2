@@ -178,6 +178,15 @@ footer a { color: var(--text-2); }
 .loading { padding: 80px 0; text-align: center; color: var(--muted); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 @media (max-width: 560px) {
+  .bar { gap: 10px 12px; }
+  .brand { flex: 1 1 0; min-width: 0; }
+  .bar .spacer { display: none; }
+  #status-pill { order: 5; flex: 1; justify-content: center; white-space: normal; }
+  #theme { order: 6; }
+  .hero { padding: 18px 16px; }
+  .hl-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .hl { padding: 10px 12px; font-size: 12.5px; }
+  .hl b { font-size: 17px; }
   .hero h2 { font-size: 20px; }
   .co .big { font-size: 30px; }
   .articles li { grid-template-columns: 1fr; gap: 2px; }
