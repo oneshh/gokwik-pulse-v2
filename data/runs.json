@@ -130,5 +130,31 @@
   "warnings": [
    "bing/shopflo: bad XML from bing: not well-formed (invalid token): line 1, column 41"
   ]
+ },
+ {
+  "run_at": "2026-11-14T19:24:42+00:00",
+  "status": "ok",
+  "fetched": 184,
+  "new": 4,
+  "per_company": {
+   "gokwik": {
+    "fetched": 69,
+    "new": 2
+   },
+   "shopflo": {
+    "fetched": 44,
+    "new": 1
+   },
+   "simpl": {
+    "fetched": 58,
+    "new": 0
+   },
+   "razorpay_magic": {
+    "fetched": 13,
+    "new": 1
+   }
+  },
+  "problems": [],
+  "warnings": []
  }
 ]

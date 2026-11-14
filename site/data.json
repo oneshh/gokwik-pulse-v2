@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14T09:15:02+00:00",
- "today": "2026-11-14",
+ "generated_at": "2026-11-14T19:24:42+00:00",
+ "today": "2026-11-15",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,44 +33,44 @@
   }
  ],
  "totals": {
-  "articles": 170,
+  "articles": 174,
   "by_company": {
-   "gokwik": 66,
-   "shopflo": 38,
+   "gokwik": 68,
+   "shopflo": 39,
    "simpl": 57,
-   "razorpay_magic": 9
+   "razorpay_magic": 10
   },
   "by_company_headline": {
-   "gokwik": 62,
-   "shopflo": 35,
+   "gokwik": 63,
+   "shopflo": 36,
    "simpl": 55,
-   "razorpay_magic": 2
+   "razorpay_magic": 3
   },
   "shares": {
-   "gokwik": 38.8,
+   "gokwik": 39.1,
    "shopflo": 22.4,
-   "simpl": 33.5,
-   "razorpay_magic": 5.3
+   "simpl": 32.8,
+   "razorpay_magic": 5.7
   },
-  "added_today": 19,
-  "last_30_days": 15
+  "added_today": 4,
+  "last_30_days": 16
  },
  "window": {
   "weeks": 12,
   "from": "2026-08-24",
   "counts": {
-   "gokwik": 12,
+   "gokwik": 13,
    "shopflo": 2,
    "simpl": 0,
    "razorpay_magic": 3
   },
   "shares": {
-   "gokwik": 70.6,
-   "shopflo": 11.8,
+   "gokwik": 72.2,
+   "shopflo": 11.1,
    "simpl": 0.0,
-   "razorpay_magic": 17.6
+   "razorpay_magic": 16.7
   },
-  "total": 17
+  "total": 18
  },
  "window_headline": {
   "weeks": 12,
@@ -458,18 +458,18 @@
    "label": "09 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 5,
+    "gokwik": 6,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 3
    },
    "shares": {
-    "gokwik": 62.5,
+    "gokwik": 66.7,
     "shopflo": 0.0,
     "simpl": 0.0,
-    "razorpay_magic": 37.5
+    "razorpay_magic": 33.3
    },
-   "total": 8,
+   "total": 9,
    "headline": {
     "counts": {
      "gokwik": 3,
@@ -488,16 +488,6 @@
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-16",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
   {
    "date": "2026-10-17",
    "counts": {
@@ -741,12 +731,12 @@
   {
    "date": "2026-11-10",
    "counts": {
-    "gokwik": 3,
+    "gokwik": 4,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 3
+   "total": 4
   },
   {
    "date": "2026-11-11",
@@ -780,6 +770,16 @@
   },
   {
    "date": "2026-11-14",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
+  },
+  {
+   "date": "2026-11-15",
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -893,6 +893,26 @@
    ],
    "relevance": {
     "gokwik": "headline"
+   }
+  },
+  {
+   "id": "469b9935bff9b3ca",
+   "title": "Diwali 2026: Online Order Values Rise 8% As Home Appliance Sales Surge",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMVZGZF9zOVNDd3kyVXB2TTdsLWxiNndHM2lIZzZSUTM2cTZ4TDNEaTFGLXQ1dmU0UEUwZXBmM2JCby1hYWlaMFlhZGhkX2lhdHczMUpkODFxR1ZPUERKSjZDdWdFeW5oT0k3aHNQTGFsYVBCZVpaTGVDX1hTdlFkOG00Y0tCOVFCZFlZZ0lWSVh5dUkyZzJMaGJ2ejJrYndXczREMWlUSjBsYl9xVFE?oc=5",
+   "publisher": "BW Disrupt",
+   "published": "2026-11-10T05:11:43+00:00",
+   "first_seen": "2026-11-15",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "BW Disrupt"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "mention"
    }
   },
   {
@@ -1178,26 +1198,6 @@
    ],
    "relevance": {
     "razorpay_magic": "mention"
-   }
-  },
-  {
-   "id": "821b4470c67a113a",
-   "title": "GoKwik and PayU bring multi-brand D2C shopping to ChatGPT, launch AI-powered commerce experience",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM1liU0t1UDJWSjBtaHFpQjZmdnoycktLWXpHQTZDZzFCUjROT3JkaEZ5M2JJRURKV0VRZWZpc2lsWDBCNGZCSjRVbmtuZExvMHF2SF9hOWQtV2Uxc09mZEVzQ0UzTVhFQV9ldHBZemVVNUVDRmJpdnhiWE1oZG5MNGdn?oc=5",
-   "publisher": "Express Computer",
-   "published": "2026-07-30T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Express Computer"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
    }
   }
  ],
@@ -1553,6 +1553,26 @@
    }
   },
   {
+   "id": "42cba43ad6e8719c",
+   "title": "WhatsApp becomes key customer acquisition channel for D2C brands: GoKwik",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUtlM195X3pkTzlEbEhVT2J5azQyT2ZHcnVQVnFHWm1BUkxvczZ0VkFSVGFIVXlmU1RjVVRVdFdWVzBidTlFcG1YTXRpazloNHZwYlJsbG9SMzFEY0dENW15bGFDTC1Yb2ZweV8xc1lzZmxmaWxiZkhqU0wxV0FlWFBHSHotdkM4SWc1WTBDdTJsSGR1Wjl1X01zZ2REdHdJZGE1S1ZCOGE5UWVKUWRDd1MzNEdYb0V0TkExOFpQdHZVaG_SAcgBQVVfeXFMUC0wZ1AwanJEUEpVUGF4dG41Nkg2eTdWU3RIRVNHR1FPRzd0d1BtcjhTZVpCVnpzNDNQa2h6bDA5X0tib3U2NkdhOEhFV21wNWFQVmNpcjJjMHlkWlhNa1FEM0R1Z0FZOGhyYUZONlJWbmR1dlZmSXEyRmZ1MU1yYUE4WmJrS0d5a3Nwd1pDTXBBVnNfWks0RURzUFIzM1NpVk1wZUlHWXpMY1pzRlVyV2tKcVpVT2MwMkhxNFFVN3ZVaVc1QUxtakU?oc=5",
+   "publisher": "Moneycontrol.com",
+   "published": "2026-06-18T07:00:00+00:00",
+   "first_seen": "2026-11-15",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Moneycontrol.com"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "1488a88c99b2cf94",
    "title": "Pine Labs completes 100% acquisition of Shopflo Technologies",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVFQ3dHliYzlSZGVnSnNGR0FxaUZmdWFBWEtjWktUcUhqb3dDU2FYWWNkanVaRmpJbjdTZThnRWdsZzVxcFdaUnduQTZ6QURRVWFBVU1yOFVLVW1CTmU0UkNmQ0RzMUZWUV90QmdIZFUtZ2FaUHhQblQ1eUxoLVRkSDJPVDZKYl9vejY3T2VMNTNIdFlRd2thMEZSaDBaOXRBN2tvNVVNUEVVT1NPS2RLT2d3ZHYzUzA?oc=5",
@@ -1591,41 +1611,21 @@
    "relevance": {
     "shopflo": "headline"
    }
-  },
-  {
-   "id": "1fb771606ee3a17b",
-   "title": "GoKwik partners with boAt co-founder Aman Gupta for first brand campaign",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTTdOVDdSXzduemx5a3hzNzBPRTZUcTZCOE0tbXhCMl8tRlY0cHBOOVdGWjJfRm53aUcyMEZUdFBpUTNCWUZpbF9pSWVNOUpXMkJXMDh0ZVB4am04S3p4RW5ySDBjTDVfanNTZEVDbGhMNldCUjdyYTBJZUpxR3RpTEpEQ0ZkNGo4dmxwTFlaQjdOVXRRTnZmMlF1NU51WHBGVHBXeGR1NW5wUXJ0aHJjOEtLZ1B4dUJ6WHhOYWRwYjBSRVFpVjNr0gHMAUFVX3lxTE1KX2NvUlBFV0RhRS1Lcml4YW1MLUgwVmFVbXdyaXIxUTNsZzZueFkwd3NCeW1XdWY2ZjFfcDk2dlRBT2FyQXE3SnZvc1lOQ1lDcXJJc0VQenViU0FaMUh2TXZNYnlPQXhIc2Q5WUtJWUhlbzhFVTAzUG82clVQQi1qZTMtME5yM2N2dHFJWEJUUHBuNld5Y3djWUVHUXNES1BLLWphVDJyX1QwYXhOSEVYRGRIZTRjRjlGaVlMVjlWUjlLaW5OXzFYb0h3QQ?oc=5",
-   "publisher": "Storyboard18",
-   "published": "2026-06-07T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Storyboard18"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 170,
-  "headline": 154,
-  "mention_only": 16,
+  "company_articles": 174,
+  "headline": 157,
+  "mention_only": 17,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 35
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-14T09:15:02+00:00",
-   "status": "warn",
-   "fetched": 174,
+   "run_at": "2026-11-14T19:24:42+00:00",
+   "status": "ok",
+   "fetched": 184,
    "new": 4,
    "per_company": {
     "gokwik": {
@@ -1633,22 +1633,20 @@
      "new": 2
     },
     "shopflo": {
-     "fetched": 33,
+     "fetched": 44,
      "new": 1
     },
     "simpl": {
-     "fetched": 59,
-     "new": 1
+     "fetched": 58,
+     "new": 0
     },
     "razorpay_magic": {
      "fetched": 13,
-     "new": 0
+     "new": 1
     }
    },
    "problems": [],
-   "warnings": [
-    "bing/shopflo: bad XML from bing: not well-formed (invalid token): line 1, column 41"
-   ]
+   "warnings": []
   },
   "recent_runs": [
    {
@@ -1782,6 +1780,32 @@
     "warnings": [
      "bing/shopflo: bad XML from bing: not well-formed (invalid token): line 1, column 41"
     ]
+   },
+   {
+    "run_at": "2026-11-14T19:24:42+00:00",
+    "status": "ok",
+    "fetched": 184,
+    "new": 4,
+    "per_company": {
+     "gokwik": {
+      "fetched": 69,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 44,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 58,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
    }
   ]
  }

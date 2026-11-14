@@ -6,7 +6,7 @@
   "publisher": "NewsBytes",
   "published": "2026-11-13T10:47:05+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -48,7 +48,7 @@
   "publisher": "YourStory.com",
   "published": "2026-11-13T07:37:37+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -69,7 +69,7 @@
   "publisher": "Business Standard",
   "published": "2026-11-13T07:05:07+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -91,7 +91,7 @@
   "publisher": "Inc42",
   "published": "2026-11-11T16:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -114,7 +114,7 @@
   "publisher": "Inc42",
   "published": "2026-11-10T17:30:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -130,6 +130,27 @@
    "gokwik": "headline"
   }
  },
+ "469b9935bff9b3ca": {
+  "id": "469b9935bff9b3ca",
+  "title": "Diwali 2026: Online Order Values Rise 8% As Home Appliance Sales Surge",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMVZGZF9zOVNDd3kyVXB2TTdsLWxiNndHM2lIZzZSUTM2cTZ4TDNEaTFGLXQ1dmU0UEUwZXBmM2JCby1hYWlaMFlhZGhkX2lhdHczMUpkODFxR1ZPUERKSjZDdWdFeW5oT0k3aHNQTGFsYVBCZVpaTGVDX1hTdlFkOG00Y0tCOVFCZFlZZ0lWSVh5dUkyZzJMaGJ2ejJrYndXczREMWlUSjBsYl9xVFE?oc=5",
+  "publisher": "BW Disrupt",
+  "published": "2026-11-10T05:11:43+00:00",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "BW Disrupt"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "89662afaa7433a92": {
   "id": "89662afaa7433a92",
   "title": "Diwali spending shifts to high-value purchases as average order value rises 8%",
@@ -137,7 +158,7 @@
   "publisher": "Storyboard18",
   "published": "2026-11-10T04:16:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -159,7 +180,7 @@
   "publisher": "Mediabrief",
   "published": "2026-11-10T03:13:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -180,7 +201,7 @@
   "publisher": "The Economic Times",
   "published": "2026-11-09T11:24:54+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -201,7 +222,7 @@
   "publisher": "BW People",
   "published": "2026-11-02T16:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -223,7 +244,7 @@
   "publisher": "ETHRWorld.com",
   "published": "2026-11-02T04:25:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -246,7 +267,7 @@
   "publisher": "YourStory.com",
   "published": "2026-10-30T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -267,7 +288,7 @@
   "publisher": "Passionate In Marketing",
   "published": "2026-10-29T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -288,7 +309,7 @@
   "publisher": "The Economic Times",
   "published": "2026-10-29T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -309,7 +330,7 @@
   "publisher": "Exchange4Media",
   "published": "2026-10-23T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -331,7 +352,7 @@
   "publisher": "TechGig",
   "published": "2026-10-17T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -373,7 +394,7 @@
   "publisher": "MarkHub24",
   "published": "2026-10-08T04:00:24+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -394,7 +415,7 @@
   "publisher": "ET BrandEquity",
   "published": "2026-09-09T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -415,7 +436,7 @@
   "publisher": "Indian Startup Times",
   "published": "2026-08-18T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -436,7 +457,7 @@
   "publisher": "ANI News",
   "published": "2026-08-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -457,7 +478,7 @@
   "publisher": "Express Computer",
   "published": "2026-07-30T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -478,7 +499,7 @@
   "publisher": "https://www.fintechbiznews.com/",
   "published": "2026-07-28T07:21:04+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -499,7 +520,7 @@
   "publisher": "afaqs!",
   "published": "2026-07-28T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -520,7 +541,7 @@
   "publisher": "BMI",
   "published": "2026-07-28T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -541,7 +562,7 @@
   "publisher": "Lapaas Voice",
   "published": "2026-07-12T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -562,7 +583,7 @@
   "publisher": "Inc42",
   "published": "2026-07-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -583,7 +604,7 @@
   "publisher": "Exchange4Media",
   "published": "2026-07-08T04:23:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -606,7 +627,7 @@
   "publisher": "ET Entrepreneur",
   "published": "2026-06-19T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -620,6 +641,27 @@
    "gokwik": "mention"
   }
  },
+ "42cba43ad6e8719c": {
+  "id": "42cba43ad6e8719c",
+  "title": "WhatsApp becomes key customer acquisition channel for D2C brands: GoKwik",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUtlM195X3pkTzlEbEhVT2J5azQyT2ZHcnVQVnFHWm1BUkxvczZ0VkFSVGFIVXlmU1RjVVRVdFdWVzBidTlFcG1YTXRpazloNHZwYlJsbG9SMzFEY0dENW15bGFDTC1Yb2ZweV8xc1lzZmxmaWxiZkhqU0wxV0FlWFBHSHotdkM4SWc1WTBDdTJsSGR1Wjl1X01zZ2REdHdJZGE1S1ZCOGE5UWVKUWRDd1MzNEdYb0V0TkExOFpQdHZVaG_SAcgBQVVfeXFMUC0wZ1AwanJEUEpVUGF4dG41Nkg2eTdWU3RIRVNHR1FPRzd0d1BtcjhTZVpCVnpzNDNQa2h6bDA5X0tib3U2NkdhOEhFV21wNWFQVmNpcjJjMHlkWlhNa1FEM0R1Z0FZOGhyYUZONlJWbmR1dlZmSXEyRmZ1MU1yYUE4WmJrS0d5a3Nwd1pDTXBBVnNfWks0RURzUFIzM1NpVk1wZUlHWXpMY1pzRlVyV2tKcVpVT2MwMkhxNFFVN3ZVaVc1QUxtakU?oc=5",
+  "publisher": "Moneycontrol.com",
+  "published": "2026-06-18T07:00:00+00:00",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Moneycontrol.com"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
  "263147f6d0417376": {
   "id": "263147f6d0417376",
   "title": "BiteSpeed partners with Razorpay to launch Unified AI conversion and retention stack for D2C brands",
@@ -627,7 +669,7 @@
   "publisher": "ANI News",
   "published": "2026-06-15T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -648,7 +690,7 @@
   "publisher": "scanx.trade",
   "published": "2026-06-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -690,7 +732,7 @@
   "publisher": "Storyboard18",
   "published": "2026-06-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -711,7 +753,7 @@
   "publisher": "Fortune India",
   "published": "2026-06-03T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -732,7 +774,7 @@
   "publisher": "Adgully",
   "published": "2026-06-03T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -753,7 +795,7 @@
   "publisher": "ET BrandEquity",
   "published": "2026-06-03T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -774,7 +816,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2026-05-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -795,7 +837,7 @@
   "publisher": "Adgully",
   "published": "2026-05-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -816,7 +858,7 @@
   "publisher": "Bar and Bench",
   "published": "2026-05-04T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -837,7 +879,7 @@
   "publisher": "FinTech Futures",
   "published": "2026-05-01T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -858,7 +900,7 @@
   "publisher": "Entrepreneur India",
   "published": "2026-04-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -879,7 +921,7 @@
   "publisher": "VCCircle",
   "published": "2026-04-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -900,7 +942,7 @@
   "publisher": "Inc42",
   "published": "2026-04-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -921,7 +963,7 @@
   "publisher": "newsbytesapp.com",
   "published": "2026-04-26T07:08:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -942,7 +984,7 @@
   "publisher": "FF News",
   "published": "2026-04-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -963,7 +1005,7 @@
   "publisher": "Business Standard",
   "published": "2026-04-25T20:28:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -985,7 +1027,7 @@
   "publisher": "money.rediff",
   "published": "2026-04-25T13:25:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1006,7 +1048,7 @@
   "publisher": "The Economic Times",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1027,7 +1069,7 @@
   "publisher": "Entrackr",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1048,7 +1090,7 @@
   "publisher": "BusinessLine",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1069,7 +1111,7 @@
   "publisher": "NiftyTrader",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1090,7 +1132,7 @@
   "publisher": "Indian Startup News",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1111,7 +1153,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1133,7 +1175,7 @@
   "publisher": "Inc42",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1154,7 +1196,7 @@
   "publisher": "YourStory.com",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1177,7 +1219,7 @@
   "publisher": "scanx.trade",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1198,7 +1240,7 @@
   "publisher": "ascendants.in",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1219,7 +1261,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2026-04-25T05:55:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1241,7 +1283,7 @@
   "publisher": "CNBC TV18",
   "published": "2026-04-25T03:48:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1264,7 +1306,7 @@
   "publisher": "The Free Press Journal",
   "published": "2026-04-25T03:18:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -1285,7 +1327,7 @@
   "publisher": "ET BrandEquity",
   "published": "2026-04-14T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1306,7 +1348,7 @@
   "publisher": "Storyboard18",
   "published": "2026-04-14T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1327,7 +1369,7 @@
   "publisher": "Banking Frontiers",
   "published": "2026-03-12T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1348,7 +1390,7 @@
   "publisher": "Business Standard",
   "published": "2026-03-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1369,7 +1411,7 @@
   "publisher": "CXO Digitalpulse",
   "published": "2026-03-10T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1390,7 +1432,7 @@
   "publisher": "Business Standard",
   "published": "2026-03-09T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1411,7 +1453,7 @@
   "publisher": "IBS Intelligence",
   "published": "2026-03-09T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1432,7 +1474,7 @@
   "publisher": "Fintech Singapore",
   "published": "2026-03-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1453,7 +1495,7 @@
   "publisher": "afaqs!",
   "published": "2025-12-11T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1474,7 +1516,7 @@
   "publisher": "ET BrandEquity",
   "published": "2025-12-11T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1495,7 +1537,7 @@
   "publisher": "Exchange4Media",
   "published": "2025-11-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1516,7 +1558,7 @@
   "publisher": "BMI",
   "published": "2025-11-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1537,7 +1579,7 @@
   "publisher": "Entrackr",
   "published": "2025-11-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1558,7 +1600,7 @@
   "publisher": "Indian Startup News",
   "published": "2025-10-03T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1579,7 +1621,7 @@
   "publisher": "People Matters - HR News",
   "published": "2025-10-02T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1600,7 +1642,7 @@
   "publisher": "Inc42",
   "published": "2025-10-01T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1621,7 +1663,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2025-10-01T06:08:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1664,7 +1706,7 @@
   "publisher": "The Times of India",
   "published": "2025-09-29T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1685,7 +1727,7 @@
   "publisher": "ET Government",
   "published": "2025-09-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1706,7 +1748,7 @@
   "publisher": "MediaNama",
   "published": "2025-09-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1727,7 +1769,7 @@
   "publisher": "Upstox",
   "published": "2025-09-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1748,7 +1790,7 @@
   "publisher": "The Economic Times",
   "published": "2025-09-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1769,7 +1811,7 @@
   "publisher": "Business Today",
   "published": "2025-09-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1790,7 +1832,7 @@
   "publisher": "The 420.in",
   "published": "2025-09-26T07:00:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1811,7 +1853,7 @@
   "publisher": "The Lallantop",
   "published": "2025-09-26T04:49:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1834,7 +1876,7 @@
   "publisher": "CNBC TV18",
   "published": "2025-09-25T21:49:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1857,7 +1899,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2025-09-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1878,7 +1920,7 @@
   "publisher": "Inc42",
   "published": "2025-09-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1899,7 +1941,7 @@
   "publisher": "The Economic Times",
   "published": "2025-09-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1920,7 +1962,7 @@
   "publisher": "The Economic Times",
   "published": "2025-09-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -1941,7 +1983,7 @@
   "publisher": "ET BrandEquity",
   "published": "2025-07-29T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1962,7 +2004,7 @@
   "publisher": "Entrackr",
   "published": "2025-07-29T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -1983,7 +2025,7 @@
   "publisher": "MediaNama",
   "published": "2025-07-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2004,7 +2046,7 @@
   "publisher": "MediaNama",
   "published": "2025-07-25T03:09:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2025,7 +2067,7 @@
   "publisher": "BW Disrupt",
   "published": "2025-07-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2046,7 +2088,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2025-07-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2067,7 +2109,7 @@
   "publisher": "YourStory.com",
   "published": "2025-07-24T07:00:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2088,7 +2130,7 @@
   "publisher": "Business Standard",
   "published": "2025-07-23T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2109,7 +2151,7 @@
   "publisher": "The Economic Times",
   "published": "2025-07-23T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2130,7 +2172,7 @@
   "publisher": "Entrackr",
   "published": "2025-06-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2151,7 +2193,7 @@
   "publisher": "YourStory.com",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2172,7 +2214,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2193,7 +2235,7 @@
   "publisher": "VCCircle",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2214,7 +2256,7 @@
   "publisher": "Inc42",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2235,7 +2277,7 @@
   "publisher": "TechCrunch",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2277,7 +2319,7 @@
   "publisher": "Entrackr",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2298,7 +2340,7 @@
   "publisher": "The Arc Web",
   "published": "2025-06-24T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2319,7 +2361,7 @@
   "publisher": "inc42.com",
   "published": "2025-06-22T16:59:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2340,7 +2382,7 @@
   "publisher": "Clay",
   "published": "2025-04-08T05:58:42+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -2361,7 +2403,7 @@
   "publisher": "The Financial Express",
   "published": "2024-09-10T03:39:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2382,7 +2424,7 @@
   "publisher": "McKinsey & Company",
   "published": "2024-07-24T19:31:40+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -2403,7 +2445,7 @@
   "publisher": "ETHRWorld.com",
   "published": "2024-06-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2424,7 +2466,7 @@
   "publisher": "Indiatimes",
   "published": "2024-06-06T08:38:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2445,7 +2487,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2024-06-06T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2466,7 +2508,7 @@
   "publisher": "YourStory.com",
   "published": "2024-05-21T19:01:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2489,7 +2531,7 @@
   "publisher": "Forbes",
   "published": "2024-05-15T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -2531,7 +2573,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2024-05-08T06:49:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2553,7 +2595,7 @@
   "publisher": "Your Story",
   "published": "2024-05-08T03:53:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2574,7 +2616,7 @@
   "publisher": "Adgully",
   "published": "2024-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2595,7 +2637,7 @@
   "publisher": "DQ",
   "published": "2024-04-22T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2616,7 +2658,7 @@
   "publisher": "Inc42",
   "published": "2024-03-29T20:24:28+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -2637,7 +2679,7 @@
   "publisher": "fintechbiznews.com",
   "published": "2024-03-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2658,7 +2700,7 @@
   "publisher": "Business Standard",
   "published": "2024-03-27T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2679,7 +2721,7 @@
   "publisher": "YourStory.com",
   "published": "2024-03-26T21:30:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -2702,7 +2744,7 @@
   "publisher": "MediaNews4U",
   "published": "2024-02-14T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2744,7 +2786,7 @@
   "publisher": "Indian Startup News",
   "published": "2023-10-15T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2765,7 +2807,7 @@
   "publisher": "ET Retail",
   "published": "2023-07-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2786,7 +2828,7 @@
   "publisher": "Business Line",
   "published": "2023-07-26T04:33:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -2807,7 +2849,7 @@
   "publisher": "Inventiva",
   "published": "2023-06-30T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2815,7 +2857,8 @@
    "google"
   ],
   "outlets": [
-   "Inventiva"
+   "Inventiva",
+   "inventiva.co.in"
   ],
   "relevance": {
    "simpl": "headline"
@@ -2828,7 +2871,7 @@
   "publisher": "Inc42",
   "published": "2023-06-06T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2849,7 +2892,7 @@
   "publisher": "Indian Retailer",
   "published": "2023-05-13T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -2870,7 +2913,7 @@
   "publisher": "Entrackr",
   "published": "2023-04-19T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2891,7 +2934,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2023-02-14T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2912,7 +2955,7 @@
   "publisher": "Forbes India",
   "published": "2022-11-29T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2933,7 +2976,7 @@
   "publisher": "Forbes India",
   "published": "2022-11-15T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -2975,7 +3018,7 @@
   "publisher": "The Times of India",
   "published": "2022-08-23T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -2996,7 +3039,7 @@
   "publisher": "The Hindu",
   "published": "2022-08-05T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3017,7 +3060,7 @@
   "publisher": "Elets BFSI",
   "published": "2022-07-20T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3031,6 +3074,27 @@
    "simpl": "headline"
   }
  },
+ "2c6b82e3554b88fe": {
+  "id": "2c6b82e3554b88fe",
+  "title": "Tiger Global invests in SaaS platform Shopflo",
+  "url": "https://www.dtnext.in/news/business/tiger-global-invests-in-saas-platform-shopflo",
+  "publisher": "dtnext",
+  "published": "2022-05-11T20:45:00+00:00",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "companies": [
+   "shopflo"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "dtnext"
+  ],
+  "relevance": {
+   "shopflo": "headline"
+  }
+ },
  "4908b15cea3f3dff": {
   "id": "4908b15cea3f3dff",
   "title": "[Funding alert] Shopflo raises $2.6M in seed round from Tiger Global, TQ Ventures",
@@ -3038,7 +3102,7 @@
   "publisher": "YourStory.com",
   "published": "2022-05-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3059,7 +3123,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2022-05-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3080,7 +3144,7 @@
   "publisher": "Entrackr",
   "published": "2022-05-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3101,7 +3165,7 @@
   "publisher": "Grit Daily News",
   "published": "2022-05-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3122,7 +3186,7 @@
   "publisher": "Indian Startup News",
   "published": "2022-05-11T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3143,7 +3207,7 @@
   "publisher": "The Free Press Journal",
   "published": "2022-05-10T22:50:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3164,7 +3228,7 @@
   "publisher": "Indiatimes",
   "published": "2022-05-10T21:02:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "shopflo"
   ],
@@ -3185,7 +3249,7 @@
   "publisher": "ET BrandEquity",
   "published": "2022-05-02T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3206,7 +3270,7 @@
   "publisher": "Livemint",
   "published": "2022-03-31T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3248,7 +3312,7 @@
   "publisher": "People Matters - HR News",
   "published": "2022-01-18T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3262,6 +3326,27 @@
    "gokwik": "headline"
   }
  },
+ "900b5afc3c4145a7": {
+  "id": "900b5afc3c4145a7",
+  "title": "India's Razorpay launches Magic Checkout to save shopper's information",
+  "url": "https://www.siliconindia.com/news/startups/indias-razorpay-launches-magic-checkout-to-save-shoppers-information-nid-217563-cid-100.html",
+  "publisher": "SiliconIndia",
+  "published": "2021-12-09T06:48:00+00:00",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "companies": [
+   "razorpay_magic"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "SiliconIndia"
+  ],
+  "relevance": {
+   "razorpay_magic": "headline"
+  }
+ },
  "fa4ea30dddfb3045": {
   "id": "fa4ea30dddfb3045",
   "title": "Razorpay launches solutions to improve conversions, ease tax payments, and more for small businesses",
@@ -3269,7 +3354,7 @@
   "publisher": "The Financial Express",
   "published": "2021-12-08T23:11:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "razorpay_magic"
   ],
@@ -3290,7 +3375,7 @@
   "publisher": "YourStory.com",
   "published": "2021-12-07T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3311,7 +3396,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2021-12-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3332,7 +3417,7 @@
   "publisher": "The Financial Express",
   "published": "2021-12-03T06:01:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3353,7 +3438,7 @@
   "publisher": "FF News",
   "published": "2021-12-02T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3374,7 +3459,7 @@
   "publisher": "Entrackr",
   "published": "2021-12-01T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3395,7 +3480,7 @@
   "publisher": "Inc42",
   "published": "2021-11-17T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3437,7 +3522,7 @@
   "publisher": "Mint",
   "published": "2021-11-17T02:49:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3458,7 +3543,7 @@
   "publisher": "Inc42",
   "published": "2021-09-07T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "gokwik"
   ],
@@ -3479,7 +3564,7 @@
   "publisher": "Inc42",
   "published": "2021-03-11T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3500,7 +3585,7 @@
   "publisher": "Inc42",
   "published": "2021-01-21T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3521,7 +3606,7 @@
   "publisher": "The Ken",
   "published": "2020-12-11T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3542,7 +3627,7 @@
   "publisher": "orfonline.org",
   "published": "2020-11-03T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3563,7 +3648,7 @@
   "publisher": "YourStory.com",
   "published": "2020-07-08T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3605,7 +3690,7 @@
   "publisher": "YourStory.com",
   "published": "2019-09-17T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
@@ -3626,7 +3711,7 @@
   "publisher": "YourStory.com",
   "published": "2016-11-15T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "companies": [
    "simpl"
   ],
