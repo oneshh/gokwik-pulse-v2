@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T21:03:23+00:00",
+ "generated_at": "2026-11-14T09:15:02+00:00",
  "today": "2026-11-14",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 166,
+  "articles": 170,
   "by_company": {
-   "gokwik": 64,
-   "shopflo": 37,
-   "simpl": 56,
+   "gokwik": 66,
+   "shopflo": 38,
+   "simpl": 57,
    "razorpay_magic": 9
   },
   "by_company_headline": {
-   "gokwik": 60,
-   "shopflo": 34,
-   "simpl": 54,
+   "gokwik": 62,
+   "shopflo": 35,
+   "simpl": 55,
    "razorpay_magic": 2
   },
   "shares": {
-   "gokwik": 38.6,
-   "shopflo": 22.3,
-   "simpl": 33.7,
-   "razorpay_magic": 5.4
+   "gokwik": 38.8,
+   "shopflo": 22.4,
+   "simpl": 33.5,
+   "razorpay_magic": 5.3
   },
-  "added_today": 15,
+  "added_today": 19,
   "last_30_days": 15
  },
  "window": {
@@ -909,7 +909,8 @@
     "Storyboard18"
    ],
    "sources": [
-    "bing"
+    "bing",
+    "google"
    ],
    "relevance": {
     "gokwik": "mention"
@@ -1613,8 +1614,8 @@
   }
  ],
  "review": {
-  "company_articles": 166,
-  "headline": 150,
+  "company_articles": 170,
+  "headline": 154,
   "mention_only": 16,
   "excluded": 2,
   "duplicates": 0,
@@ -1622,30 +1623,32 @@
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-13T21:03:23+00:00",
-   "status": "ok",
-   "fetched": 185,
-   "new": 15,
+   "run_at": "2026-11-14T09:15:02+00:00",
+   "status": "warn",
+   "fetched": 174,
+   "new": 4,
    "per_company": {
     "gokwik": {
      "fetched": 69,
-     "new": 4
+     "new": 2
     },
     "shopflo": {
-     "fetched": 43,
-     "new": 5
+     "fetched": 33,
+     "new": 1
     },
     "simpl": {
-     "fetched": 60,
-     "new": 4
+     "fetched": 59,
+     "new": 1
     },
     "razorpay_magic": {
      "fetched": 13,
-     "new": 2
+     "new": 0
     }
    },
    "problems": [],
-   "warnings": []
+   "warnings": [
+    "bing/shopflo: bad XML from bing: not well-formed (invalid token): line 1, column 41"
+   ]
   },
   "recent_runs": [
    {
@@ -1751,6 +1754,34 @@
     },
     "problems": [],
     "warnings": []
+   },
+   {
+    "run_at": "2026-11-14T09:15:02+00:00",
+    "status": "warn",
+    "fetched": 174,
+    "new": 4,
+    "per_company": {
+     "gokwik": {
+      "fetched": 69,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 33,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 59,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": [
+     "bing/shopflo: bad XML from bing: not well-formed (invalid token): line 1, column 41"
+    ]
    }
   ]
  }

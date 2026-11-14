@@ -137,12 +137,13 @@
   "publisher": "Storyboard18",
   "published": "2026-11-10T04:16:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "companies": [
    "gokwik"
   ],
   "sources": [
-   "bing"
+   "bing",
+   "google"
   ],
   "outlets": [
    "Storyboard18"
@@ -2059,6 +2060,27 @@
    "simpl": "headline"
   }
  },
+ "1d01e136f4bb551c": {
+  "id": "1d01e136f4bb551c",
+  "title": "Fintech SIMPL under ED scanner for alleged Rs 900 Cr FEMA breach",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYVVDTlQzV2FNWEl5TzY4Zm9zbVUtRDFsZFRIMlpzc0swSnRTMHlXcmN1OGVlWkVKdjQ5emRWYlJnVjdDa3g3dk1ZRm1taVpwc25acjNKWmF0X0VxZnlReHIxSzBVVnIzbHRzamFoMno3ZzlyUkRVRTJSWXg5b2VoYjREWEFrNzc1ZVVDRQ?oc=5",
+  "publisher": "YourStory.com",
+  "published": "2025-07-24T07:00:00+00:00",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "YourStory.com"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
  "5b2fc825ebe57c72": {
   "id": "5b2fc825ebe57c72",
   "title": "ED files plaint against fintech firm SIMPL for FDI policy violation",
@@ -2585,6 +2607,27 @@
   ],
   "relevance": {
    "simpl": "headline"
+  }
+ },
+ "296732a79ee5597c": {
+  "id": "296732a79ee5597c",
+  "title": "Shopflo Funding 2026 – Total Funding, Rounds & Investors",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkZjZWdUdlOUt1eW5wemdpRlB5cEdJMVNmOXdRLWNZb3lyQWdDNF9hVWdLM2xwUTlIV0FZbEgwclFFa25VcmhLR2ZuSWZhRFVfdXNUaQ?oc=5",
+  "publisher": "Inc42",
+  "published": "2024-03-29T20:24:28+00:00",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14",
+  "companies": [
+   "shopflo"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Inc42"
+  ],
+  "relevance": {
+   "shopflo": "headline"
   }
  },
  "5d23d3c3b8140ec2": {
@@ -3361,6 +3404,48 @@
   ],
   "outlets": [
    "Inc42"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "a36fc0309342e868": {
+  "id": "a36fc0309342e868",
+  "title": "E-commerce enablement company GoKwik raises ₹112 crore in a Series A round",
+  "url": "https://www.livemint.com/companies/start-ups/ecommerce-enablement-company-gokwik-raises-rs-112-crore-in-a-series-a-round-11637150031630.html",
+  "publisher": "Mint",
+  "published": "2021-11-17T04:08:00+00:00",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Mint"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "1af84cfe8168150e": {
+  "id": "1af84cfe8168150e",
+  "title": "GoKwik raises ₹112 cr funding led by Sequoia Capital India",
+  "url": "https://www.livemint.com/companies/news/gokwik-raises-rs-112-cr-funding-led-by-sequoia-capital-india-11637144844321.html",
+  "publisher": "Mint",
+  "published": "2021-11-17T02:49:00+00:00",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Mint"
   ],
   "relevance": {
    "gokwik": "headline"
