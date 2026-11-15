@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T19:24:42+00:00",
+ "generated_at": "2026-11-15T09:44:26+00:00",
  "today": "2026-11-15",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 174,
+  "articles": 180,
   "by_company": {
-   "gokwik": 68,
-   "shopflo": 39,
-   "simpl": 57,
-   "razorpay_magic": 10
+   "gokwik": 69,
+   "shopflo": 41,
+   "simpl": 59,
+   "razorpay_magic": 11
   },
   "by_company_headline": {
-   "gokwik": 63,
-   "shopflo": 36,
-   "simpl": 55,
-   "razorpay_magic": 3
+   "gokwik": 64,
+   "shopflo": 38,
+   "simpl": 57,
+   "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 39.1,
-   "shopflo": 22.4,
+   "gokwik": 38.3,
+   "shopflo": 22.8,
    "simpl": 32.8,
-   "razorpay_magic": 5.7
+   "razorpay_magic": 6.1
   },
-  "added_today": 4,
+  "added_today": 10,
   "last_30_days": 16
  },
  "window": {
@@ -1431,6 +1431,26 @@
    }
   },
   {
+   "id": "a96db425e7518b5d",
+   "title": "Pine Labs Deploys \u20b9975 Cr IPO Capital; Completes \u20b966 Cr Shopflo Acquisition",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNmFVbS1ESnZkZnNNekw3dndsZ1hWZDRScmJxWk5OckhCS3BTWkMybFVmeDB3dGZySWhyQjN5SUl4S0tJOThfWjFYSFhMY2hBdm5Odk5mNGJOb2VrekREWE9Zcy1hX29TNkdjV1Fia3RKb0RmOWhaRDJoMFNKamRrSWlxYjg4eHh5cUpkTjM5RW9QazhvMnRRdG9LRWg?oc=5",
+   "publisher": "Trade Brains",
+   "published": "2026-07-29T07:00:00+00:00",
+   "first_seen": "2026-11-15",
+   "companies": [
+    "shopflo"
+   ],
+   "outlets": [
+    "Trade Brains"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "shopflo": "headline"
+   }
+  },
+  {
    "id": "5570a2ac7c59f848",
    "title": "GoKwik & PayU Enable Multi-Brand D2C Commerce Experience On ChatGPT",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmZlbnVQb2VTQzFrTnJ5ZmRPUHlxV1NQS1Z0cW5FdmxrbEpZemlsWTFOTVAzZkNpX21mUG5SSU1FWHNYZzhaeC1UTWdmbkdoYWJHMDRYdzQycnBrQk9tLVVhTUVxTkNyTFVOUnlsTnZwNHVoNHR2UWVJTUV6aDJydWF2X0hmMkc5amlweDRKd2Y4bkpuNTU4cUNKY1NMM292dkVDZDhiT0wwcHpJWUtPbGVVa0pDQQ?oc=5",
@@ -1482,6 +1502,26 @@
    ],
    "outlets": [
     "BMI"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "99f1060527fa27de",
+   "title": "GoKwik and PayU debut ChatGPT shopping experience for D2C brands",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaEpfUUNWaTcwSVQ4RVBXNXNVb0tPaVZMOUZVNXBwZDVYdnFNcjJJcDB0YzR5TDh4clZ6UWYxeXNHSXYxYllHOFFGZlp6OGFPZVJDX3hIenlvVzhHSFBhc2hYOXNOWkd1dFVsd0JhSjF2bjRhTVlhYW10QWp1NTdGRU9kb3ZUQXpyUVBfRkVuMHRva1MtX1N4WFE2bk1SVlI4Zm1wNElVTHpSNnFsa1JQOXJwQk1XbjJfaGVyZA?oc=5",
+   "publisher": "IMPACT Magazine",
+   "published": "2026-07-28T07:00:00+00:00",
+   "first_seen": "2026-11-15",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "IMPACT Magazine"
    ],
    "sources": [
     "google"
@@ -1571,51 +1611,11 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "1488a88c99b2cf94",
-   "title": "Pine Labs completes 100% acquisition of Shopflo Technologies",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVFQ3dHliYzlSZGVnSnNGR0FxaUZmdWFBWEtjWktUcUhqb3dDU2FYWWNkanVaRmpJbjdTZThnRWdsZzVxcFdaUnduQTZ6QURRVWFBVU1yOFVLVW1CTmU0UkNmQ0RzMUZWUV90QmdIZFUtZ2FaUHhQblQ1eUxoLVRkSDJPVDZKYl9vejY3T2VMNTNIdFlRd2thMEZSaDBaOXRBN2tvNVVNUEVVT1NPS2RLT2d3ZHYzUzA?oc=5",
-   "publisher": "scanx.trade",
-   "published": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "shopflo"
-   ],
-   "outlets": [
-    "scanx.trade"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "shopflo": "headline"
-   }
-  },
-  {
-   "id": "f807d637be6a460d",
-   "title": "Pine Labs concludes acquisition of 100% stake in Shopflo Technologies",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQX0NHb0Y2Z3hOalptUnZBTmtxbi12V09rdFU4alhoYXZWYkNTdEloVWN0a25uWlpWQUFfVjJDMHIya0U5aWVWSE4tZUpaUEhLVVdpMmVlVXdjcmxPaGNCRGRzT1cyVkdPTWFVNzA2UElSa0VlM0ZZeC10ZmdPcVc0aFB5aTVRSnp6RUdpXzZXTzFZTXRNRU1pQzdBRzk2WHZWWHRoMVltUXF4b3JYNm9qSFZBcGtDVExjSzFqMDgzY21aSkQ5SGozZ3NCSnQ2bkt6eHltVVNWem5zbUp2aGlnSkdKczbSAeoBQVVfeXFMT0YzaWUzd3BBRlYwdC1WYTRiWmg0Z0ROQkhVVWJ4bEduZnFTckUwS2RDb1Y1TWtfNGZFZ3ZXMWhZSjBKSk1Dd3pCS2g0b1BlOUxULUFLUkphV1Vmb3hrY2FFRW5hVkkwbmpKMmVUOWhiMmg2UVdJSjM3NjZFRnAtaHEzZENfS292dmVvRDdmdGdZWnNaYTY4ek5nR1NqUDVWaEl6aGY4TmxZV1htX2xIRmZ1M3VnNHk2WDFjSTJRUU9jajk5WEhJQ2NHRnN5WEMteEpoMzJweGg2THZyT1haUkJSdUltTjF4blBB?oc=5",
-   "publisher": "Business Standard",
-   "published": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "shopflo"
-   ],
-   "outlets": [
-    "Business Standard"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "shopflo": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 174,
-  "headline": 157,
+  "company_articles": 180,
+  "headline": 163,
   "mention_only": 17,
   "excluded": 2,
   "duplicates": 0,
@@ -1623,25 +1623,25 @@
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-14T19:24:42+00:00",
+   "run_at": "2026-11-15T09:44:26+00:00",
    "status": "ok",
-   "fetched": 184,
-   "new": 4,
+   "fetched": 185,
+   "new": 6,
    "per_company": {
     "gokwik": {
-     "fetched": 69,
-     "new": 2
+     "fetched": 68,
+     "new": 1
     },
     "shopflo": {
-     "fetched": 44,
-     "new": 1
+     "fetched": 45,
+     "new": 2
     },
     "simpl": {
      "fetched": 58,
-     "new": 0
+     "new": 2
     },
     "razorpay_magic": {
-     "fetched": 13,
+     "fetched": 14,
      "new": 1
     }
    },
@@ -1801,6 +1801,32 @@
      },
      "razorpay_magic": {
       "fetched": 13,
+      "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-15T09:44:26+00:00",
+    "status": "ok",
+    "fetched": 185,
+    "new": 6,
+    "per_company": {
+     "gokwik": {
+      "fetched": 68,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 45,
+      "new": 2
+     },
+     "simpl": {
+      "fetched": 58,
+      "new": 2
+     },
+     "razorpay_magic": {
+      "fetched": 14,
       "new": 1
      }
     },
