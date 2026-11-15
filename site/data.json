@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T09:44:26+00:00",
- "today": "2026-11-15",
+ "generated_at": "2026-11-15T19:55:09+00:00",
+ "today": "2026-11-16",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,48 +33,48 @@
   }
  ],
  "totals": {
-  "articles": 180,
+  "articles": 187,
   "by_company": {
-   "gokwik": 69,
+   "gokwik": 73,
    "shopflo": 41,
-   "simpl": 59,
+   "simpl": 62,
    "razorpay_magic": 11
   },
   "by_company_headline": {
-   "gokwik": 64,
+   "gokwik": 67,
    "shopflo": 38,
-   "simpl": 57,
+   "simpl": 60,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.3,
-   "shopflo": 22.8,
-   "simpl": 32.8,
-   "razorpay_magic": 6.1
+   "gokwik": 39.0,
+   "shopflo": 21.9,
+   "simpl": 33.2,
+   "razorpay_magic": 5.9
   },
-  "added_today": 10,
+  "added_today": 7,
   "last_30_days": 16
  },
  "window": {
   "weeks": 12,
-  "from": "2026-08-24",
+  "from": "2026-08-31",
   "counts": {
-   "gokwik": 13,
+   "gokwik": 14,
    "shopflo": 2,
    "simpl": 0,
    "razorpay_magic": 3
   },
   "shares": {
-   "gokwik": 72.2,
-   "shopflo": 11.1,
+   "gokwik": 73.7,
+   "shopflo": 10.5,
    "simpl": 0.0,
-   "razorpay_magic": 16.7
+   "razorpay_magic": 15.8
   },
-  "total": 18
+  "total": 19
  },
  "window_headline": {
   "weeks": 12,
-  "from": "2026-08-24",
+  "from": "2026-08-31",
   "counts": {
    "gokwik": 9,
    "shopflo": 1,
@@ -90,39 +90,6 @@
   "total": 10
  },
  "weeks": [
-  {
-   "week_start": "2026-08-24",
-   "label": "24 Aug",
-   "is_current": false,
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "shares": {
-    "gokwik": 0.0,
-    "shopflo": 0.0,
-    "simpl": 0.0,
-    "razorpay_magic": 0.0
-   },
-   "total": 0,
-   "headline": {
-    "counts": {
-     "gokwik": 0,
-     "shopflo": 0,
-     "simpl": 0,
-     "razorpay_magic": 0
-    },
-    "shares": {
-     "gokwik": 0.0,
-     "shopflo": 0.0,
-     "simpl": 0.0,
-     "razorpay_magic": 0.0
-    },
-    "total": 0
-   }
-  },
   {
    "week_start": "2026-08-31",
    "label": "31 Aug",
@@ -456,20 +423,20 @@
   {
    "week_start": "2026-11-09",
    "label": "09 Nov",
-   "is_current": true,
+   "is_current": false,
    "counts": {
-    "gokwik": 6,
+    "gokwik": 7,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 3
    },
    "shares": {
-    "gokwik": 66.7,
+    "gokwik": 70.0,
     "shopflo": 0.0,
     "simpl": 0.0,
-    "razorpay_magic": 33.3
+    "razorpay_magic": 30.0
    },
-   "total": 9,
+   "total": 10,
    "headline": {
     "counts": {
      "gokwik": 3,
@@ -485,19 +452,42 @@
     },
     "total": 3
    }
-  }
- ],
- "daily": [
+  },
   {
-   "date": "2026-10-17",
+   "week_start": "2026-11-16",
+   "label": "16 Nov",
+   "is_current": true,
    "counts": {
     "gokwik": 0,
-    "shopflo": 1,
+    "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 1
-  },
+   "shares": {
+    "gokwik": 0.0,
+    "shopflo": 0.0,
+    "simpl": 0.0,
+    "razorpay_magic": 0.0
+   },
+   "total": 0,
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
+  }
+ ],
+ "daily": [
   {
    "date": "2026-10-18",
    "counts": {
@@ -721,12 +711,12 @@
   {
    "date": "2026-11-09",
    "counts": {
-    "gokwik": 1,
+    "gokwik": 2,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 1
+   "total": 2
   },
   {
    "date": "2026-11-10",
@@ -780,6 +770,16 @@
   },
   {
    "date": "2026-11-15",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
+  },
+  {
+   "date": "2026-11-16",
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -954,6 +954,26 @@
    ],
    "relevance": {
     "gokwik": "headline"
+   }
+  },
+  {
+   "id": "55e0ce6d31769395",
+   "title": "Diwali shopping expands beyond essentials as fashion, gifting gain ground",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbmhKbzRfRDBWTm51OUJHUF84VnlwSlM5OEhtWHRQQXIxMThCTzdveEdhajI0LV9fUkhITU9UTFBzWXVVU2VwNEVqYnpBZzNTVXE3NlZRZTViUnJfdVZmZUJkbjFUSkxwY1BPWUM5a2dKMU1aTHdmbXdnNXU2bnIyQk9xRnpmOTV1dmhxdzJCWFNvbzVyZk1MZkJDVTV0M3FQR2xEX1hzR3lWeWRuckRrRHZYanlnNUF1MWNUZ2VoMVV1Xy1EUS1YajVNdzBiSWNHeWtjUHUxVdIB3AFBVV95cUxNa3JvVkdCUXVDSGM2MnNTendNd2JOYUkxeEJuUEgxS0txN0U2eVpkcF9ueDc0WlY5b1A4ck51dndlNk1BeFBKSm5RVmRGX3phbGE4aDZuSTFXNjJIb2NvQ2trZEU3LXdkTEVKeXlTX3FXOUhOcVVYdjlwYVU1UFlmS1gyeXFvVlo1dnRZLUZ1LTN0ZV80b1V1VXR6elpEWUs1NnJyZTROOTZ2X3pFRmJhQVdERWRqM3o1akRqaUlITkdzMXFPTTB2WFh5WXB6ODZqUTRfNjA2aEZXRE1Z?oc=5",
+   "publisher": "Business Standard",
+   "published": "2026-11-09T18:03:00+00:00",
+   "first_seen": "2026-11-16",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Business Standard"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "mention"
    }
   },
   {
@@ -1172,26 +1192,6 @@
    ],
    "outlets": [
     "Indian Startup Times"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "razorpay_magic": "mention"
-   }
-  },
-  {
-   "id": "247dfc5f835bb322",
-   "title": "Top 5 Checkout Platforms to Improve eCommerce Conversions in India",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHdBOVBiQkpWVlJuODJuY1pQbS00YndQemVFT2lZSGlLcTExWnFIWTlZelRya1lreG1BVFhuN0k0V0k4TXE0SXA3RnhCUkpxQUd2dEtyWm05Ri1UTVpKMlE5YjlMUUVpMW1sbFd4Q3gyakNrV0VkbTZHN3pCVWFIdnZIeDl5dno1TXJXMEN0THZ1VmdlNE0tMmRCRW5HRFhYaWtOT3ZXVHFCMkRwNEFSQmVsYXJUTEJj?oc=5",
-   "publisher": "ANI News",
-   "published": "2026-08-07T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "razorpay_magic"
-   ],
-   "outlets": [
-    "ANI News"
    ],
    "sources": [
     "google"
@@ -1571,6 +1571,26 @@
    }
   },
   {
+   "id": "5511d27a98f2c6ae",
+   "title": "GoKwik appoints Aseem Goyal as VP - Business for Kwik Ship",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQlVuUklLeDB4ak9YOFpmdWpIOHVQVkwzU1h2NUVKcXFKRDN4dExMME1iYzRHNk5MR3NYUEdYREt2OHUyS3kwWW1BYVhEakcxY3k0RzZzdDhxOXpZOVNRa0kyQXAwczlpMkQwZEt3aDBWUkpuNDRQeVFyTFlkQnlvekVUbVA3cGVuMVBDb2x6ZGdvX21VdlRsYU1vcWZ0MzlMU3JWSmxZaVNMVEE1SEVNczF3?oc=5",
+   "publisher": "IMPACT Magazine",
+   "published": "2026-07-08T07:00:00+00:00",
+   "first_seen": "2026-11-16",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "IMPACT Magazine"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "2cfb8026bccc984a",
    "title": "GoKwik appoints Aseem Goyal as Vice President of Business for \u2018Kwik Ship\u2019",
    "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aseem-goyal-as-vice-president-of-business-for-kwik-ship-156146.html",
@@ -1591,58 +1611,38 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "42cba43ad6e8719c",
-   "title": "WhatsApp becomes key customer acquisition channel for D2C brands: GoKwik",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUtlM195X3pkTzlEbEhVT2J5azQyT2ZHcnVQVnFHWm1BUkxvczZ0VkFSVGFIVXlmU1RjVVRVdFdWVzBidTlFcG1YTXRpazloNHZwYlJsbG9SMzFEY0dENW15bGFDTC1Yb2ZweV8xc1lzZmxmaWxiZkhqU0wxV0FlWFBHSHotdkM4SWc1WTBDdTJsSGR1Wjl1X01zZ2REdHdJZGE1S1ZCOGE5UWVKUWRDd1MzNEdYb0V0TkExOFpQdHZVaG_SAcgBQVVfeXFMUC0wZ1AwanJEUEpVUGF4dG41Nkg2eTdWU3RIRVNHR1FPRzd0d1BtcjhTZVpCVnpzNDNQa2h6bDA5X0tib3U2NkdhOEhFV21wNWFQVmNpcjJjMHlkWlhNa1FEM0R1Z0FZOGhyYUZONlJWbmR1dlZmSXEyRmZ1MU1yYUE4WmJrS0d5a3Nwd1pDTXBBVnNfWks0RURzUFIzM1NpVk1wZUlHWXpMY1pzRlVyV2tKcVpVT2MwMkhxNFFVN3ZVaVc1QUxtakU?oc=5",
-   "publisher": "Moneycontrol.com",
-   "published": "2026-06-18T07:00:00+00:00",
-   "first_seen": "2026-11-15",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Moneycontrol.com"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 180,
-  "headline": 163,
-  "mention_only": 17,
+  "company_articles": 187,
+  "headline": 169,
+  "mention_only": 18,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 35
+  "same_story_other_outlets": 36
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-15T09:44:26+00:00",
+   "run_at": "2026-11-15T19:55:09+00:00",
    "status": "ok",
-   "fetched": 185,
-   "new": 6,
+   "fetched": 187,
+   "new": 7,
    "per_company": {
     "gokwik": {
-     "fetched": 68,
-     "new": 1
+     "fetched": 70,
+     "new": 4
     },
     "shopflo": {
-     "fetched": 45,
-     "new": 2
+     "fetched": 46,
+     "new": 0
     },
     "simpl": {
      "fetched": 58,
-     "new": 2
+     "new": 3
     },
     "razorpay_magic": {
-     "fetched": 14,
-     "new": 1
+     "fetched": 13,
+     "new": 0
     }
    },
    "problems": [],
@@ -1828,6 +1828,32 @@
      "razorpay_magic": {
       "fetched": 14,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-15T19:55:09+00:00",
+    "status": "ok",
+    "fetched": 187,
+    "new": 7,
+    "per_company": {
+     "gokwik": {
+      "fetched": 70,
+      "new": 4
+     },
+     "shopflo": {
+      "fetched": 46,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 58,
+      "new": 3
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 0
      }
     },
     "problems": [],

@@ -182,5 +182,31 @@
   },
   "problems": [],
   "warnings": []
+ },
+ {
+  "run_at": "2026-11-15T19:55:09+00:00",
+  "status": "ok",
+  "fetched": 187,
+  "new": 7,
+  "per_company": {
+   "gokwik": {
+    "fetched": 70,
+    "new": 4
+   },
+   "shopflo": {
+    "fetched": 46,
+    "new": 0
+   },
+   "simpl": {
+    "fetched": 58,
+    "new": 3
+   },
+   "razorpay_magic": {
+    "fetched": 13,
+    "new": 0
+   }
+  },
+  "problems": [],
+  "warnings": []
  }
 ]
