@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:28:42+00:00",
+ "generated_at": "2026-11-17T10:57:23+00:00",
  "today": "2026-11-17",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,44 +33,44 @@
   }
  ],
  "totals": {
-  "articles": 197,
+  "articles": 201,
   "by_company": {
-   "gokwik": 76,
-   "shopflo": 44,
-   "simpl": 66,
+   "gokwik": 77,
+   "shopflo": 45,
+   "simpl": 68,
    "razorpay_magic": 11
   },
   "by_company_headline": {
    "gokwik": 69,
-   "shopflo": 41,
-   "simpl": 64,
+   "shopflo": 42,
+   "simpl": 65,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.6,
-   "shopflo": 22.3,
-   "simpl": 33.5,
-   "razorpay_magic": 5.6
+   "gokwik": 38.3,
+   "shopflo": 22.4,
+   "simpl": 33.8,
+   "razorpay_magic": 5.5
   },
-  "added_today": 5,
-  "last_30_days": 17
+  "added_today": 9,
+  "last_30_days": 18
  },
  "window": {
   "weeks": 12,
   "from": "2026-08-31",
   "counts": {
-   "gokwik": 15,
+   "gokwik": 16,
    "shopflo": 2,
    "simpl": 0,
    "razorpay_magic": 3
   },
   "shares": {
-   "gokwik": 75.0,
-   "shopflo": 10.0,
+   "gokwik": 76.2,
+   "shopflo": 9.5,
    "simpl": 0.0,
-   "razorpay_magic": 15.0
+   "razorpay_magic": 14.3
   },
-  "total": 20
+  "total": 21
  },
  "window_headline": {
   "weeks": 12,
@@ -458,18 +458,18 @@
    "label": "16 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
    "shares": {
-    "gokwik": 0.0,
+    "gokwik": 100.0,
     "shopflo": 0.0,
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 0,
+   "total": 1,
    "headline": {
     "counts": {
      "gokwik": 0,
@@ -771,12 +771,12 @@
   {
    "date": "2026-11-16",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
+   "total": 1
   },
   {
    "date": "2026-11-17",
@@ -790,6 +790,26 @@
   }
  ],
  "latest": [
+  {
+   "id": "a212a1179181b7d9",
+   "title": "HiveSchool follows another strong placement season as it looks to break into India's top 20 B-schools",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSlpZaUVuTUcxMl9ralczczM2c3VhRG1vZmxyWjI2dU1OWUphQU9kQkhLYkVUbE5KM0luaWdoRkxCTzRFZFphT2hOWVhHZlc2VzBVUl9pTTNrUTgxOExteG1mWTJ5TFAyc2dQTEZDb1pYMFNwc0VOWnNtQ1E1VDFIbGlnbm94ejVkQXBPYzgzcWhRLVdMRkVKWnVudTVBNlNrZmRYSFA2S05GWjd6NTJRNHJ4bUoxcEtTSy1seDZvM1YyUVVXd2ZPT2VOeV9uXzFkX3VmTHZPVlFCNm9HYnc?oc=5",
+   "publisher": "Big News Network.com",
+   "published": "2026-11-16T10:51:00+00:00",
+   "first_seen": "2026-11-17",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Big News Network.com"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
+  },
   {
    "id": "2a07fb900dc71752",
    "title": "Top 10 Best Checkout Optimisation Platforms In India In 2027",
@@ -862,7 +882,8 @@
    ],
    "outlets": [
     "Business Standard",
-    "TheWire.in"
+    "TheWire.in",
+    "Outlook Business"
    ],
    "sources": [
     "google"
@@ -1172,26 +1193,6 @@
    ],
    "outlets": [
     "CXOToday.com"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "4bdf4286e3f7d967",
-   "title": "GoKwik releases brand film on e-commerce checkout trust",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeldLRC0zakEzUGlJOFBJLWxWWDVCd2tGSmVVRVB1SmptVDR4NFUzY3lqTk9nTmtHNHZYUkxUdnZtZUV2aWw4Z3dJZks3ZVl0c3FNRXFQVUZlRHRSa01MbFlNZ2QwNUJCNHVxX0FqU0dTeWJhemhnanE4WFoxTUdIMTZsZERCTTVHTlBZVHZxSl8zUGY4ZngyNzktSVlrbWxhLVFHNUNDeFMzQVJMYVdCWjN1UnVxN2s4amV5bmRoVGlRcnlGY1BFY3FxUmRFUVZXM0p5enBFd9IB3AFBVV95cUxORXVJdl9TNy1sX2dESjJBSDhzSmZCZmF4XzJjSHpHR043azdNYnFpeU5MMkxFaGlOTnJWVHdGRTlwSUVTZ29ubkdnbWxRMEQ1SFRFUWFFRFgyUnA1bHdWV0ZlMk9KcjZONjNiRHAwWEJPUGZnMmpfbi1DdlVhTjI3ckExLWoyN0ZITDVnQnNBdHY5RFBVQUlCTTNpN28wNERfbzBWTEFLY0FUYmdWVG5GS0dRczNXOUFPU3JWZnBtZDZtQUxkeURuTFVfNl8wVEtWbzVFVXJtLW95SFNo?oc=5",
-   "publisher": "ET BrandEquity",
-   "published": "2026-09-09T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "ET BrandEquity"
    ],
    "sources": [
     "google"
@@ -1614,34 +1615,34 @@
   }
  ],
  "review": {
-  "company_articles": 197,
-  "headline": 178,
-  "mention_only": 19,
+  "company_articles": 201,
+  "headline": 180,
+  "mention_only": 21,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 36
+  "same_story_other_outlets": 37
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-16T23:28:42+00:00",
+   "run_at": "2026-11-17T10:57:23+00:00",
    "status": "ok",
-   "fetched": 191,
-   "new": 5,
+   "fetched": 194,
+   "new": 4,
    "per_company": {
     "gokwik": {
      "fetched": 72,
      "new": 1
     },
     "shopflo": {
-     "fetched": 46,
+     "fetched": 47,
      "new": 1
     },
     "simpl": {
-     "fetched": 60,
-     "new": 3
+     "fetched": 61,
+     "new": 2
     },
     "razorpay_magic": {
-     "fetched": 13,
+     "fetched": 14,
      "new": 0
     }
    },
@@ -1905,6 +1906,32 @@
      },
      "razorpay_magic": {
       "fetched": 13,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-17T10:57:23+00:00",
+    "status": "ok",
+    "fetched": 194,
+    "new": 4,
+    "per_company": {
+     "gokwik": {
+      "fetched": 72,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 47,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 61,
+      "new": 2
+     },
+     "razorpay_magic": {
+      "fetched": 14,
       "new": 0
      }
     },

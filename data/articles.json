@@ -1,4 +1,25 @@
 {
+ "a212a1179181b7d9": {
+  "id": "a212a1179181b7d9",
+  "title": "HiveSchool follows another strong placement season as it looks to break into India's top 20 B-schools",
+  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSlpZaUVuTUcxMl9ralczczM2c3VhRG1vZmxyWjI2dU1OWUphQU9kQkhLYkVUbE5KM0luaWdoRkxCTzRFZFphT2hOWVhHZlc2VzBVUl9pTTNrUTgxOExteG1mWTJ5TFAyc2dQTEZDb1pYMFNwc0VOWnNtQ1E1VDFIbGlnbm94ejVkQXBPYzgzcWhRLVdMRkVKWnVudTVBNlNrZmRYSFA2S05GWjd6NTJRNHJ4bUoxcEtTSy1seDZvM1YyUVVXd2ZPT2VOeV9uXzFkX3VmTHZPVlFCNm9HYnc?oc=5",
+  "publisher": "Big News Network.com",
+  "published": "2026-11-16T10:51:00+00:00",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Big News Network.com"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "2a07fb900dc71752": {
   "id": "2a07fb900dc71752",
   "title": "Top 10 Best Checkout Optimisation Platforms In India In 2027",
@@ -99,7 +120,8 @@
   ],
   "outlets": [
    "Business Standard",
-   "TheWire.in"
+   "TheWire.in",
+   "Outlook Business"
   ],
   "relevance": {
    "razorpay_magic": "mention"
@@ -998,6 +1020,27 @@
    "shopflo": "headline"
   }
  },
+ "d7a95d637c5d3973": {
+  "id": "d7a95d637c5d3973",
+  "title": "Obhan Mason Advises Pine Labs on its Strategic Acquisition of Checkout Platform Shopflo",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaTgyOTh4QXI5Nk0xM2JXTUtOWjNiY3I4Y1NjbGZ3Y3lneFlJMG9oTHh0bWFHT2FlRmhBT0FCOWs5NU16VDJjdTJEcVNMalUyckVqNG5nRUZFWTUyWWxSMGZsV09CbUxzQjhyYlVsbkRtakFFVUdJTGl1ZUVwZ1JFdHEzcVFGdHRQS1RpZXc2Zk03MnFhdzExRVJwLW5jcTlrN0YwdzJJOHY5a0tfQTNWcmdsMy1PT1FaZEtlYndKZGFRRGFjeDdGeVdxTQ?oc=5",
+  "publisher": "BW Legal World",
+  "published": "2026-05-01T07:00:00+00:00",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "companies": [
+   "shopflo"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "BW Legal World"
+  ],
+  "relevance": {
+   "shopflo": "headline"
+  }
+ },
  "29760bd7bc61e5c3": {
   "id": "29760bd7bc61e5c3",
   "title": "Pine Labs says Shopflo deal is product-led, focused on growth",
@@ -1458,10 +1501,12 @@
    "shopflo"
   ],
   "sources": [
-   "bing"
+   "bing",
+   "google"
   ],
   "outlets": [
-   "The Free Press Journal"
+   "The Free Press Journal",
+   "Free Press Journal"
   ],
   "relevance": {
    "shopflo": "headline"
@@ -2398,6 +2443,27 @@
    "simpl": "headline"
   }
  },
+ "46fdd05adab87ee5": {
+  "id": "46fdd05adab87ee5",
+  "title": "ED files case against credit payment app company for FDI 'violation'",
+  "url": "https://bfsi.economictimes.indiatimes.com/articles/ed-investigates-one-sigma-technologies-for-fdi-violations-worth-913-crore/122861629",
+  "publisher": "bfsi.economictimes.indiatimes",
+  "published": "2025-07-23T06:25:00+00:00",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "bfsi.economictimes.indiatimes"
+  ],
+  "relevance": {
+   "simpl": "mention"
+  }
+ },
  "ef20e0657d807f9f": {
   "id": "ef20e0657d807f9f",
   "title": "Decoding GoKwik’s extended Series B round, current valuation and captable",
@@ -3124,7 +3190,7 @@
   "publisher": "Business Standard",
   "published": "2023-07-26T07:00:00+00:00",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-17",
   "companies": [
    "simpl"
   ],
@@ -3391,6 +3457,27 @@
    "simpl": "headline"
   }
  },
+ "d2696e9f57e90134": {
+  "id": "d2696e9f57e90134",
+  "title": "Simpl’s Partnership with ConfirmTkt to Simplify Digital Payments for Train Travellers",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXQzN05CdmYyZlJxQXlVOEdoWDA4ZGtGNDBYVG8ybVVlOXM2bjREU0gzdVFwVUNFc194ZlhrX0RWRDhLN2VGbW1TbFBmT3JPaC1ROVFBV0JJeFE2V0lER1hYeEJwMjJDckxzbkRKMjBPSTZsRGxzS3pHTWZvSnRhcXduRzc3cmFqY1ZtQ2VLWDZuUWpwTklhcUpfdUtfa3N4NmN6eWp1OEdrd1lQMHUw?oc=5",
+  "publisher": "Financial IT",
+  "published": "2022-08-10T07:00:00+00:00",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Financial IT"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
  "74d249fccae9c52e": {
   "id": "74d249fccae9c52e",
   "title": "GoKwik ties up with Truecaller",
@@ -3629,7 +3716,7 @@
   "publisher": "ET BrandEquity",
   "published": "2022-05-02T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-17",
   "companies": [
    "gokwik"
   ],
