@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T10:57:23+00:00",
- "today": "2026-11-17",
+ "generated_at": "2026-11-17T22:35:26+00:00",
+ "today": "2026-11-18",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,27 +33,27 @@
   }
  ],
  "totals": {
-  "articles": 201,
+  "articles": 203,
   "by_company": {
-   "gokwik": 77,
+   "gokwik": 78,
    "shopflo": 45,
    "simpl": 68,
-   "razorpay_magic": 11
+   "razorpay_magic": 12
   },
   "by_company_headline": {
-   "gokwik": 69,
+   "gokwik": 70,
    "shopflo": 42,
    "simpl": 65,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.3,
-   "shopflo": 22.4,
-   "simpl": 33.8,
-   "razorpay_magic": 5.5
+   "gokwik": 38.4,
+   "shopflo": 22.2,
+   "simpl": 33.5,
+   "razorpay_magic": 5.9
   },
-  "added_today": 9,
-  "last_30_days": 18
+  "added_today": 2,
+  "last_30_days": 19
  },
  "window": {
   "weeks": 12,
@@ -62,15 +62,15 @@
    "gokwik": 16,
    "shopflo": 2,
    "simpl": 0,
-   "razorpay_magic": 3
+   "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 76.2,
-   "shopflo": 9.5,
+   "gokwik": 72.7,
+   "shopflo": 9.1,
    "simpl": 0.0,
-   "razorpay_magic": 14.3
+   "razorpay_magic": 18.2
   },
-  "total": 21
+  "total": 22
  },
  "window_headline": {
   "weeks": 12,
@@ -428,15 +428,15 @@
     "gokwik": 8,
     "shopflo": 0,
     "simpl": 0,
-    "razorpay_magic": 3
+    "razorpay_magic": 4
    },
    "shares": {
-    "gokwik": 72.7,
+    "gokwik": 66.7,
     "shopflo": 0.0,
     "simpl": 0.0,
-    "razorpay_magic": 27.3
+    "razorpay_magic": 33.3
    },
-   "total": 11,
+   "total": 12,
    "headline": {
     "counts": {
      "gokwik": 3,
@@ -488,16 +488,6 @@
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-19",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
   {
    "date": "2026-10-20",
    "counts": {
@@ -744,9 +734,9 @@
     "gokwik": 0,
     "shopflo": 0,
     "simpl": 0,
-    "razorpay_magic": 3
+    "razorpay_magic": 4
    },
-   "total": 3
+   "total": 4
   },
   {
    "date": "2026-11-14",
@@ -780,6 +770,16 @@
   },
   {
    "date": "2026-11-17",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
+  },
+  {
+   "date": "2026-11-18",
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
@@ -842,6 +842,26 @@
    ],
    "outlets": [
     "NewsBytes"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
+  },
+  {
+   "id": "13349046e97b15cc",
+   "title": "Razorpay claims Vulcan AI model detects 8x more international card fraud",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOEFONmt1cUl3ZzY3aUNWeWQwZm50WW44OVdyaXc0YVV1TDE2WjVqajlleVRXZ0dSUER6TVhfNVFMR2xvUzJuTmVHb21rN296bWZ3TU5qbUFpbThWZ0ZDWU5OUmVMXzBpVTRSQ0NEWlZ1MnY2VlV0Y19iMGFYcnNzMFR0Qnp1ZWtNR2ttV0IxQ1dBZkhreGF1REZTSGNKOFRmSVFLWVd2ZFVKRVdjVDhPcThrUVZCbmV6eURibmJmQ21sZ0x4c3ltVHJrQXZtemRMM2lZQTl3MUpyTjFUYkhIRlV1N01PRUhTV0NR0gHwAUFVX3lxTE9yUW5JSkhUWXl3Y09NM04zRHFfb3NKTkp1RnhYTXBQQ2pnMmN3clNxMnBlX21rMi13WHRHTTNFNlBIVnhFeG9OQkNtYmJybk1TaVpsY3dUMFJIRGJ6YmhfWW90cGoyaHN5M2lyMVh2WnBjaUlHM095T2Z0c3h6djNIRlFCV1JkYlU5TjEyX3BlX2RsVHRSOHNjazFhSzZuWUNRT0xjdnpOb1NyNjNCU1JqSTFvNXkzRmdXNnl3Nzhuc1lNYWhkVmp6ZkZyaTY0eHJYNUI5Y3BwU2NvMEY1ZjN2OTFQOEt4a01jMkZnOC1xUQ?oc=5",
+   "publisher": "The Economic Times",
+   "published": "2026-11-13T10:32:33+00:00",
+   "first_seen": "2026-11-18",
+   "companies": [
+    "razorpay_magic"
+   ],
+   "outlets": [
+    "The Economic Times"
    ],
    "sources": [
     "google"
@@ -1070,7 +1090,8 @@
    ],
    "outlets": [
     "ETHRWorld.com",
-    "ETHRWorld"
+    "ETHRWorld",
+    "hr.economictimes.indiatimes"
    ],
    "sources": [
     "google",
@@ -1180,26 +1201,6 @@
    "relevance": {
     "shopflo": "mention"
    }
-  },
-  {
-   "id": "0ac6d7ece3fbafa9",
-   "title": "GoKwik leverages its festive data to rank revenue opportunities for D2C brands",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZk1EU1NaZzcweU9PZzlPcF9LZWpBVlRmd1d1YzBlSlQ4a3oyY3RvNVFjSXgtcHJ5dEZBaFhBQjR3cE01UmQ5dW5fb2tYY0JFTXdxOEJWRDZFMkRNNHBJVFRxRzRXdGtDemhzWldPc0NadWdtMk1uMlFCdkFiZDV5eDFicjktWFB4T3BzdklRTWVxSVk5bUNzSUhUX0pHd25DZjVaZlRUZzFxRXNxZXcybXNLdTZTQQ?oc=5",
-   "publisher": "CXOToday.com",
-   "published": "2026-10-15T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "CXOToday.com"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "latest_headline": [
@@ -1300,7 +1301,8 @@
    ],
    "outlets": [
     "ETHRWorld.com",
-    "ETHRWorld"
+    "ETHRWorld",
+    "hr.economictimes.indiatimes"
    ],
    "sources": [
     "google",
@@ -1615,35 +1617,35 @@
   }
  ],
  "review": {
-  "company_articles": 201,
-  "headline": 180,
-  "mention_only": 21,
+  "company_articles": 203,
+  "headline": 181,
+  "mention_only": 22,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 37
+  "same_story_other_outlets": 38
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-17T10:57:23+00:00",
+   "run_at": "2026-11-17T22:35:26+00:00",
    "status": "ok",
-   "fetched": 194,
-   "new": 4,
+   "fetched": 193,
+   "new": 2,
    "per_company": {
     "gokwik": {
-     "fetched": 72,
+     "fetched": 71,
      "new": 1
     },
     "shopflo": {
-     "fetched": 47,
-     "new": 1
+     "fetched": 49,
+     "new": 0
     },
     "simpl": {
-     "fetched": 61,
-     "new": 2
+     "fetched": 60,
+     "new": 0
     },
     "razorpay_magic": {
-     "fetched": 14,
-     "new": 0
+     "fetched": 13,
+     "new": 1
     }
    },
    "problems": [],
@@ -1933,6 +1935,32 @@
      "razorpay_magic": {
       "fetched": 14,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-17T22:35:26+00:00",
+    "status": "ok",
+    "fetched": 193,
+    "new": 2,
+    "per_company": {
+     "gokwik": {
+      "fetched": 71,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 49,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 60,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 1
      }
     },
     "problems": [],
