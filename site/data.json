@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:35:26+00:00",
+ "generated_at": "2026-11-18T10:29:44+00:00",
  "today": "2026-11-18",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,44 +33,44 @@
   }
  ],
  "totals": {
-  "articles": 203,
+  "articles": 206,
   "by_company": {
-   "gokwik": 78,
+   "gokwik": 80,
    "shopflo": 45,
-   "simpl": 68,
+   "simpl": 69,
    "razorpay_magic": 12
   },
   "by_company_headline": {
-   "gokwik": 70,
+   "gokwik": 71,
    "shopflo": 42,
    "simpl": 65,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.4,
-   "shopflo": 22.2,
+   "gokwik": 38.8,
+   "shopflo": 21.8,
    "simpl": 33.5,
-   "razorpay_magic": 5.9
+   "razorpay_magic": 5.8
   },
-  "added_today": 2,
-  "last_30_days": 19
+  "added_today": 5,
+  "last_30_days": 20
  },
  "window": {
   "weeks": 12,
   "from": "2026-08-31",
   "counts": {
-   "gokwik": 16,
+   "gokwik": 17,
    "shopflo": 2,
    "simpl": 0,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 72.7,
-   "shopflo": 9.1,
+   "gokwik": 73.9,
+   "shopflo": 8.7,
    "simpl": 0.0,
-   "razorpay_magic": 18.2
+   "razorpay_magic": 17.4
   },
-  "total": 22
+  "total": 23
  },
  "window_headline": {
   "weeks": 12,
@@ -458,7 +458,7 @@
    "label": "16 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 1,
+    "gokwik": 2,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,7 +469,7 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 1,
+   "total": 2,
    "headline": {
     "counts": {
      "gokwik": 0,
@@ -781,15 +781,36 @@
   {
    "date": "2026-11-18",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
+   "total": 1
   }
  ],
  "latest": [
+  {
+   "id": "a6b39ed8c0c33900",
+   "title": "India's e-commerce map gets bigger: 43% of BFCM orders come from beyond top 50 districts",
+   "url": "https://economictimes.indiatimes.com/industry/services/retail/indias-e-commerce-map-gets-bigger-43-of-bfcm-orders-come-from-beyond-top-50-districts/articleshow/135956074.cms",
+   "publisher": "The Economic Times",
+   "published": "2026-11-18T00:34:00+00:00",
+   "first_seen": "2026-11-18",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "The Economic Times"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
+  },
   {
    "id": "a212a1179181b7d9",
    "title": "HiveSchool follows another strong placement season as it looks to break into India's top 20 B-schools",
@@ -1180,26 +1201,6 @@
    ],
    "relevance": {
     "gokwik": "headline"
-   }
-  },
-  {
-   "id": "bfcb655a41325f3b",
-   "title": "Shopify to launch Shop Pay accelerated checkout in India by Q1 2027",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0xfa0ZDTDQtVW5jTmNqSUlrTkJySWdrcmFaNThQaDBETDhwQW9iRGZtcWYxNlJma1F3VWpDNl90MmRWbjBRNm1jSjQ2OVotN29kOGtUZDRCc2dXaG9ueWMwNG9WNnF0clZoYjdhRnZiWldiRzZSMVVHWjJMSk1FM2VYdDdjTTBiektEdUJuZXpIOTlkcFF0QWJNMlI3QmZsWHlSN3V6VVRSbm90Q2xLTQ?oc=5",
-   "publisher": "TechGig",
-   "published": "2026-10-17T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "shopflo"
-   ],
-   "outlets": [
-    "TechGig"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "shopflo": "mention"
    }
   }
  ],
@@ -1617,35 +1618,35 @@
   }
  ],
  "review": {
-  "company_articles": 203,
-  "headline": 181,
-  "mention_only": 22,
+  "company_articles": 206,
+  "headline": 182,
+  "mention_only": 24,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 38
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-17T22:35:26+00:00",
+   "run_at": "2026-11-18T10:29:44+00:00",
    "status": "ok",
-   "fetched": 193,
-   "new": 2,
+   "fetched": 196,
+   "new": 3,
    "per_company": {
     "gokwik": {
-     "fetched": 71,
-     "new": 1
+     "fetched": 73,
+     "new": 2
     },
     "shopflo": {
-     "fetched": 49,
+     "fetched": 48,
      "new": 0
     },
     "simpl": {
-     "fetched": 60,
-     "new": 0
+     "fetched": 62,
+     "new": 1
     },
     "razorpay_magic": {
      "fetched": 13,
-     "new": 1
+     "new": 0
     }
    },
    "problems": [],
@@ -1961,6 +1962,32 @@
      "razorpay_magic": {
       "fetched": 13,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-18T10:29:44+00:00",
+    "status": "ok",
+    "fetched": 196,
+    "new": 3,
+    "per_company": {
+     "gokwik": {
+      "fetched": 73,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 48,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 62,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 0
      }
     },
     "problems": [],

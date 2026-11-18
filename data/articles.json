@@ -1,4 +1,26 @@
 {
+ "a6b39ed8c0c33900": {
+  "id": "a6b39ed8c0c33900",
+  "title": "India's e-commerce map gets bigger: 43% of BFCM orders come from beyond top 50 districts",
+  "url": "https://economictimes.indiatimes.com/industry/services/retail/indias-e-commerce-map-gets-bigger-43-of-bfcm-orders-come-from-beyond-top-50-districts/articleshow/135956074.cms",
+  "publisher": "The Economic Times",
+  "published": "2026-11-18T00:34:00+00:00",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google",
+   "bing"
+  ],
+  "outlets": [
+   "The Economic Times"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "a212a1179181b7d9": {
   "id": "a212a1179181b7d9",
   "title": "HiveSchool follows another strong placement season as it looks to break into India's top 20 B-schools",
@@ -90,7 +112,7 @@
   "publisher": "Nasscom",
   "published": "2026-11-13T08:43:59+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-18",
   "companies": [
    "simpl"
   ],
@@ -307,7 +329,7 @@
   "publisher": "BW People",
   "published": "2026-11-02T16:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-18",
   "companies": [
    "gokwik"
   ],
@@ -2738,6 +2760,27 @@
    "shopflo": "headline"
   }
  },
+ "a2e614914d7a4396": {
+  "id": "a2e614914d7a4396",
+  "title": "Ensuring frictionless payments shoppers can bank on",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54YXY0a3V6QkZHRkRLTF9IUXRlc3d5RVlqT2s4czdsRm5YQmhlbGs5UjdOQU5sbHVZSzFrQmdaTEVMQkpfdEk0NkthYmxlaXc2cWp5Rg?oc=5",
+  "publisher": "Databricks",
+  "published": "2024-10-19T16:55:00+00:00",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Databricks"
+  ],
+  "relevance": {
+   "simpl": "mention"
+  }
+ },
  "a2bcebbcd12c487f": {
   "id": "a2bcebbcd12c487f",
   "title": "GoKwik acquires Shopify app Return Prime to enhance global eCommerce solutions and expand market reach",
@@ -3392,6 +3435,27 @@
   ],
   "outlets": [
    "Forbes India"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "e208c015852ed686": {
+  "id": "e208c015852ed686",
+  "title": "Indian Start-up GoKwik wins FedEx Express AMEA Small Business Grant Contest 2022",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORG1YcVJ5SU5GanlQNzZ2SzNKa2tyMm9ZSHhiNC1DbXVzaXFqM3hsb0NPTzdIQkpzWjFzQXVudXNzTmVzWUdOOFpuYVA1SmJ6clVnWEU1V21RVmhEcVBDX3NGNlE1YnI0QVVURGhqdHhGQm1YVGZ4WDZ5ZkpuM0Jqa2JuaEM2YzV5RnBTdmR1VkxCYnpLd29ieC01SUtrdGppYUNacTJ2cjFXc2JZOEJyOExTZm8tMk5oODdraGpSbS11U2dySGtqZk1KQXlrazFESGpXRFFqYWdWcFFHTHk1Um0yTHNQODh6TzZUOUpGNnQ?oc=5",
+  "publisher": "FedEx newsroom",
+  "published": "2022-11-28T08:00:00+00:00",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "FedEx newsroom"
   ],
   "relevance": {
    "gokwik": "headline"
@@ -4286,7 +4350,7 @@
   "publisher": "YourStory.com",
   "published": "2019-11-17T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-18",
   "companies": [
    "simpl"
   ],
