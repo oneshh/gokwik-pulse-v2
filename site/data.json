@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T10:29:44+00:00",
- "today": "2026-11-18",
+ "generated_at": "2026-11-18T22:15:47+00:00",
+ "today": "2026-11-19",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 206,
+  "articles": 208,
   "by_company": {
    "gokwik": 80,
    "shopflo": 45,
-   "simpl": 69,
+   "simpl": 71,
    "razorpay_magic": 12
   },
   "by_company_headline": {
    "gokwik": 71,
    "shopflo": 42,
-   "simpl": 65,
+   "simpl": 67,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.8,
-   "shopflo": 21.8,
-   "simpl": 33.5,
+   "gokwik": 38.5,
+   "shopflo": 21.6,
+   "simpl": 34.1,
    "razorpay_magic": 5.8
   },
-  "added_today": 5,
+  "added_today": 2,
   "last_30_days": 20
  },
  "window": {
@@ -489,16 +489,6 @@
  ],
  "daily": [
   {
-   "date": "2026-10-20",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
-  {
    "date": "2026-10-21",
    "counts": {
     "gokwik": 0,
@@ -787,6 +777,16 @@
     "razorpay_magic": 0
    },
    "total": 1
+  },
+  {
+   "date": "2026-11-19",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
@@ -1063,7 +1063,7 @@
    "title": "Festive shopping: Home, kitchen products drive 81% jump in D2C sales to Rs 1,328 crore",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObERvS3dDZDc0Qk1XZG1OZURSdjNNdVhxdHlqcGEwVWp1X3dmcktmZTJiRHJXNVNjS1FKcFU1THBKM1VvTVpZaDI0WVJybzZqQktvN0JkdS1KaGtIOXpYV0tfRjRXOS0yMU5pVEQ4dTVkYy1kVDBmOV9xMkRqM18zTDlNY0thQXhQQjE5SWNMNTlwWEtmaVN1NDZ5VnV5YVp5dWVOZEd1VTlPNUxBelVNajN1R3pNcGNybzR3dWs4NFM3OUNRekNXd0kxejFZNndRQXFfQ1BwaW9BeE5BV1IwX05QRUJyeUJDVlU5SHBNblQ0RVVRV3d30gH8AUFVX3lxTE9uWXNiemlwMnU0UnJhdXZRYzZiR3NVeUtOaGtyQVlzdWlpVFZQQko2VXZjSTlPOE9XYkN6VVl6VTFTd0RVd3psNkMtWldwdm9jUWtPVGFkcVJvc3Nqb2twdkRWTGwzSVdBbldFMnQ2WldkbVl5eFh5S3Y5UmRBeXlpNXhhYXh0cnFxMDVsYWJjM3BTeHlyNS1uUlVKNmxlazlKNWp6X3I5ZVhyZThzUzRRVmRtb2ZreG40ZGVoeXhreGprYVluczhmUUdwdVlMcWFhNWpyZGRsMmE0cHBNTHpMckpKQXhjeXJ0TFd0SWhDb1YxT1ZmdThXbVNmTg?oc=5",
    "publisher": "The Economic Times",
-   "published": "2026-11-09T11:24:54+00:00",
+   "published": "2026-11-09T08:00:00+00:00",
    "first_seen": "2026-11-13",
    "companies": [
     "gokwik"
@@ -1618,8 +1618,8 @@
   }
  ],
  "review": {
-  "company_articles": 206,
-  "headline": 182,
+  "company_articles": 208,
+  "headline": 184,
   "mention_only": 24,
   "excluded": 2,
   "duplicates": 0,
@@ -1627,22 +1627,22 @@
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-18T10:29:44+00:00",
+   "run_at": "2026-11-18T22:15:47+00:00",
    "status": "ok",
-   "fetched": 196,
-   "new": 3,
+   "fetched": 195,
+   "new": 2,
    "per_company": {
     "gokwik": {
      "fetched": 73,
-     "new": 2
+     "new": 0
     },
     "shopflo": {
-     "fetched": 48,
+     "fetched": 47,
      "new": 0
     },
     "simpl": {
      "fetched": 62,
-     "new": 1
+     "new": 2
     },
     "razorpay_magic": {
      "fetched": 13,
@@ -1984,6 +1984,32 @@
      "simpl": {
       "fetched": 62,
       "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-18T22:15:47+00:00",
+    "status": "ok",
+    "fetched": 195,
+    "new": 2,
+    "per_company": {
+     "gokwik": {
+      "fetched": 73,
+      "new": 0
+     },
+     "shopflo": {
+      "fetched": 47,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 62,
+      "new": 2
      },
      "razorpay_magic": {
       "fetched": 13,
