@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T10:36:46+00:00",
- "today": "2026-11-19",
+ "generated_at": "2026-11-19T22:24:03+00:00",
+ "today": "2026-11-20",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,27 +33,27 @@
   }
  ],
  "totals": {
-  "articles": 208,
+  "articles": 210,
   "by_company": {
    "gokwik": 80,
    "shopflo": 45,
-   "simpl": 71,
-   "razorpay_magic": 12
+   "simpl": 72,
+   "razorpay_magic": 13
   },
   "by_company_headline": {
    "gokwik": 71,
    "shopflo": 42,
-   "simpl": 67,
+   "simpl": 68,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.5,
-   "shopflo": 21.6,
-   "simpl": 34.1,
-   "razorpay_magic": 5.8
+   "gokwik": 38.1,
+   "shopflo": 21.4,
+   "simpl": 34.3,
+   "razorpay_magic": 6.2
   },
   "added_today": 2,
-  "last_30_days": 20
+  "last_30_days": 22
  },
  "window": {
   "weeks": 12,
@@ -61,16 +61,16 @@
   "counts": {
    "gokwik": 17,
    "shopflo": 2,
-   "simpl": 0,
-   "razorpay_magic": 4
+   "simpl": 1,
+   "razorpay_magic": 5
   },
   "shares": {
-   "gokwik": 73.9,
-   "shopflo": 8.7,
-   "simpl": 0.0,
-   "razorpay_magic": 17.4
+   "gokwik": 68.0,
+   "shopflo": 8.0,
+   "simpl": 4.0,
+   "razorpay_magic": 20.0
   },
-  "total": 23
+  "total": 25
  },
  "window_headline": {
   "weeks": 12,
@@ -78,16 +78,16 @@
   "counts": {
    "gokwik": 9,
    "shopflo": 1,
-   "simpl": 0,
+   "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 90.0,
-   "shopflo": 10.0,
-   "simpl": 0.0,
+   "gokwik": 81.8,
+   "shopflo": 9.1,
+   "simpl": 9.1,
    "razorpay_magic": 0.0
   },
-  "total": 10
+  "total": 11
  },
  "weeks": [
   {
@@ -460,44 +460,34 @@
    "counts": {
     "gokwik": 2,
     "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
+    "simpl": 1,
+    "razorpay_magic": 1
    },
    "shares": {
-    "gokwik": 100.0,
+    "gokwik": 50.0,
     "shopflo": 0.0,
-    "simpl": 0.0,
-    "razorpay_magic": 0.0
+    "simpl": 25.0,
+    "razorpay_magic": 25.0
    },
-   "total": 2,
+   "total": 4,
    "headline": {
     "counts": {
      "gokwik": 0,
      "shopflo": 0,
-     "simpl": 0,
+     "simpl": 1,
      "razorpay_magic": 0
     },
     "shares": {
      "gokwik": 0.0,
      "shopflo": 0.0,
-     "simpl": 0.0,
+     "simpl": 100.0,
      "razorpay_magic": 0.0
     },
-    "total": 0
+    "total": 1
    }
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-21",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
   {
    "date": "2026-10-22",
    "counts": {
@@ -783,6 +773,16 @@
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
+    "simpl": 1,
+    "razorpay_magic": 1
+   },
+   "total": 2
+  },
+  {
+   "date": "2026-11-20",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
@@ -790,6 +790,46 @@
   }
  ],
  "latest": [
+  {
+   "id": "c00126cd54dac549",
+   "title": "10 Best RTO Reduction Tools for D2C Brands in India (2026)",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xZU1HTlhxaVJNVzZXY2k1OVItc2RWcnYyNlpwQThEbF9TMWZCRk1sOTZoaXFJQkNDVndqLXRrZk9GOXNaYTBzYkY1T3VsQWJXUTdSbVNIT0NBSnB4ZWc?oc=5",
+   "publisher": "ClickPost",
+   "published": "2026-11-19T15:43:08+00:00",
+   "first_seen": "2026-11-20",
+   "companies": [
+    "razorpay_magic"
+   ],
+   "outlets": [
+    "ClickPost"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "razorpay_magic": "mention"
+   }
+  },
+  {
+   "id": "c8427bf3db89e6c5",
+   "title": "Alivus Life Sciences to host investor meetings with SIMPL and HSBC",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkQzRFhxQnF6ZVBHcHZnNWduLTVvUHlmY1dfYXJhODg3YkpDZDZLc0t3QjVXT3lmZ2p2T3BNT25fekhVTUxoazRRdUR1OXVURlhEZTdybEMyMWctZ1NiYkJvdEs5b3BWUjhtTzhldXNOR3U2aU1vdFJNNjM3TFpOVHJKejczZGE3TnNnM1drSGpWb0V5aEtoR3NuSWNGeTZmeGRpWG1mVk9GRWVMb2tRbg?oc=5",
+   "publisher": "scanx.trade",
+   "published": "2026-11-19T12:13:11+00:00",
+   "first_seen": "2026-11-20",
+   "companies": [
+    "simpl"
+   ],
+   "outlets": [
+    "scanx.trade"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "simpl": "headline"
+   }
+  },
   {
    "id": "a6b39ed8c0c33900",
    "title": "India's e-commerce map gets bigger: 43% of BFCM orders come from beyond top 50 districts",
@@ -1162,50 +1202,29 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
+  }
+ ],
+ "latest_headline": [
   {
-   "id": "746d295cfb231532",
-   "title": "Karwa Chauth shopping spreads beyond the North as D2C sales surge 64%",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVENNQml3QmhvMWRkY0lLSkJIcGQ0aVpzSlBlN0JkcDlrbVpJeXJJaFZHalFFV1h2S0hTengtOVlVdzc2ZkE1Y1JwV04xLUFzb3NpMkNuWnJKRU9MWFNQUjIzemU2eWRiLWVrR2p2Q1BjdHo3YUxfLXBJYnFQZTlZbmZCRDBSNjk4N3NZTGMteFk2cXpfcVBXSWN6M3Z3bVl6cmM1R1JKcEpGVUpKcXpXQWhuOC0zSzA4MlVVNTFvak5tOHB5X0Vwenk4UmhsV3FMeFdaMDd2T2kwNXlMZHlOWtIB5gFBVV95cUxPbWQ2SmozZ20wSVhoZ252bFVFckJ1NmR3LUZRdS0yNVl3LXIxbWxLb1ZVSGhBQnYyRlpBMUF3NE45ZzZ3QkVlQUZPeURuNC1ZOVkza3VaekxFVlZhQmZZQTlzMmlFUTVIc3pueUxvNDZYZi1LenZtRnFuM1lzTmFGX3M4SUduYVhLWGRUeEYzNENfNmhTd2Y0eGlvZWhRMWpZRDVuOUl5SHRteDNoOFFNeDhsVXoweFB5UDNFMVBlMHk0ZW4tYVI5dWVLSlZtT2N5ZVRBRnlLaXBFeEJpT3lrZF9Mbmk0UQ?oc=5",
-   "publisher": "The Economic Times",
-   "published": "2026-10-29T07:00:00+00:00",
-   "first_seen": "2026-11-13",
+   "id": "c8427bf3db89e6c5",
+   "title": "Alivus Life Sciences to host investor meetings with SIMPL and HSBC",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkQzRFhxQnF6ZVBHcHZnNWduLTVvUHlmY1dfYXJhODg3YkpDZDZLc0t3QjVXT3lmZ2p2T3BNT25fekhVTUxoazRRdUR1OXVURlhEZTdybEMyMWctZ1NiYkJvdEs5b3BWUjhtTzhldXNOR3U2aU1vdFJNNjM3TFpOVHJKejczZGE3TnNnM1drSGpWb0V5aEtoR3NuSWNGeTZmeGRpWG1mVk9GRWVMb2tRbg?oc=5",
+   "publisher": "scanx.trade",
+   "published": "2026-11-19T12:13:11+00:00",
+   "first_seen": "2026-11-20",
    "companies": [
-    "gokwik"
+    "simpl"
    ],
    "outlets": [
-    "The Economic Times"
+    "scanx.trade"
    ],
    "sources": [
     "google"
    ],
    "relevance": {
-    "gokwik": "mention"
+    "simpl": "headline"
    }
   },
-  {
-   "id": "017bacc1d776f64a",
-   "title": "GoKwik appoints Aashima Chowdhry as Brand Manager",
-   "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aashima-chowdhry-as-brand-manager-159441.html",
-   "publisher": "Exchange4Media",
-   "published": "2026-10-23T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Exchange4Media"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  }
- ],
- "latest_headline": [
   {
    "id": "f90d0c5bc3ac856e",
    "title": "GoKwik\u2019s ESOP Twist, New CEO At Unacademy & More",
@@ -1594,60 +1613,38 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "2cfb8026bccc984a",
-   "title": "GoKwik appoints Aseem Goyal as Vice President of Business for \u2018Kwik Ship\u2019",
-   "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-aseem-goyal-as-vice-president-of-business-for-kwik-ship-156146.html",
-   "publisher": "Exchange4Media",
-   "published": "2026-07-08T04:23:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Exchange4Media",
-    "Exchange 4 Media"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 208,
-  "headline": 184,
-  "mention_only": 24,
+  "company_articles": 210,
+  "headline": 185,
+  "mention_only": 25,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 38
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-19T10:36:46+00:00",
+   "run_at": "2026-11-19T22:24:03+00:00",
    "status": "ok",
-   "fetched": 193,
-   "new": 0,
+   "fetched": 195,
+   "new": 2,
    "per_company": {
     "gokwik": {
-     "fetched": 72,
+     "fetched": 71,
      "new": 0
     },
     "shopflo": {
-     "fetched": 46,
+     "fetched": 47,
      "new": 0
     },
     "simpl": {
-     "fetched": 62,
-     "new": 0
+     "fetched": 63,
+     "new": 1
     },
     "razorpay_magic": {
-     "fetched": 13,
-     "new": 0
+     "fetched": 14,
+     "new": 1
     }
    },
    "problems": [],
@@ -2041,6 +2038,32 @@
      "razorpay_magic": {
       "fetched": 13,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-19T22:24:03+00:00",
+    "status": "ok",
+    "fetched": 195,
+    "new": 2,
+    "per_company": {
+     "gokwik": {
+      "fetched": 71,
+      "new": 0
+     },
+     "shopflo": {
+      "fetched": 47,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 63,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 14,
+      "new": 1
      }
     },
     "problems": [],
