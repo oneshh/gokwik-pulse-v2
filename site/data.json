@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:15:47+00:00",
+ "generated_at": "2026-11-19T10:36:46+00:00",
  "today": "2026-11-19",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -801,7 +801,8 @@
     "gokwik"
    ],
    "outlets": [
-    "The Economic Times"
+    "The Economic Times",
+    "India Brand Equity Foundation"
    ],
    "sources": [
     "google",
@@ -1627,22 +1628,22 @@
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-18T22:15:47+00:00",
+   "run_at": "2026-11-19T10:36:46+00:00",
    "status": "ok",
-   "fetched": 195,
-   "new": 2,
+   "fetched": 193,
+   "new": 0,
    "per_company": {
     "gokwik": {
-     "fetched": 73,
+     "fetched": 72,
      "new": 0
     },
     "shopflo": {
-     "fetched": 47,
+     "fetched": 46,
      "new": 0
     },
     "simpl": {
      "fetched": 62,
-     "new": 2
+     "new": 0
     },
     "razorpay_magic": {
      "fetched": 13,
@@ -2010,6 +2011,32 @@
      "simpl": {
       "fetched": 62,
       "new": 2
+     },
+     "razorpay_magic": {
+      "fetched": 13,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-19T10:36:46+00:00",
+    "status": "ok",
+    "fetched": 193,
+    "new": 0,
+    "per_company": {
+     "gokwik": {
+      "fetched": 72,
+      "new": 0
+     },
+     "shopflo": {
+      "fetched": 46,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 62,
+      "new": 0
      },
      "razorpay_magic": {
       "fetched": 13,

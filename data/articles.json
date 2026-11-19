@@ -15,7 +15,8 @@
    "bing"
   ],
   "outlets": [
-   "The Economic Times"
+   "The Economic Times",
+   "India Brand Equity Foundation"
   ],
   "relevance": {
    "gokwik": "mention"
@@ -3215,7 +3216,7 @@
   "publisher": "The Financial Express",
   "published": "2023-10-26T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-19",
   "companies": [
    "simpl"
   ],
@@ -3846,7 +3847,7 @@
   "publisher": "ET BrandEquity",
   "published": "2022-05-02T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-19",
   "companies": [
    "gokwik"
   ],
