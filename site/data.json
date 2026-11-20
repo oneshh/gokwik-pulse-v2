@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T22:24:03+00:00",
+ "generated_at": "2026-11-20T10:17:56+00:00",
  "today": "2026-11-20",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 210,
+  "articles": 213,
   "by_company": {
-   "gokwik": 80,
+   "gokwik": 82,
    "shopflo": 45,
-   "simpl": 72,
+   "simpl": 73,
    "razorpay_magic": 13
   },
   "by_company_headline": {
-   "gokwik": 71,
+   "gokwik": 73,
    "shopflo": 42,
-   "simpl": 68,
+   "simpl": 69,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.1,
-   "shopflo": 21.4,
+   "gokwik": 38.5,
+   "shopflo": 21.1,
    "simpl": 34.3,
-   "razorpay_magic": 6.2
+   "razorpay_magic": 6.1
   },
-  "added_today": 2,
+  "added_today": 5,
   "last_30_days": 22
  },
  "window": {
@@ -1557,18 +1557,20 @@
   {
    "id": "2ca51817701a24a2",
    "title": "GoKwik LayOff Around 120 Employees",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JTWVDeElGbVBsNEI4c2FsWTEzQnJoZ0U4Y2F4c3dFSF8yUndxOXBqLXllaUx5LUFJalhWYW1WazJaLS1KaWRsSUYtcFhLb3owYS1JenRXekxaRmwyUktVdVVUTjhCRFlTU2dvbw?oc=5",
+   "url": "https://lapaasvoice.com/gokwik-layoff-around-120-employees/",
    "publisher": "Lapaas Voice",
-   "published": "2026-07-12T07:00:00+00:00",
+   "published": "2026-07-12T00:17:00+00:00",
    "first_seen": "2026-11-13",
    "companies": [
     "gokwik"
    ],
    "outlets": [
-    "Lapaas Voice"
+    "Lapaas Voice",
+    "lapaasvoice.com"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1616,35 +1618,35 @@
   }
  ],
  "review": {
-  "company_articles": 210,
-  "headline": 185,
+  "company_articles": 213,
+  "headline": 188,
   "mention_only": 25,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 38
+  "same_story_other_outlets": 39
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-19T22:24:03+00:00",
+   "run_at": "2026-11-20T10:17:56+00:00",
    "status": "ok",
-   "fetched": 195,
-   "new": 2,
+   "fetched": 193,
+   "new": 3,
    "per_company": {
     "gokwik": {
-     "fetched": 71,
-     "new": 0
+     "fetched": 73,
+     "new": 2
     },
     "shopflo": {
-     "fetched": 47,
+     "fetched": 45,
      "new": 0
     },
     "simpl": {
-     "fetched": 63,
+     "fetched": 61,
      "new": 1
     },
     "razorpay_magic": {
      "fetched": 14,
-     "new": 1
+     "new": 0
     }
    },
    "problems": [],
@@ -2064,6 +2066,32 @@
      "razorpay_magic": {
       "fetched": 14,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-20T10:17:56+00:00",
+    "status": "ok",
+    "fetched": 193,
+    "new": 3,
+    "per_company": {
+     "gokwik": {
+      "fetched": 73,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 45,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 61,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 14,
+      "new": 0
      }
     },
     "problems": [],

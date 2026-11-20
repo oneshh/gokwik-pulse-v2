@@ -351,7 +351,7 @@
   "publisher": "The Economic Times",
   "published": "2026-11-09T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "companies": [
    "gokwik"
   ],
@@ -751,19 +751,21 @@
  "2ca51817701a24a2": {
   "id": "2ca51817701a24a2",
   "title": "GoKwik LayOff Around 120 Employees",
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JTWVDeElGbVBsNEI4c2FsWTEzQnJoZ0U4Y2F4c3dFSF8yUndxOXBqLXllaUx5LUFJalhWYW1WazJaLS1KaWRsSUYtcFhLb3owYS1JenRXekxaRmwyUktVdVVUTjhCRFlTU2dvbw?oc=5",
+  "url": "https://lapaasvoice.com/gokwik-layoff-around-120-employees/",
   "publisher": "Lapaas Voice",
-  "published": "2026-07-12T07:00:00+00:00",
+  "published": "2026-07-12T00:17:00+00:00",
   "first_seen": "2026-11-13",
   "last_seen": "2026-11-20",
   "companies": [
    "gokwik"
   ],
   "sources": [
-   "google"
+   "google",
+   "bing"
   ],
   "outlets": [
-   "Lapaas Voice"
+   "Lapaas Voice",
+   "lapaasvoice.com"
   ],
   "relevance": {
    "gokwik": "headline"
@@ -3003,7 +3005,7 @@
   "publisher": "bfsi.economictimes.indiatimes.com",
   "published": "2024-05-09T07:00:00+00:00",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "companies": [
    "simpl"
   ],
@@ -3011,7 +3013,8 @@
    "google"
   ],
   "outlets": [
-   "bfsi.economictimes.indiatimes.com"
+   "bfsi.economictimes.indiatimes.com",
+   "ETHRWorld.com"
   ],
   "relevance": {
    "simpl": "headline"
@@ -3249,6 +3252,27 @@
   ],
   "relevance": {
    "simpl": "headline"
+  }
+ },
+ "d0ec33d7d55f4dcd": {
+  "id": "d0ec33d7d55f4dcd",
+  "title": "GoKwik appoints former PayU Director Ravi Kant Arora as Senior Vice President – Finance",
+  "url": "https://cxotoday.com/media-coverage/gokwik-appoints-former-payu-director-ravi-kant-arora-as-senior-vice-president-finance/",
+  "publisher": "CXOtoday",
+  "published": "2023-12-18T06:31:00+00:00",
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "CXOtoday"
+  ],
+  "relevance": {
+   "gokwik": "headline"
   }
  },
  "c77d2d2cd59bd953": {
@@ -3553,7 +3577,7 @@
   "publisher": "The Financial Express",
   "published": "2022-09-06T02:45:00+00:00",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-20",
   "companies": [
    "gokwik"
   ],
@@ -3885,19 +3909,21 @@
  "7baaff1fb5c46027": {
   "id": "7baaff1fb5c46027",
   "title": "GoKwik appoints Joyeeta Ghosal as director of brand marketing",
-  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeXFjbUdHbWE2b1d1RHdfektVRDR1WExuNVFOQ013bVMwMk5rUVptOU5Oenpua0lDc2N2azVIVXhpM0k0ZloxUi1WclVKQk1RbGlkajc1ZmZES3V0aUVTQlVxUGtjcmdzaEQtTjZWa3p4X1dBbkFZQ194ZTJlSjRldkVSUFk3bTJidTRrMjZ0MEJ1QVNJVjZmdVVTaF9JbHZjM1RTcFhJNGwtYlJKRUg3UnFOTU5NWEpmOFBuS0pVMUNSenFtV2FtbHFZak8yNFkzTG5tdjVrd3VyUdIB3wFBVV95cUxPRFlfVWFQMkFwWGYzTEprZl9idjhrSFVrY21WTFcwY3FhYXlNMTgzTzYyaWtaNHA5Tm1vb1QwWTRBWGZHamJRaEZyQXB2TmMzZVZ4VDdNclgyQkRxOWRJMmJVcWJIT2F6RlU4dGQzcklqNzEwbURyTm5HWm83YVRYT3ZLeEt4aHV4UE56ejNDRkpCNEd5QThHNU0wamRrTDBtLW03R01TSl9uT0lvalZPanVoTHZsTmw4Q1dJT0VSUjFBTnBtMVRkZTVPb2U0dW1hblpLbFJmV25EX3U2cVpN?oc=5",
+  "url": "https://brandequity.economictimes.indiatimes.com/news/the-people-report/gokwik-appoints-joyeeta-ghosal-as-director-of-brand-marketing/91253316",
   "publisher": "ET BrandEquity",
-  "published": "2022-05-02T07:00:00+00:00",
+  "published": "2022-05-01T23:57:00+00:00",
   "first_seen": "2026-11-13",
   "last_seen": "2026-11-20",
   "companies": [
    "gokwik"
   ],
   "sources": [
-   "google"
+   "google",
+   "bing"
   ],
   "outlets": [
-   "ET BrandEquity"
+   "ET BrandEquity",
+   "ETBrandEquity"
   ],
   "relevance": {
    "gokwik": "headline"
@@ -3919,6 +3945,27 @@
   ],
   "outlets": [
    "Livemint"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
+ "fd5e402548123353": {
+  "id": "fd5e402548123353",
+  "title": "A Simpl Explanation. Simpl CEO Nitya Sharma shared the… | by Norbert Gehrke | Tokyo FinTech",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ieC1kdzdYVjN4bmkwNnROVG1uNjEzYnRkWHZIM2dLWm5OTEMwbXdPV0xMLUVLTU5yUW1naHZ6NTl3VXFCc0Zwa2JteFhZcHQ0d2JmTEI3ZElYbjZYdktsWmhRZXBTdkxoSTVTZW9lWTRKRGM?oc=5",
+  "publisher": "Medium",
+  "published": "2022-03-15T07:00:00+00:00",
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Medium"
   ],
   "relevance": {
    "simpl": "headline"
@@ -3985,6 +4032,27 @@
   ],
   "relevance": {
    "razorpay_magic": "headline"
+  }
+ },
+ "cf000f522d72fdb0": {
+  "id": "cf000f522d72fdb0",
+  "title": "GoKwik appoints Amazon’s Kunal Tiwari as Chief Product Officer",
+  "url": "https://www.exchange4media.com/people-movement-news/gokwik-appoints-amazons-kunal-tiwari-as-chief-product-officer-117943.html",
+  "publisher": "Exchange 4 Media",
+  "published": "2022-01-19T03:58:00+00:00",
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Exchange 4 Media"
+  ],
+  "relevance": {
+   "gokwik": "headline"
   }
  },
  "0f725644335a853b": {
@@ -4225,7 +4293,7 @@
   "publisher": "Mint",
   "published": "2021-11-17T04:08:00+00:00",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "companies": [
    "gokwik"
   ],
