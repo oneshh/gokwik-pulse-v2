@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T21:55:48+00:00",
+ "generated_at": "2026-11-21T10:01:59+00:00",
  "today": "2026-11-21",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 213,
+  "articles": 217,
   "by_company": {
-   "gokwik": 82,
-   "shopflo": 45,
-   "simpl": 73,
+   "gokwik": 84,
+   "shopflo": 46,
+   "simpl": 74,
    "razorpay_magic": 13
   },
   "by_company_headline": {
-   "gokwik": 73,
-   "shopflo": 42,
-   "simpl": 69,
+   "gokwik": 75,
+   "shopflo": 43,
+   "simpl": 70,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.5,
-   "shopflo": 21.1,
-   "simpl": 34.3,
-   "razorpay_magic": 6.1
+   "gokwik": 38.7,
+   "shopflo": 21.2,
+   "simpl": 34.1,
+   "razorpay_magic": 6.0
   },
-  "added_today": 0,
+  "added_today": 4,
   "last_30_days": 22
  },
  "window": {
@@ -1475,6 +1475,26 @@
    }
   },
   {
+   "id": "ceb28f4b99cb406d",
+   "title": "GoKwik and PayU enable D2C shopping on ChatGPT",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQWlyV1hBbkRVUmk1bVRCRVFOMTFLUTd2TGJJaU1RZ3laVHFlOUszZVhLTGxHMllVRDJXRjdNQW0tZzNvM2w4N3VjSDhndDY3QURvS0J6b0RIRzNjQnpBM0t0SzJjcWNDOENIcF9BOXp6dHRaQUJxZEVKX09ha0FoZUF3c0FNMi1HRGhIVlFB?oc=5",
+   "publisher": "IBS Intelligence",
+   "published": "2026-07-29T07:00:00+00:00",
+   "first_seen": "2026-11-21",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "IBS Intelligence"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "5570a2ac7c59f848",
    "title": "GoKwik & PayU Enable Multi-Brand D2C Commerce Experience On ChatGPT",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmZlbnVQb2VTQzFrTnJ5ZmRPUHlxV1NQS1Z0cW5FdmxrbEpZemlsWTFOTVAzZkNpX21mUG5SSU1FWHNYZzhaeC1UTWdmbkdoYWJHMDRYdzQycnBrQk9tLVVhTUVxTkNyTFVOUnlsTnZwNHVoNHR2UWVJTUV6aDJydWF2X0hmMkc5amlweDRKd2Y4bkpuNTU4cUNKY1NMM292dkVDZDhiT0wwcHpJWUtPbGVVa0pDQQ?oc=5",
@@ -1595,54 +1615,34 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "5511d27a98f2c6ae",
-   "title": "GoKwik appoints Aseem Goyal as VP - Business for Kwik Ship",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQlVuUklLeDB4ak9YOFpmdWpIOHVQVkwzU1h2NUVKcXFKRDN4dExMME1iYzRHNk5MR3NYUEdYREt2OHUyS3kwWW1BYVhEakcxY3k0RzZzdDhxOXpZOVNRa0kyQXAwczlpMkQwZEt3aDBWUkpuNDRQeVFyTFlkQnlvekVUbVA3cGVuMVBDb2x6ZGdvX21VdlRsYU1vcWZ0MzlMU3JWSmxZaVNMVEE1SEVNczF3?oc=5",
-   "publisher": "IMPACT Magazine",
-   "published": "2026-07-08T07:00:00+00:00",
-   "first_seen": "2026-11-16",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "IMPACT Magazine"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 213,
-  "headline": 188,
+  "company_articles": 217,
+  "headline": 192,
   "mention_only": 25,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 39
+  "same_story_other_outlets": 40
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-20T21:55:48+00:00",
+   "run_at": "2026-11-21T10:01:59+00:00",
    "status": "ok",
-   "fetched": 194,
-   "new": 0,
+   "fetched": 193,
+   "new": 4,
    "per_company": {
     "gokwik": {
-     "fetched": 73,
-     "new": 0
+     "fetched": 72,
+     "new": 2
     },
     "shopflo": {
-     "fetched": 45,
-     "new": 0
+     "fetched": 46,
+     "new": 1
     },
     "simpl": {
-     "fetched": 62,
-     "new": 0
+     "fetched": 61,
+     "new": 1
     },
     "razorpay_magic": {
      "fetched": 14,
@@ -2114,6 +2114,32 @@
      "simpl": {
       "fetched": 62,
       "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 14,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-21T10:01:59+00:00",
+    "status": "ok",
+    "fetched": 193,
+    "new": 4,
+    "per_company": {
+     "gokwik": {
+      "fetched": 72,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 46,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 61,
+      "new": 1
      },
      "razorpay_magic": {
       "fetched": 14,
