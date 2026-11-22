@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T10:04:02+00:00",
- "today": "2026-11-22",
+ "generated_at": "2026-11-22T20:48:41+00:00",
+ "today": "2026-11-23",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -35,7 +35,7 @@
  "totals": {
   "articles": 223,
   "by_company": {
-   "gokwik": 86,
+   "gokwik": 87,
    "shopflo": 46,
    "simpl": 77,
    "razorpay_magic": 14
@@ -47,34 +47,34 @@
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.6,
-   "shopflo": 20.6,
-   "simpl": 34.5,
-   "razorpay_magic": 6.3
+   "gokwik": 38.8,
+   "shopflo": 20.5,
+   "simpl": 34.4,
+   "razorpay_magic": 6.2
   },
-  "added_today": 6,
-  "last_30_days": 21
+  "added_today": 0,
+  "last_30_days": 22
  },
  "window": {
   "weeks": 12,
-  "from": "2026-08-31",
+  "from": "2026-09-07",
   "counts": {
-   "gokwik": 17,
+   "gokwik": 18,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 5
   },
   "shares": {
-   "gokwik": 68.0,
-   "shopflo": 8.0,
-   "simpl": 4.0,
-   "razorpay_magic": 20.0
+   "gokwik": 69.2,
+   "shopflo": 7.7,
+   "simpl": 3.8,
+   "razorpay_magic": 19.2
   },
-  "total": 25
+  "total": 26
  },
  "window_headline": {
   "weeks": 12,
-  "from": "2026-08-31",
+  "from": "2026-09-07",
   "counts": {
    "gokwik": 9,
    "shopflo": 1,
@@ -90,39 +90,6 @@
   "total": 11
  },
  "weeks": [
-  {
-   "week_start": "2026-08-31",
-   "label": "31 Aug",
-   "is_current": false,
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "shares": {
-    "gokwik": 0.0,
-    "shopflo": 0.0,
-    "simpl": 0.0,
-    "razorpay_magic": 0.0
-   },
-   "total": 0,
-   "headline": {
-    "counts": {
-     "gokwik": 0,
-     "shopflo": 0,
-     "simpl": 0,
-     "razorpay_magic": 0
-    },
-    "shares": {
-     "gokwik": 0.0,
-     "shopflo": 0.0,
-     "simpl": 0.0,
-     "razorpay_magic": 0.0
-    },
-    "total": 0
-   }
-  },
   {
    "week_start": "2026-09-07",
    "label": "07 Sep",
@@ -456,20 +423,20 @@
   {
    "week_start": "2026-11-16",
    "label": "16 Nov",
-   "is_current": true,
+   "is_current": false,
    "counts": {
-    "gokwik": 2,
+    "gokwik": 3,
     "shopflo": 0,
     "simpl": 1,
     "razorpay_magic": 1
    },
    "shares": {
-    "gokwik": 50.0,
+    "gokwik": 60.0,
     "shopflo": 0.0,
-    "simpl": 25.0,
-    "razorpay_magic": 25.0
+    "simpl": 20.0,
+    "razorpay_magic": 20.0
    },
-   "total": 4,
+   "total": 5,
    "headline": {
     "counts": {
      "gokwik": 0,
@@ -485,19 +452,42 @@
     },
     "total": 1
    }
-  }
- ],
- "daily": [
+  },
   {
-   "date": "2026-10-24",
+   "week_start": "2026-11-23",
+   "label": "23 Nov",
+   "is_current": true,
    "counts": {
     "gokwik": 0,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
-  },
+   "shares": {
+    "gokwik": 0.0,
+    "shopflo": 0.0,
+    "simpl": 0.0,
+    "razorpay_magic": 0.0
+   },
+   "total": 0,
+   "headline": {
+    "counts": {
+     "gokwik": 0,
+     "shopflo": 0,
+     "simpl": 0,
+     "razorpay_magic": 0
+    },
+    "shares": {
+     "gokwik": 0.0,
+     "shopflo": 0.0,
+     "simpl": 0.0,
+     "razorpay_magic": 0.0
+    },
+    "total": 0
+   }
+  }
+ ],
+ "daily": [
   {
    "date": "2026-10-25",
    "counts": {
@@ -751,12 +741,12 @@
   {
    "date": "2026-11-19",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 1,
     "razorpay_magic": 1
    },
-   "total": 2
+   "total": 3
   },
   {
    "date": "2026-11-20",
@@ -787,6 +777,16 @@
     "razorpay_magic": 0
    },
    "total": 0
+  },
+  {
+   "date": "2026-11-23",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
@@ -798,7 +798,8 @@
    "published": "2026-11-19T15:43:08+00:00",
    "first_seen": "2026-11-20",
    "companies": [
-    "razorpay_magic"
+    "razorpay_magic",
+    "gokwik"
    ],
    "outlets": [
     "ClickPost"
@@ -807,7 +808,8 @@
     "google"
    ],
    "relevance": {
-    "razorpay_magic": "mention"
+    "razorpay_magic": "mention",
+    "gokwik": "mention"
    }
   },
   {
@@ -917,7 +919,7 @@
    "title": "Razorpay claims Vulcan AI model detects 8x more international card fraud",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOEFONmt1cUl3ZzY3aUNWeWQwZm50WW44OVdyaXc0YVV1TDE2WjVqajlleVRXZ0dSUER6TVhfNVFMR2xvUzJuTmVHb21rN296bWZ3TU5qbUFpbThWZ0ZDWU5OUmVMXzBpVTRSQ0NEWlZ1MnY2VlV0Y19iMGFYcnNzMFR0Qnp1ZWtNR2ttV0IxQ1dBZkhreGF1REZTSGNKOFRmSVFLWVd2ZFVKRVdjVDhPcThrUVZCbmV6eURibmJmQ21sZ0x4c3ltVHJrQXZtemRMM2lZQTl3MUpyTjFUYkhIRlV1N01PRUhTV0NR0gHwAUFVX3lxTE9yUW5JSkhUWXl3Y09NM04zRHFfb3NKTkp1RnhYTXBQQ2pnMmN3clNxMnBlX21rMi13WHRHTTNFNlBIVnhFeG9OQkNtYmJybk1TaVpsY3dUMFJIRGJ6YmhfWW90cGoyaHN5M2lyMVh2WnBjaUlHM095T2Z0c3h6djNIRlFCV1JkYlU5TjEyX3BlX2RsVHRSOHNjazFhSzZuWUNRT0xjdnpOb1NyNjNCU1JqSTFvNXkzRmdXNnl3Nzhuc1lNYWhkVmp6ZkZyaTY0eHJYNUI5Y3BwU2NvMEY1ZjN2OTFQOEt4a01jMkZnOC1xUQ?oc=5",
    "publisher": "The Economic Times",
-   "published": "2026-11-13T10:32:33+00:00",
+   "published": "2026-11-13T08:00:00+00:00",
    "first_seen": "2026-11-18",
    "companies": [
     "razorpay_magic"
@@ -1084,7 +1086,7 @@
    "title": "Diwali shopping expands beyond essentials as fashion, gifting gain ground",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbmhKbzRfRDBWTm51OUJHUF84VnlwSlM5OEhtWHRQQXIxMThCTzdveEdhajI0LV9fUkhITU9UTFBzWXVVU2VwNEVqYnpBZzNTVXE3NlZRZTViUnJfdVZmZUJkbjFUSkxwY1BPWUM5a2dKMU1aTHdmbXdnNXU2bnIyQk9xRnpmOTV1dmhxdzJCWFNvbzVyZk1MZkJDVTV0M3FQR2xEX1hzR3lWeWRuckRrRHZYanlnNUF1MWNUZ2VoMVV1Xy1EUS1YajVNdzBiSWNHeWtjUHUxVdIB3AFBVV95cUxNa3JvVkdCUXVDSGM2MnNTendNd2JOYUkxeEJuUEgxS0txN0U2eVpkcF9ueDc0WlY5b1A4ck51dndlNk1BeFBKSm5RVmRGX3phbGE4aDZuSTFXNjJIb2NvQ2trZEU3LXdkTEVKeXlTX3FXOUhOcVVYdjlwYVU1UFlmS1gyeXFvVlo1dnRZLUZ1LTN0ZV80b1V1VXR6elpEWUs1NnJyZTROOTZ2X3pFRmJhQVdERWRqM3o1akRqaUlITkdzMXFPTTB2WFh5WXB6ODZqUTRfNjA2aEZXRE1Z?oc=5",
    "publisher": "Business Standard",
-   "published": "2026-11-09T18:03:00+00:00",
+   "published": "2026-11-09T08:00:00+00:00",
    "first_seen": "2026-11-16",
    "companies": [
     "gokwik"
@@ -1618,35 +1620,35 @@
   }
  ],
  "review": {
-  "company_articles": 223,
+  "company_articles": 224,
   "headline": 197,
-  "mention_only": 26,
+  "mention_only": 27,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 40
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-22T10:04:02+00:00",
+   "run_at": "2026-11-22T20:48:41+00:00",
    "status": "ok",
-   "fetched": 196,
-   "new": 5,
+   "fetched": 199,
+   "new": 1,
    "per_company": {
     "gokwik": {
-     "fetched": 74,
+     "fetched": 75,
      "new": 1
     },
     "shopflo": {
-     "fetched": 45,
+     "fetched": 48,
      "new": 0
     },
     "simpl": {
      "fetched": 62,
-     "new": 3
+     "new": 0
     },
     "razorpay_magic": {
-     "fetched": 15,
-     "new": 1
+     "fetched": 14,
+     "new": 0
     }
    },
    "problems": [],
@@ -2196,6 +2198,32 @@
      "razorpay_magic": {
       "fetched": 15,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-22T20:48:41+00:00",
+    "status": "ok",
+    "fetched": 199,
+    "new": 1,
+    "per_company": {
+     "gokwik": {
+      "fetched": 75,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 48,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 62,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 14,
+      "new": 0
      }
     },
     "problems": [],
