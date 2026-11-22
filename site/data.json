@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T20:38:29+00:00",
+ "generated_at": "2026-11-22T10:04:02+00:00",
  "today": "2026-11-22",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 218,
+  "articles": 223,
   "by_company": {
-   "gokwik": 85,
+   "gokwik": 86,
    "shopflo": 46,
-   "simpl": 74,
-   "razorpay_magic": 13
+   "simpl": 77,
+   "razorpay_magic": 14
   },
   "by_company_headline": {
-   "gokwik": 76,
+   "gokwik": 77,
    "shopflo": 43,
-   "simpl": 70,
+   "simpl": 73,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 39.0,
-   "shopflo": 21.1,
-   "simpl": 33.9,
-   "razorpay_magic": 6.0
+   "gokwik": 38.6,
+   "shopflo": 20.6,
+   "simpl": 34.5,
+   "razorpay_magic": 6.3
   },
-  "added_today": 1,
+  "added_today": 6,
   "last_30_days": 21
  },
  "window": {
@@ -1618,35 +1618,35 @@
   }
  ],
  "review": {
-  "company_articles": 218,
-  "headline": 193,
-  "mention_only": 25,
+  "company_articles": 223,
+  "headline": 197,
+  "mention_only": 26,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 40
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-21T20:38:29+00:00",
+   "run_at": "2026-11-22T10:04:02+00:00",
    "status": "ok",
-   "fetched": 195,
-   "new": 1,
+   "fetched": 196,
+   "new": 5,
    "per_company": {
     "gokwik": {
-     "fetched": 73,
+     "fetched": 74,
      "new": 1
     },
     "shopflo": {
-     "fetched": 47,
+     "fetched": 45,
      "new": 0
     },
     "simpl": {
-     "fetched": 61,
-     "new": 0
+     "fetched": 62,
+     "new": 3
     },
     "razorpay_magic": {
-     "fetched": 14,
-     "new": 0
+     "fetched": 15,
+     "new": 1
     }
    },
    "problems": [],
@@ -2170,6 +2170,32 @@
      "razorpay_magic": {
       "fetched": 14,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-22T10:04:02+00:00",
+    "status": "ok",
+    "fetched": 196,
+    "new": 5,
+    "per_company": {
+     "gokwik": {
+      "fetched": 74,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 45,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 62,
+      "new": 3
+     },
+     "razorpay_magic": {
+      "fetched": 15,
+      "new": 1
      }
     },
     "problems": [],

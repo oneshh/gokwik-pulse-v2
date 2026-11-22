@@ -287,7 +287,7 @@
   "publisher": "Storyboard18",
   "published": "2026-11-10T04:16:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-22",
   "companies": [
    "gokwik"
   ],
@@ -587,7 +587,7 @@
   "publisher": "Indian Startup Times",
   "published": "2026-08-18T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-22",
   "companies": [
    "razorpay_magic"
   ],
@@ -990,7 +990,7 @@
   "publisher": "Local Samosa",
   "published": "2026-06-05T07:00:00+00:00",
   "first_seen": "2026-11-21",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "companies": [
    "gokwik"
   ],
@@ -1062,6 +1062,27 @@
   ],
   "outlets": [
    "ET BrandEquity"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "b327925409d196d4": {
+  "id": "b327925409d196d4",
+  "title": "GoKwik launches first brand campaign with Aman Gupta",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnJLOGJoX3FFNGpmNGNwZS1EOWMzM0NLR1MyOFVzU2h6ckc1eHlYc2V5ZGlMWUlmRjlndG5QdnRyanBOYmRXQVNjb3I2WUZzSlBfSTVTLTVlNUxNOUdGXzM4c0JtN1FOaDlWa3FGQUNKSzM2VGZIVmYydEFrSmRfNzJDMTh5WDh0b3c1Z1dJbzF3TnJmODkwOXFkM0FPbFhsMnc?oc=5",
+  "publisher": "afaqs!",
+  "published": "2026-06-03T07:00:00+00:00",
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "afaqs!"
   ],
   "relevance": {
    "gokwik": "headline"
@@ -1453,7 +1474,7 @@
   "publisher": "Indian Startup News",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-22",
   "companies": [
    "shopflo"
   ],
@@ -3366,7 +3387,7 @@
   "publisher": "CXOtoday",
   "published": "2023-12-18T06:31:00+00:00",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "companies": [
    "gokwik"
   ],
@@ -4204,6 +4225,27 @@
    "simpl": "headline"
   }
  },
+ "837f36b65dc72b7b": {
+  "id": "837f36b65dc72b7b",
+  "title": "Razorpay introduces a solution for small business",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjVSRFlWSzdaV18wYlJqellIbFdRMWQ5QnhUWTFXS20xM2dINWJoclpoTEdNSWlwdTBobE81aHhkTUFtcVNteTZaVzhoelJnQXRLcUtMdnpDaWlCWUMxMVRkeEtrQ2RfNkdzWUdNOUZHRm5TcDlBTFpzb0J3TS1GNDNWSjM5ZGFacVB3SFVYOURCUQ?oc=5",
+  "publisher": "Passionate In Marketing",
+  "published": "2021-12-11T08:00:00+00:00",
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22",
+  "companies": [
+   "razorpay_magic"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Passionate In Marketing"
+  ],
+  "relevance": {
+   "razorpay_magic": "mention"
+  }
+ },
  "900b5afc3c4145a7": {
   "id": "900b5afc3c4145a7",
   "title": "India's Razorpay launches Magic Checkout to save shopper's information",
@@ -4283,6 +4325,27 @@
   ],
   "outlets": [
    "Moneycontrol.com"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
+ "f4ae88e5d9b52c61": {
+  "id": "f4ae88e5d9b52c61",
+  "title": "India fintech platform Simpl raises $40M Series B funding led by Valar Ventures and IA Ventures",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmdBV2dtTTJyT1NKQjQ3U1M4RjJiVEd2Y1NxY0d5Vk9jTEp3RlYxMTZHdmxZdEh6X1VXUmxSRWpmUDRLcUVnUERPSmY3WnJFR2pLTElzbDRoNE0zeHlWQXA2ajFUemgwbnBBS01PQTdlemtMdERZNlZhVjlHbW1HeFFham5wMDVJZzV6cEFhMGtWc181ajV1TXNsQ05pdzc1a1BtMHNURUEzajByaVRMeUVPdllOMGxIeGp6QVNuWUprZTFxM0NXM3hR?oc=5",
+  "publisher": "TNGlobal",
+  "published": "2021-12-03T08:00:00+00:00",
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "TNGlobal"
   ],
   "relevance": {
    "simpl": "headline"
@@ -4456,6 +4519,27 @@
    "simpl": "headline"
   }
  },
+ "ffd3fe507b0a2c1f": {
+  "id": "ffd3fe507b0a2c1f",
+  "title": "How Simpl’s BNPL Strategy Is Enabling Higher Conversions For Merchant Partners",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYm5ReDc5a0Q0dDFJb0h0RUFIaDBGVlJGa2JHSDJBdmoxVkt3SVlyVXVoa3Z5X0dnTldhR3ltRWk4V2NRYjhfcE9OTUpUOWdUMEVHUkZaVUMwVVBTY2J5MWdTWGU4V3dRcFpoWDU5bHl2di16bzZENmhwNG93cG4yMTdSVEdHcWhQbjlnMGRoQWY0QldtRW9vVTZIdw?oc=5",
+  "publisher": "Inc42",
+  "published": "2021-09-25T07:00:00+00:00",
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Inc42"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
  "61a9f130d6b61846": {
   "id": "61a9f130d6b61846",
   "title": "Ecommerce Enablement Startup GoKwik Bags $5.5 Mn To Help Brands Improve Conversion Rates",
@@ -4579,6 +4663,27 @@
   ],
   "outlets": [
    "YourStory.com"
+  ],
+  "relevance": {
+   "simpl": "headline"
+  }
+ },
+ "5e32158af08c9d37": {
+  "id": "5e32158af08c9d37",
+  "title": "Fintech start-up Simpl targets India’s low credit card adoption",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVk54RXpMZWlpc1dEQmp1NkE5UExzdGpNQVNlM2ltbmdVYkY5QzBZNmdGYXRLSE04OFYwUEZJVTBSVk9FelNxOEZGNzZ3RXNfeTRoRDNoN1JXRGtxb2NRMlliYXhUWUZySGhLNGVZMnJNRUtIYjN2TDhycTZYYVVJVWtuVVc3YWZCd2Z2bEE3WUkyQ0JBblh5Rmw2dWx5Tnc3VEV5Q0xrVVpiOU1VUmZqNTZB?oc=5",
+  "publisher": "FinTech Futures",
+  "published": "2020-07-02T07:00:00+00:00",
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "FinTech Futures"
   ],
   "relevance": {
    "simpl": "headline"
