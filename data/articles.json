@@ -1,4 +1,25 @@
 {
+ "10dfd1a0ee1e78a6": {
+  "id": "10dfd1a0ee1e78a6",
+  "title": "D2C Growth Playbook: What Does It Take To Build And Scale A D2C Brand?",
+  "url": "https://www.shethepeople.tv/women-entrepreneurs/d2c-growth-playbook-what-does-it-take-to-build-and-scale-a-d2c-brand-12833681",
+  "publisher": "SheThePeople",
+  "published": "2026-11-23T01:05:00+00:00",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "SheThePeople"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "c00126cd54dac549": {
   "id": "c00126cd54dac549",
   "title": "10 Best RTO Reduction Tools for D2C Brands in India (2026)",
@@ -374,7 +395,7 @@
   "publisher": "BW People",
   "published": "2026-11-02T16:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-23",
   "companies": [
    "gokwik"
   ],
@@ -589,7 +610,7 @@
   "publisher": "Indian Startup Times",
   "published": "2026-08-18T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-23",
   "companies": [
    "razorpay_magic"
   ],
@@ -3347,7 +3368,7 @@
   "publisher": "MediaNews4U",
   "published": "2024-02-14T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-23",
   "companies": [
    "simpl"
   ],
@@ -3494,7 +3515,7 @@
   "publisher": "Business Standard",
   "published": "2023-07-26T07:00:00+00:00",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-23",
   "companies": [
    "simpl"
   ],
@@ -3693,6 +3714,27 @@
   ],
   "outlets": [
    "Forbes India"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "16d9f3408dbe8ab5": {
+  "id": "16d9f3408dbe8ab5",
+  "title": "GoKwik says it has processed orders worth $1 bn, reduced returns for D2C brands",
+  "url": "https://economictimes.indiatimes.com/tech/startups/gokwik-says-it-has-processed-orders-worth-1-bn-reduced-returns-for-d2c-brands/articleshow/95276395.cms",
+  "publisher": "Indiatimes",
+  "published": "2022-11-03T04:39:00+00:00",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Indiatimes"
   ],
   "relevance": {
    "gokwik": "headline"

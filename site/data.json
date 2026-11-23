@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:48:41+00:00",
+ "generated_at": "2026-11-23T11:00:16+00:00",
  "today": "2026-11-23",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,44 +33,44 @@
   }
  ],
  "totals": {
-  "articles": 223,
+  "articles": 225,
   "by_company": {
-   "gokwik": 87,
+   "gokwik": 89,
    "shopflo": 46,
    "simpl": 77,
    "razorpay_magic": 14
   },
   "by_company_headline": {
-   "gokwik": 77,
+   "gokwik": 78,
    "shopflo": 43,
    "simpl": 73,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 38.8,
-   "shopflo": 20.5,
-   "simpl": 34.4,
+   "gokwik": 39.4,
+   "shopflo": 20.4,
+   "simpl": 34.1,
    "razorpay_magic": 6.2
   },
-  "added_today": 0,
-  "last_30_days": 22
+  "added_today": 2,
+  "last_30_days": 23
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 18,
+   "gokwik": 19,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 5
   },
   "shares": {
-   "gokwik": 69.2,
-   "shopflo": 7.7,
-   "simpl": 3.8,
-   "razorpay_magic": 19.2
+   "gokwik": 70.4,
+   "shopflo": 7.4,
+   "simpl": 3.7,
+   "razorpay_magic": 18.5
   },
-  "total": 26
+  "total": 27
  },
  "window_headline": {
   "weeks": 12,
@@ -458,18 +458,18 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
    "shares": {
-    "gokwik": 0.0,
+    "gokwik": 100.0,
     "shopflo": 0.0,
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 0,
+   "total": 1,
    "headline": {
     "counts": {
      "gokwik": 0,
@@ -781,15 +781,35 @@
   {
    "date": "2026-11-23",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
+   "total": 1
   }
  ],
  "latest": [
+  {
+   "id": "10dfd1a0ee1e78a6",
+   "title": "D2C Growth Playbook: What Does It Take To Build And Scale A D2C Brand?",
+   "url": "https://www.shethepeople.tv/women-entrepreneurs/d2c-growth-playbook-what-does-it-take-to-build-and-scale-a-d2c-brand-12833681",
+   "publisher": "SheThePeople",
+   "published": "2026-11-23T01:05:00+00:00",
+   "first_seen": "2026-11-23",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "SheThePeople"
+   ],
+   "sources": [
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
+  },
   {
    "id": "c00126cd54dac549",
    "title": "10 Best RTO Reduction Tools for D2C Brands in India (2026)",
@@ -1183,26 +1203,6 @@
    ],
    "relevance": {
     "shopflo": "headline"
-   }
-  },
-  {
-   "id": "7177fd8b6c4350e8",
-   "title": "Karwa Chauth shopping spreads beyond north India as GoKwik records 64% D2C sales growth",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdko5SG95REdodjhldE5DVVFxdU9iR2FoM0dJa3pPNzkzX1FFTl90UnpycHlJT0taeUs3RkxhdTB3all2SFU4dTlnU2puWjVmZGRyMTdBMk5GcG1rZTlxM01jWGhvVUZRMUxRbDFLU2dRV2MxdVQ3UlA1OWJDVC1hbzkzVzY2ZXpkeFIzcjl4bHJpZlhGbUk0N0x3RThROEJQdkF6b3JPOGM4enMzM3kxOU1CdDYzRVhQbk9QWkY0a05RaHM?oc=5",
-   "publisher": "Passionate In Marketing",
-   "published": "2026-10-29T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Passionate In Marketing"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
    }
   }
  ],
@@ -1620,34 +1620,34 @@
   }
  ],
  "review": {
-  "company_articles": 224,
-  "headline": 197,
-  "mention_only": 27,
+  "company_articles": 226,
+  "headline": 198,
+  "mention_only": 28,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 40
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-22T20:48:41+00:00",
+   "run_at": "2026-11-23T11:00:16+00:00",
    "status": "ok",
    "fetched": 199,
-   "new": 1,
+   "new": 2,
    "per_company": {
     "gokwik": {
      "fetched": 75,
-     "new": 1
+     "new": 2
     },
     "shopflo": {
      "fetched": 48,
      "new": 0
     },
     "simpl": {
-     "fetched": 62,
+     "fetched": 61,
      "new": 0
     },
     "razorpay_magic": {
-     "fetched": 14,
+     "fetched": 15,
      "new": 0
     }
    },
@@ -2223,6 +2223,32 @@
      },
      "razorpay_magic": {
       "fetched": 14,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-23T11:00:16+00:00",
+    "status": "ok",
+    "fetched": 199,
+    "new": 2,
+    "per_company": {
+     "gokwik": {
+      "fetched": 75,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 48,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 61,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 15,
       "new": 0
      }
     },
