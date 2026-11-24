@@ -3555,7 +3555,7 @@
   "publisher": "Databricks",
   "published": "2024-10-19T16:55:00+00:00",
   "first_seen": "2026-11-18",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "companies": [
    "simpl"
   ],
@@ -4023,7 +4023,7 @@
   "publisher": "Adgully",
   "published": "2024-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "companies": [
    "simpl"
   ],
@@ -5141,7 +5141,7 @@
   "publisher": "The Hindu",
   "published": "2022-08-05T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "companies": [
    "gokwik"
   ],
@@ -5363,6 +5363,27 @@
   ],
   "relevance": {
    "gokwik": "headline"
+  }
+ },
+ "89aa6a10cde4d3cf": {
+  "id": "89aa6a10cde4d3cf",
+  "title": "Shopflo raises seed funding of $2.6 mn from Tiger Global and TQ Ventures",
+  "url": "https://www.business-standard.com/article/companies/shopflo-raises-seed-funding-of-2-6-mn-from-tiger-global-and-tq-ventures-122051100939_1.html",
+  "publisher": "Business Standard",
+  "published": "2022-05-11T04:37:00+00:00",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "companies": [
+   "shopflo"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Business Standard"
+  ],
+  "relevance": {
+   "shopflo": "headline"
   }
  },
  "afebf73f805356e6": {

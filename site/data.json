@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T01:50:23+00:00",
+ "generated_at": "2026-11-24T12:47:33+00:00",
  "today": "2026-11-24",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 297,
+  "articles": 298,
   "by_company": {
    "gokwik": 127,
-   "shopflo": 47,
+   "shopflo": 48,
    "simpl": 111,
    "razorpay_magic": 15
   },
   "by_company_headline": {
    "gokwik": 113,
-   "shopflo": 44,
+   "shopflo": 45,
    "simpl": 99,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 42.3,
-   "shopflo": 15.7,
-   "simpl": 37.0,
+   "gokwik": 42.2,
+   "shopflo": 15.9,
+   "simpl": 36.9,
    "razorpay_magic": 5.0
   },
-  "added_today": 72,
+  "added_today": 73,
   "last_30_days": 24
  },
  "window": {
@@ -1621,35 +1621,35 @@
   }
  ],
  "review": {
-  "company_articles": 300,
-  "headline": 260,
+  "company_articles": 301,
+  "headline": 261,
   "mention_only": 40,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 53
+  "same_story_other_outlets": 57
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-24T01:50:23+00:00",
+   "run_at": "2026-11-24T12:47:33+00:00",
    "status": "ok",
-   "fetched": 290,
-   "new": 74,
+   "fetched": 249,
+   "new": 1,
    "per_company": {
     "gokwik": {
      "fetched": 123,
-     "new": 38
+     "new": 0
     },
     "shopflo": {
-     "fetched": 48,
+     "fetched": 50,
      "new": 1
     },
     "simpl": {
-     "fetched": 103,
-     "new": 34
+     "fetched": 60,
+     "new": 0
     },
     "razorpay_magic": {
      "fetched": 16,
-     "new": 1
+     "new": 0
     }
    },
    "problems": [],
@@ -2277,6 +2277,32 @@
      "razorpay_magic": {
       "fetched": 16,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-24T12:47:33+00:00",
+    "status": "ok",
+    "fetched": 249,
+    "new": 1,
+    "per_company": {
+     "gokwik": {
+      "fetched": 123,
+      "new": 0
+     },
+     "shopflo": {
+      "fetched": 50,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 60,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 0
      }
     },
     "problems": [],
