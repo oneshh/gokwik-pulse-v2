@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T11:00:16+00:00",
- "today": "2026-11-23",
+ "generated_at": "2026-11-24T01:50:23+00:00",
+ "today": "2026-11-24",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,61 +33,61 @@
   }
  ],
  "totals": {
-  "articles": 225,
+  "articles": 297,
   "by_company": {
-   "gokwik": 89,
-   "shopflo": 46,
-   "simpl": 77,
-   "razorpay_magic": 14
+   "gokwik": 127,
+   "shopflo": 47,
+   "simpl": 111,
+   "razorpay_magic": 15
   },
   "by_company_headline": {
-   "gokwik": 78,
-   "shopflo": 43,
-   "simpl": 73,
+   "gokwik": 113,
+   "shopflo": 44,
+   "simpl": 99,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 39.4,
-   "shopflo": 20.4,
-   "simpl": 34.1,
-   "razorpay_magic": 6.2
+   "gokwik": 42.3,
+   "shopflo": 15.7,
+   "simpl": 37.0,
+   "razorpay_magic": 5.0
   },
-  "added_today": 2,
-  "last_30_days": 23
+  "added_today": 72,
+  "last_30_days": 24
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 19,
+   "gokwik": 22,
    "shopflo": 2,
    "simpl": 1,
-   "razorpay_magic": 5
+   "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 70.4,
-   "shopflo": 7.4,
-   "simpl": 3.7,
-   "razorpay_magic": 18.5
+   "gokwik": 71.0,
+   "shopflo": 6.5,
+   "simpl": 3.2,
+   "razorpay_magic": 19.4
   },
-  "total": 27
+  "total": 31
  },
  "window_headline": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 9,
+   "gokwik": 12,
    "shopflo": 1,
    "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 81.8,
-   "shopflo": 9.1,
-   "simpl": 9.1,
+   "gokwik": 85.7,
+   "shopflo": 7.1,
+   "simpl": 7.1,
    "razorpay_magic": 0.0
   },
-  "total": 11
+  "total": 14
  },
  "weeks": [
   {
@@ -95,7 +95,7 @@
    "label": "07 Sep",
    "is_current": false,
    "counts": {
-    "gokwik": 1,
+    "gokwik": 2,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -106,10 +106,10 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 1,
+   "total": 2,
    "headline": {
     "counts": {
-     "gokwik": 1,
+     "gokwik": 2,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
@@ -120,7 +120,7 @@
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 1
+    "total": 2
    }
   },
   {
@@ -161,32 +161,32 @@
    "label": "21 Sep",
    "is_current": false,
    "counts": {
-    "gokwik": 0,
+    "gokwik": 2,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
    "shares": {
-    "gokwik": 0.0,
+    "gokwik": 100.0,
     "shopflo": 0.0,
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 0,
+   "total": 2,
    "headline": {
     "counts": {
-     "gokwik": 0,
+     "gokwik": 2,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
     },
     "shares": {
-     "gokwik": 0.0,
+     "gokwik": 100.0,
      "shopflo": 0.0,
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 0
+    "total": 2
    }
   },
   {
@@ -395,15 +395,15 @@
     "gokwik": 8,
     "shopflo": 0,
     "simpl": 0,
-    "razorpay_magic": 4
+    "razorpay_magic": 5
    },
    "shares": {
-    "gokwik": 66.7,
+    "gokwik": 61.5,
     "shopflo": 0.0,
     "simpl": 0.0,
-    "razorpay_magic": 33.3
+    "razorpay_magic": 38.5
    },
-   "total": 12,
+   "total": 13,
    "headline": {
     "counts": {
      "gokwik": 3,
@@ -488,16 +488,6 @@
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-25",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
   {
    "date": "2026-10-26",
    "counts": {
@@ -694,9 +684,9 @@
     "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
-    "razorpay_magic": 0
+    "razorpay_magic": 1
    },
-   "total": 1
+   "total": 2
   },
   {
    "date": "2026-11-15",
@@ -787,6 +777,16 @@
     "razorpay_magic": 0
    },
    "total": 1
+  },
+  {
+   "date": "2026-11-24",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
@@ -804,7 +804,8 @@
     "SheThePeople"
    ],
    "sources": [
-    "bing"
+    "bing",
+    "google"
    ],
    "relevance": {
     "gokwik": "mention"
@@ -902,7 +903,8 @@
    "published": "2026-11-14T06:37:24+00:00",
    "first_seen": "2026-11-16",
    "companies": [
-    "gokwik"
+    "gokwik",
+    "razorpay_magic"
    ],
    "outlets": [
     "Inventiva"
@@ -911,7 +913,8 @@
     "google"
    ],
    "relevance": {
-    "gokwik": "mention"
+    "gokwik": "mention",
+    "razorpay_magic": "mention"
    }
   },
   {
@@ -1417,6 +1420,66 @@
    }
   },
   {
+   "id": "513518b06aeef2db",
+   "title": "GoKwik launches new brand film on checkout trust",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdGVwbWZmdHFEN19sNnYydmZzQW9BUlNMYUlVYmxKMXlDYWsxb2J3UFNFRmNoaDRnRFdDTGdfcGlqRjhMckYwelYtZEtEMW9sdGhYUnRaMWRkQUZMellxSm9sUVBWT0NBaVdmTWtDLVJ2NEdoSnJTWVRQY1ZVSGx1d2g5OWU1Ym1KaGlvT1JOM0UyOTdBRHlNMy12Vl9iYlQ1WGhqTG9FeU9KbmRLUGREbG9B?oc=5",
+   "publisher": "Campaign India",
+   "published": "2026-09-25T06:36:53+00:00",
+   "first_seen": "2026-11-24",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Campaign India"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "b3270fecc7abb763",
+   "title": "D2C brands using AI voice calls double abandoned-cart recoveries: GoKwik",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMjhmSDMxSGZST21teFNUSHkxT2t1T05aMUFqaDYwOHdFaklwSmVyT2ZQVjBic1RDSnZLcV9mdnAwWmRINDZjT3Y0N3FaT3lQbUR5M1RnVjhVc0NpUFpSVm90ZGV3RzJlRm9Vb0ZrME81cVJhYUdTMmxTbXRCU2hCOHJhMTV6alctMGlPd2p2NkVQNkdIQzdtLWpyeGpzQkc1WEE?oc=5",
+   "publisher": "MediaNews4U",
+   "published": "2026-09-24T07:00:00+00:00",
+   "first_seen": "2026-11-24",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaNews4U"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "32f202a3a4b2603d",
+   "title": "GoKwik Asks: What If You Could Stop Double-Checking at Checkout?",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa21SSDhocTRMVWloUERrOV9aNHVoMV9sNnd2cnA3aVdJcEpoU3lWVXYxTVppR2MteGh2RGlzS1pNUzY5SzBmWXpBZnNqNjA3dEhSeXRqVFJNMWtWNWQxX0hmMHBLY1BkY0VBRG1SNW0yUUllandwZU51a2ZMWDB0ZFc4clNBRW02aDBvY0ozT194LWZBUVhkTS1SamJtZEpQak9Gc2E5NHNTR2tIdzBxT0FacXNYN0E4Y0E?oc=5",
+   "publisher": "IMPACT Magazine",
+   "published": "2026-09-11T07:00:00+00:00",
+   "first_seen": "2026-11-24",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "IMPACT Magazine"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "4bdf4286e3f7d967",
    "title": "GoKwik releases brand film on e-commerce checkout trust",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeldLRC0zakEzUGlJOFBJLWxWWDVCd2tGSmVVRVB1SmptVDR4NFUzY3lqTk9nTmtHNHZYUkxUdnZtZUV2aWw4Z3dJZks3ZVl0c3FNRXFQVUZlRHRSa01MbFlNZ2QwNUJCNHVxX0FqU0dTeWJhemhnanE4WFoxTUdIMTZsZERCTTVHTlBZVHZxSl8zUGY4ZngyNzktSVlrbWxhLVFHNUNDeFMzQVJMYVdCWjN1UnVxN2s4amV5bmRoVGlRcnlGY1BFY3FxUmRFUVZXM0p5enBFd9IB3AFBVV95cUxORXVJdl9TNy1sX2dESjJBSDhzSmZCZmF4XzJjSHpHR043azdNYnFpeU5MMkxFaGlOTnJWVHdGRTlwSUVTZ29ubkdnbWxRMEQ1SFRFUWFFRFgyUnA1bHdWV0ZlMk9KcjZONjNiRHAwWEJPUGZnMmpfbi1DdlVhTjI3ckExLWoyN0ZITDVnQnNBdHY5RFBVQUlCTTNpN28wNERfbzBWTEFLY0FUYmdWVG5GS0dRczNXOUFPU3JWZnBtZDZtQUxkeURuTFVfNl8wVEtWbzVFVXJtLW95SFNo?oc=5",
@@ -1428,6 +1491,26 @@
    ],
    "outlets": [
     "ET BrandEquity"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "f92e6614b8d42889",
+   "title": "GoKwik records 46% YoY growth in Raksha Bandhan merchandise sales",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZGpKUDlyUlY3Z0JQaEZMUHBnY19lZ1lJZzJyb25McmNYUlgwY1ktTTR2MVhQd3FhWFJrU0VnT2VLSW5KYjhYQ1pFWDZXU1g2MEZ2cVgyLTdRdHlkVHFkRW0yWVBzLW5Mdkp0eC1WcDU0YjQxaXVuN193?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-09-03T07:00:00+00:00",
+   "first_seen": "2026-11-24",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
    ],
    "sources": [
     "google"
@@ -1497,6 +1580,26 @@
    }
   },
   {
+   "id": "7906c6528c21b96f",
+   "title": "GoKwik and PayU Launch D2C Shopping on ChatGPT",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNnZCblV5WjkxRlNNTVpIWjVBZkFTczFKR0FRdzJ4c2hkSlEyQTdjX2ctdDQ2UW45LW10dW1FSThLWGROdkdCZWMxZUdEWjNRSk1MbnBVeDNCNjJPV1RmNEV2REhId09nZE5FMzhBMmtEclRHX0VranozWkFJc3BVc2tHMHhXekwwVnFNODZXVlRldw?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-07-28T14:05:40+00:00",
+   "first_seen": "2026-11-24",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "5570a2ac7c59f848",
    "title": "GoKwik & PayU Enable Multi-Brand D2C Commerce Experience On ChatGPT",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmZlbnVQb2VTQzFrTnJ5ZmRPUHlxV1NQS1Z0cW5FdmxrbEpZemlsWTFOTVAzZkNpX21mUG5SSU1FWHNYZzhaeC1UTWdmbkdoYWJHMDRYdzQycnBrQk9tLVVhTUVxTkNyTFVOUnlsTnZwNHVoNHR2UWVJTUV6aDJydWF2X0hmMkc5amlweDRKd2Y4bkpuNTU4cUNKY1NMM292dkVDZDhiT0wwcHpJWUtPbGVVa0pDQQ?oc=5",
@@ -1515,140 +1618,38 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "d9844f61b9538ead",
-   "title": "GoKwik & PayU bring multi-brand D2C shopping to ChatGPT",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaVYxYU5QRTJJaVVJT0NrQjJaeEY3Y3I5T0I3OWIwa0d6Qm1lbS1qV3piVFlVRzAyajB5eU4xQTRYMV9tVDdkSnFtMXlGeDRfOVJnTnFkR1pzT25Ma2tkeFZGTHliRFpKNVBZdzZRZjZXUmpkbWZRUWI1Qk1PbURiX2k5aE80TWFsQjRvVFBIaHlaRG1sS1kxOE1BT0xwZw?oc=5",
-   "publisher": "afaqs!",
-   "published": "2026-07-28T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "afaqs!"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "35f40b6a77d1e3a2",
-   "title": "GoKwik, PayU launch multi-brand D2C shopping experience on ChatGPT",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaHBVM1VjblFhTFc0anU5VTg2amU2YXJkQ05OTHJZYjRZVm1Gc2x0c2xBS3BIemgyOG5ObWNwMjFXcHg4Rkx6aFZDek85ZndabDdxelY5YnZVMTRmLWt3MW9Gemw4T21aeWtEekRMZkFyQmswcmRCTUREc0FabWYxb0RDcnRnNy15VzNSbGFNbGJnc1ZBMkQweUxOZEpKZkVRLS1RQ3d3ZE9aQzZJYVc0YkZPV1dybTUyY0w2clNLMGlqbk5FV0Jn0gHHAUFVX3lxTE9ocFUzVWNuUWFMVzRqdTlVODZqZTZhcmRDTk5MclliNFlWbUZzbHRzbEFLcEh6aDI4bk5tY3AyMVdweDhGTHpoVkN6Tzlmd1psN3F6VjlidlUxNGYta3cxb0Z6bDhPbVp5a0R6RExmQXJCazByZEJNRERzQVptZjFvRENydGc3LXlXM1JsYU1sYmdzVkEyRDB5TE5kSkpmRVEtLVFDd3dkT1pDNklhVzRiRk9XV3JtNTJjTDZyU0swaWpuTkVXQmc?oc=5",
-   "publisher": "BMI",
-   "published": "2026-07-28T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "BMI"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "99f1060527fa27de",
-   "title": "GoKwik and PayU debut ChatGPT shopping experience for D2C brands",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaEpfUUNWaTcwSVQ4RVBXNXNVb0tPaVZMOUZVNXBwZDVYdnFNcjJJcDB0YzR5TDh4clZ6UWYxeXNHSXYxYllHOFFGZlp6OGFPZVJDX3hIenlvVzhHSFBhc2hYOXNOWkd1dFVsd0JhSjF2bjRhTVlhYW10QWp1NTdGRU9kb3ZUQXpyUVBfRkVuMHRva1MtX1N4WFE2bk1SVlI4Zm1wNElVTHpSNnFsa1JQOXJwQk1XbjJfaGVyZA?oc=5",
-   "publisher": "IMPACT Magazine",
-   "published": "2026-07-28T07:00:00+00:00",
-   "first_seen": "2026-11-15",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "IMPACT Magazine"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "2ca51817701a24a2",
-   "title": "GoKwik LayOff Around 120 Employees",
-   "url": "https://lapaasvoice.com/gokwik-layoff-around-120-employees/",
-   "publisher": "Lapaas Voice",
-   "published": "2026-07-12T00:17:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Lapaas Voice",
-    "lapaasvoice.com"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "c59f4819f78820a1",
-   "title": "Exclusive: GoKwik Lays Off Around 120 Employees Amid AI Push",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGRFY0VMOHhFcloyNWlCNGp4bGVxRVpiR2dIdm5ZOExIWlAyUlpuOGZTV2JBazBybE0xZG5IZm5SSG51SDBJbl9sWFY1ejZUYmVnVmpnS0lBLWxYa2NGTGgxdzBjT1VJdl9SVUNSajdEbnZiOXY3OUp1Qm1jSndkZXFkdlV6anc1ZTE4?oc=5",
-   "publisher": "Inc42",
-   "published": "2026-07-11T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Inc42"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 226,
-  "headline": 198,
-  "mention_only": 28,
+  "company_articles": 300,
+  "headline": 260,
+  "mention_only": 40,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 40
+  "same_story_other_outlets": 53
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-23T11:00:16+00:00",
+   "run_at": "2026-11-24T01:50:23+00:00",
    "status": "ok",
-   "fetched": 199,
-   "new": 2,
+   "fetched": 290,
+   "new": 74,
    "per_company": {
     "gokwik": {
-     "fetched": 75,
-     "new": 2
+     "fetched": 123,
+     "new": 38
     },
     "shopflo": {
      "fetched": 48,
-     "new": 0
+     "new": 1
     },
     "simpl": {
-     "fetched": 61,
-     "new": 0
+     "fetched": 103,
+     "new": 34
     },
     "razorpay_magic": {
-     "fetched": 15,
-     "new": 0
+     "fetched": 16,
+     "new": 1
     }
    },
    "problems": [],
@@ -2250,6 +2251,32 @@
      "razorpay_magic": {
       "fetched": 15,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-24T01:50:23+00:00",
+    "status": "ok",
+    "fetched": 290,
+    "new": 74,
+    "per_company": {
+     "gokwik": {
+      "fetched": 123,
+      "new": 38
+     },
+     "shopflo": {
+      "fetched": 48,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 103,
+      "new": 34
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 1
      }
     },
     "problems": [],
