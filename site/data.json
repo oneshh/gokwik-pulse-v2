@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T23:37:17+00:00",
+ "generated_at": "2026-11-25T11:33:51+00:00",
  "today": "2026-11-25",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,44 +33,44 @@
   }
  ],
  "totals": {
-  "articles": 301,
+  "articles": 306,
   "by_company": {
-   "gokwik": 127,
+   "gokwik": 132,
    "shopflo": 48,
    "simpl": 114,
    "razorpay_magic": 15
   },
   "by_company_headline": {
-   "gokwik": 113,
+   "gokwik": 116,
    "shopflo": 45,
    "simpl": 102,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 41.8,
-   "shopflo": 15.8,
-   "simpl": 37.5,
+   "gokwik": 42.7,
+   "shopflo": 15.5,
+   "simpl": 36.9,
    "razorpay_magic": 4.9
   },
-  "added_today": 3,
-  "last_30_days": 24
+  "added_today": 8,
+  "last_30_days": 25
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 22,
+   "gokwik": 24,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 71.0,
-   "shopflo": 6.5,
-   "simpl": 3.2,
-   "razorpay_magic": 19.4
+   "gokwik": 72.7,
+   "shopflo": 6.1,
+   "simpl": 3.0,
+   "razorpay_magic": 18.2
   },
-  "total": 31
+  "total": 33
  },
  "window_headline": {
   "weeks": 12,
@@ -161,7 +161,7 @@
    "label": "21 Sep",
    "is_current": false,
    "counts": {
-    "gokwik": 2,
+    "gokwik": 3,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -172,7 +172,7 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 2,
+   "total": 3,
    "headline": {
     "counts": {
      "gokwik": 2,
@@ -458,7 +458,7 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 1,
+    "gokwik": 2,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,7 +469,7 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 1,
+   "total": 2,
    "headline": {
     "counts": {
      "gokwik": 0,
@@ -781,15 +781,35 @@
   {
    "date": "2026-11-25",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
+   "total": 1
   }
  ],
  "latest": [
+  {
+   "id": "237d0f6af1c25d3b",
+   "title": "How India's changing festive shopping habits are giving brands new stories to tell",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZ0MxN0lPTVZjOUJBQTF4di1ibTlLRkU1NmpVUGJwMXQySm1oZmE5M1VWeHRwX0dzakxnUjVZSkc2TnFRaVlEX25zRGFzRXl6eFREQVd6YzdpWW9OV3h4WVlGazY4MVFQbV9FY2ZaTElyUHdqcHREV1FyNDZhTmNET2ozcGVYak9IUnN1YUhLTGllSVZ6TVU3T3Zhc0ZzX2lFczlDZE03b2hSWHh0dXZmQUVheFVNN1A2c0ZTaEZyby1KeEFXbTJrWWNvRzBCRlBkQWlScnh6SGhFcWJq?oc=5",
+   "publisher": "Exchange4Media",
+   "published": "2026-11-25T04:00:03+00:00",
+   "first_seen": "2026-11-25",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Exchange4Media"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "mention"
+   }
+  },
   {
    "id": "10dfd1a0ee1e78a6",
    "title": "D2C Growth Playbook: What Does It Take To Build And Scale A D2C Brand?",
@@ -1186,26 +1206,6 @@
    ],
    "relevance": {
     "gokwik": "headline"
-   }
-  },
-  {
-   "id": "8d844f88d6bc7a30",
-   "title": "D2C brands don't need an AI team to get discovered and grow, says Shopflo",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelBMdU91SlRKeXI2eFdhVjcwTFYxQlJCUlZmT1ZqcmlHV3g3LU5jOEpiT3YxQW55dnNfYjdsWC1PQjRvNTgxa2tOMWp0R19FQ3dFOGlUZDVlbWRqV1QyOXJiSmhULVhBck9vWktPTHU5cnduOGh3ajRJODZFeVo0MDNvM0ptMUFSQlBxYmxocw?oc=5",
-   "publisher": "YourStory.com",
-   "published": "2026-10-30T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "shopflo"
-   ],
-   "outlets": [
-    "YourStory.com"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "shopflo": "headline"
    }
   }
  ],
@@ -1621,31 +1621,31 @@
   }
  ],
  "review": {
-  "company_articles": 304,
-  "headline": 264,
-  "mention_only": 40,
+  "company_articles": 309,
+  "headline": 267,
+  "mention_only": 42,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 57
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-24T23:37:17+00:00",
+   "run_at": "2026-11-25T11:33:51+00:00",
    "status": "ok",
-   "fetched": 294,
-   "new": 3,
+   "fetched": 251,
+   "new": 5,
    "per_company": {
     "gokwik": {
-     "fetched": 123,
-     "new": 0
+     "fetched": 124,
+     "new": 5
     },
     "shopflo": {
-     "fetched": 49,
+     "fetched": 50,
      "new": 0
     },
     "simpl": {
-     "fetched": 106,
-     "new": 3
+     "fetched": 61,
+     "new": 0
     },
     "razorpay_magic": {
      "fetched": 16,
@@ -2325,6 +2325,32 @@
      "simpl": {
       "fetched": 106,
       "new": 3
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-25T11:33:51+00:00",
+    "status": "ok",
+    "fetched": 251,
+    "new": 5,
+    "per_company": {
+     "gokwik": {
+      "fetched": 124,
+      "new": 5
+     },
+     "shopflo": {
+      "fetched": 50,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 61,
+      "new": 0
      },
      "razorpay_magic": {
       "fetched": 16,

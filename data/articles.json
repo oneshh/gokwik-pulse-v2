@@ -1,4 +1,25 @@
 {
+ "237d0f6af1c25d3b": {
+  "id": "237d0f6af1c25d3b",
+  "title": "How India's changing festive shopping habits are giving brands new stories to tell",
+  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZ0MxN0lPTVZjOUJBQTF4di1ibTlLRkU1NmpVUGJwMXQySm1oZmE5M1VWeHRwX0dzakxnUjVZSkc2TnFRaVlEX25zRGFzRXl6eFREQVd6YzdpWW9OV3h4WVlGazY4MVFQbV9FY2ZaTElyUHdqcHREV1FyNDZhTmNET2ozcGVYak9IUnN1YUhLTGllSVZ6TVU3T3Zhc0ZzX2lFczlDZE03b2hSWHh0dXZmQUVheFVNN1A2c0ZTaEZyby1KeEFXbTJrWWNvRzBCRlBkQWlScnh6SGhFcWJq?oc=5",
+  "publisher": "Exchange4Media",
+  "published": "2026-11-25T04:00:03+00:00",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Exchange4Media"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "10dfd1a0ee1e78a6": {
   "id": "10dfd1a0ee1e78a6",
   "title": "D2C Growth Playbook: What Does It Take To Build And Scale A D2C Brand?",
@@ -627,6 +648,27 @@
    "gokwik": "headline"
   }
  },
+ "97aadfadac1fdedd": {
+  "id": "97aadfadac1fdedd",
+  "title": "AI voice & WhatsApp double D2C brands' abandoned-cart recovery: Report",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOejdfTHRza1hJcjIxTEZzN3RHcXZLb0ZsaDZBZURpOThvYk9hLTJYLW5XbUJVVjM5TVZfeXhGTHdVMGNkMVJBR0Q1UUpvV09sM1FRcXZRYV82QWNvV2g2SWdtV215RzQtNk1oVWM0RTB2WE5ILTRXUlNUR0RvbnJvWUUtRTdoSkZIM3NYaFJEUWFhTlFzblZHeUVwd0pveUxGUlZ5YnB1NNIBpwFBVV95cUxOejdfTHRza1hJcjIxTEZzN3RHcXZLb0ZsaDZBZURpOThvYk9hLTJYLW5XbUJVVjM5TVZfeXhGTHdVMGNkMVJBR0Q1UUpvV09sM1FRcXZRYV82QWNvV2g2SWdtV215RzQtNk1oVWM0RTB2WE5ILTRXUlNUR0RvbnJvWUUtRTdoSkZIM3NYaFJEUWFhTlFzblZHeUVwd0pveUxGUlZ5YnB1NA?oc=5",
+  "publisher": "Social Samosa",
+  "published": "2026-09-24T07:00:00+00:00",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Social Samosa"
+  ],
+  "relevance": {
+   "gokwik": "mention"
+  }
+ },
  "32f202a3a4b2603d": {
   "id": "32f202a3a4b2603d",
   "title": "GoKwik Asks: What If You Could Stop Double-Checking at Checkout?",
@@ -1091,6 +1133,27 @@
   ],
   "relevance": {
    "gokwik": "mention"
+  }
+ },
+ "559a242c760b6498": {
+  "id": "559a242c760b6498",
+  "title": "WhatsApp customer acquisition engine reveals GoKwik report",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON0NIbEtiT05WYzZRcmtBLXVfSGs2Y1ltZTVFRWIxX2U3ZThTaTJOOHVWb0ZLdVVZa2tQSnZCT3BGR2FLZkRZZXRqc3hvSWxJWnI5VjNxdV9wREpGSGItOEl0OVZDTFBMQ2FMV3BIcmdmdURyUVRDM2lIbWJWWVU4SUZUeXJzQ0JmQXF2S2JPb2FjdHNhUEx4TVlra3o4MDVyTEZmcQ?oc=5",
+  "publisher": "MediaBrief",
+  "published": "2026-06-19T07:00:00+00:00",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "MediaBrief"
+  ],
+  "relevance": {
+   "gokwik": "headline"
   }
  },
  "42cba43ad6e8719c": {
@@ -2492,6 +2555,27 @@
    "gokwik": "headline"
   }
  },
+ "ad30536bc6d70e79": {
+  "id": "ad30536bc6d70e79",
+  "title": "GoKwik Promotes Abhinav Midha to Chief Business Officer to Drive Global SaaS Expansion",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQjkxaXpTeC1ubzNqTUFjOEZ5ang5dWVVZUpJWUppY3NneU90MkRrSVA2MzVrbUoyR0lNQ1FVZHpra0YyNkkwc3VWRjlQZElBZm1xQVAzTHdZdnM4MmhYM2NwLXk5c0NoS1ZabE9RREcxbDlGRXhSdXBrN3JfMWNpY2pCUzN0R09WdW03Ri1nZ0lOWDZQLW5ObmRfamxIMmduVm5ObWpITWRsRkJ4dXZWcHVSTUIweUVFa2wwODFOZjh6LWVVelE?oc=5",
+  "publisher": "Indian Startup Times",
+  "published": "2025-11-03T08:00:00+00:00",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Indian Startup Times"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
  "083d7c9db9305374": {
   "id": "083d7c9db9305374",
   "title": "BNPL startup Simpl lays off 100 employees after RBI orders halt to its payment operations",
@@ -3534,7 +3618,7 @@
   "publisher": "ET BrandEquity",
   "published": "2024-11-13T08:00:00+00:00",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "companies": [
    "gokwik"
   ],
@@ -3555,7 +3639,7 @@
   "publisher": "Databricks",
   "published": "2024-10-19T16:55:00+00:00",
   "first_seen": "2026-11-18",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "companies": [
    "simpl"
   ],
@@ -4023,7 +4107,7 @@
   "publisher": "Adgully",
   "published": "2024-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "companies": [
    "simpl"
   ],
@@ -5344,27 +5428,6 @@
    "shopflo": "headline"
   }
  },
- "37ee2b3b4e1022d7": {
-  "id": "37ee2b3b4e1022d7",
-  "title": "Shopflo, a SaaS startup for D2C brands, raises $2.6M in a Seed round",
-  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQXF3SlJwOTFVYzRvMW1fYjNibERZOU5iemZoaUVVXzRCV0FuZURyUlROQVVQUTRnSy1uVVdRaFVLWWNNZVJjUzd5R0R6WVhEdnl0N1F4d1F1ZWpWUVZ6N0NJZHhiS3MzNXZramVvVmJCY05NOUkwR3NJMWR0VUR6X05JUEVDSmVGNk1yMURRMmFvUExkeEM0SVpJVDJHX1dqYjJJ0gGjAUFVX3lxTE5BcXdKUnA5MVVjNG8xbV9iM2JsRFk5TmJ6ZmhpRVVfNEJXQW5lRHJSVE5BVVBRNGdLLW5VV1FoVUtZY01lUmNTN3lHRHpZWER2eXQ3UXh3UXVlalZRVno3Q0lkeGJLczM1dmtqZW9WYkJjTk05STBHc0kxZHRVRHpfTklQRUNKZUY2TXIxRFEyYW9QTGR4QzRJWklUMkdfV2piMkk?oc=5",
-  "publisher": "Indian Startup News",
-  "published": "2022-05-11T07:00:00+00:00",
-  "first_seen": "2026-11-13",
-  "last_seen": "2026-11-25",
-  "companies": [
-   "shopflo"
-  ],
-  "sources": [
-   "google"
-  ],
-  "outlets": [
-   "Indian Startup News"
-  ],
-  "relevance": {
-   "shopflo": "headline"
-  }
- },
  "bfeb2a3254bfc318": {
   "id": "bfeb2a3254bfc318",
   "title": "GoKwik snags $35 mn in Series B funding",
@@ -5414,7 +5477,7 @@
   "publisher": "Business Standard",
   "published": "2022-05-11T04:37:00+00:00",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "companies": [
    "shopflo"
   ],
@@ -5448,6 +5511,27 @@
   ],
   "relevance": {
    "shopflo": "headline"
+  }
+ },
+ "4e30dc783a2050e3": {
+  "id": "4e30dc783a2050e3",
+  "title": "E-commerce enablement platform GoKwik raises $35 mn for expansion",
+  "url": "https://www.business-standard.com/article/companies/e-commerce-enablement-platform-gokwik-raises-35-mn-for-expansion-122051100358_1.html",
+  "publisher": "Business Standard",
+  "published": "2022-05-10T23:06:00+00:00",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "Business Standard"
+  ],
+  "relevance": {
+   "gokwik": "headline"
   }
  },
  "d82ea405108154c2": {
@@ -5489,6 +5573,29 @@
   "outlets": [
    "Indiatimes",
    "The Economic Times"
+  ],
+  "relevance": {
+   "shopflo": "headline"
+  }
+ },
+ "37ee2b3b4e1022d7": {
+  "id": "37ee2b3b4e1022d7",
+  "title": "Shopflo, a SaaS startup for D2C brands, raises $2.6M in a Seed round",
+  "url": "https://indianstartupnews.com/news/shopflo-a-saas-startup-for-d2c-brands-raises-2-6m-in-a-seed-round/",
+  "publisher": "Indian Startup News",
+  "published": "2022-05-10T11:30:00+00:00",
+  "first_seen": "2026-11-13",
+  "last_seen": "2026-11-25",
+  "companies": [
+   "shopflo"
+  ],
+  "sources": [
+   "google",
+   "bing"
+  ],
+  "outlets": [
+   "Indian Startup News",
+   "indianstartupnews"
   ],
   "relevance": {
    "shopflo": "headline"
@@ -6178,7 +6285,7 @@
   "publisher": "The Ken",
   "published": "2020-12-11T08:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-25",
   "companies": [
    "simpl"
   ],
