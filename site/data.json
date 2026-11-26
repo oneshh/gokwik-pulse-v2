@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:15:24+00:00",
+ "generated_at": "2026-11-26T11:17:08+00:00",
  "today": "2026-11-26",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,61 +33,61 @@
   }
  ],
  "totals": {
-  "articles": 308,
+  "articles": 313,
   "by_company": {
-   "gokwik": 133,
+   "gokwik": 137,
    "shopflo": 48,
-   "simpl": 115,
+   "simpl": 116,
    "razorpay_magic": 15
   },
   "by_company_headline": {
-   "gokwik": 117,
+   "gokwik": 120,
    "shopflo": 45,
-   "simpl": 102,
+   "simpl": 103,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 42.8,
-   "shopflo": 15.4,
-   "simpl": 37.0,
-   "razorpay_magic": 4.8
+   "gokwik": 43.4,
+   "shopflo": 15.2,
+   "simpl": 36.7,
+   "razorpay_magic": 4.7
   },
-  "added_today": 2,
-  "last_30_days": 25
+  "added_today": 7,
+  "last_30_days": 27
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 24,
+   "gokwik": 27,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 72.7,
-   "shopflo": 6.1,
-   "simpl": 3.0,
-   "razorpay_magic": 18.2
+   "gokwik": 75.0,
+   "shopflo": 5.6,
+   "simpl": 2.8,
+   "razorpay_magic": 16.7
   },
-  "total": 33
+  "total": 36
  },
  "window_headline": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 12,
+   "gokwik": 14,
    "shopflo": 1,
    "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 85.7,
-   "shopflo": 7.1,
-   "simpl": 7.1,
+   "gokwik": 87.5,
+   "shopflo": 6.2,
+   "simpl": 6.2,
    "razorpay_magic": 0.0
   },
-  "total": 14
+  "total": 16
  },
  "weeks": [
   {
@@ -161,7 +161,7 @@
    "label": "21 Sep",
    "is_current": false,
    "counts": {
-    "gokwik": 3,
+    "gokwik": 4,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -172,7 +172,7 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 3,
+   "total": 4,
    "headline": {
     "counts": {
      "gokwik": 2,
@@ -458,7 +458,7 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 2,
+    "gokwik": 4,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,21 +469,21 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 2,
+   "total": 4,
    "headline": {
     "counts": {
-     "gokwik": 0,
+     "gokwik": 2,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
     },
     "shares": {
-     "gokwik": 0.0,
+     "gokwik": 100.0,
      "shopflo": 0.0,
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 0
+    "total": 2
    }
   }
  ],
@@ -771,25 +771,65 @@
   {
    "date": "2026-11-25",
    "counts": {
+    "gokwik": 2,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 2
+  },
+  {
+   "date": "2026-11-26",
+   "counts": {
     "gokwik": 1,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
    "total": 1
-  },
-  {
-   "date": "2026-11-26",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
   }
  ],
  "latest": [
+  {
+   "id": "c05ea2d58742c66e",
+   "title": "GoKwik DealSwami gathers Black Friday deals in one place",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNl9DSGdDQUJpNl96Uk5TejBZcXFKa01LVjZJV2dtRzBhUmJYQW9TazNrVjVBN3A3NWRPd3NuUUJ0NHFnczRGQnQyNkRDQmhBZVpodk8zczRhRmw4cFl4VTFsY3pwLVNzSWd0dXE2SU1QQVZSYWVtQ0prVmlnSnhzZGRZcVVnd3RrcVo0V3NVVnVBODN2TEEzeGZTNzhCaVU?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-11-26T03:54:30+00:00",
+   "first_seen": "2026-11-26",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "6da62cd4df38c3da",
+   "title": "GoKwik launches DealSwami to pool Black Friday deals from 20,000 D2C brands",
+   "url": "https://mediabrief.com/gokwik-launches-dealswami-to-pool-black-friday-deals-from-20000-d2c-brands/",
+   "publisher": "Mediabrief",
+   "published": "2026-11-25T16:00:00+00:00",
+   "first_seen": "2026-11-26",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Mediabrief"
+   ],
+   "sources": [
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
   {
    "id": "237d0f6af1c25d3b",
    "title": "How India's changing festive shopping habits are giving brands new stories to tell",
@@ -1163,53 +1203,49 @@
    "relevance": {
     "gokwik": "mention"
    }
-  },
-  {
-   "id": "6f0e6df4959877b5",
-   "title": "GoKwik Offers Rs 7.57 Cr ESOP Liquidity To 69 Employees",
-   "url": "https://www.bwpeople.in/article/gokwik-offers-rs-7-57-cr-esop-liquidity-to-69-employees-631850",
-   "publisher": "BW People",
-   "published": "2026-11-02T16:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "BW People"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "189dd8cf638fc079",
-   "title": "GoKwik\u2019s earliest ESOP holders are expected to get 9x average returns",
-   "url": "https://hr.economictimes.indiatimes.com/news/industry/gokwiks-earliest-esop-holders-are-expected-to-get-9x-average-returns/135461821",
-   "publisher": "ETHRWorld.com",
-   "published": "2026-11-02T04:25:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "ETHRWorld.com",
-    "ETHRWorld",
-    "hr.economictimes.indiatimes"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "latest_headline": [
+  {
+   "id": "c05ea2d58742c66e",
+   "title": "GoKwik DealSwami gathers Black Friday deals in one place",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNl9DSGdDQUJpNl96Uk5TejBZcXFKa01LVjZJV2dtRzBhUmJYQW9TazNrVjVBN3A3NWRPd3NuUUJ0NHFnczRGQnQyNkRDQmhBZVpodk8zczRhRmw4cFl4VTFsY3pwLVNzSWd0dXE2SU1QQVZSYWVtQ0prVmlnSnhzZGRZcVVnd3RrcVo0V3NVVnVBODN2TEEzeGZTNzhCaVU?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-11-26T03:54:30+00:00",
+   "first_seen": "2026-11-26",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "6da62cd4df38c3da",
+   "title": "GoKwik launches DealSwami to pool Black Friday deals from 20,000 D2C brands",
+   "url": "https://mediabrief.com/gokwik-launches-dealswami-to-pool-black-friday-deals-from-20000-d2c-brands/",
+   "publisher": "Mediabrief",
+   "published": "2026-11-25T16:00:00+00:00",
+   "first_seen": "2026-11-26",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "Mediabrief"
+   ],
+   "sources": [
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
   {
    "id": "c8427bf3db89e6c5",
    "title": "Alivus Life Sciences to host investor meetings with SIMPL and HSBC",
@@ -1578,73 +1614,33 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "7906c6528c21b96f",
-   "title": "GoKwik and PayU Launch D2C Shopping on ChatGPT",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNnZCblV5WjkxRlNNTVpIWjVBZkFTczFKR0FRdzJ4c2hkSlEyQTdjX2ctdDQ2UW45LW10dW1FSThLWGROdkdCZWMxZUdEWjNRSk1MbnBVeDNCNjJPV1RmNEV2REhId09nZE5FMzhBMmtEclRHX0VranozWkFJc3BVc2tHMHhXekwwVnFNODZXVlRldw?oc=5",
-   "publisher": "MediaBrief",
-   "published": "2026-07-28T14:05:40+00:00",
-   "first_seen": "2026-11-24",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "MediaBrief"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "5570a2ac7c59f848",
-   "title": "GoKwik & PayU Enable Multi-Brand D2C Commerce Experience On ChatGPT",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmZlbnVQb2VTQzFrTnJ5ZmRPUHlxV1NQS1Z0cW5FdmxrbEpZemlsWTFOTVAzZkNpX21mUG5SSU1FWHNYZzhaeC1UTWdmbkdoYWJHMDRYdzQycnBrQk9tLVVhTUVxTkNyTFVOUnlsTnZwNHVoNHR2UWVJTUV6aDJydWF2X0hmMkc5amlweDRKd2Y4bkpuNTU4cUNKY1NMM292dkVDZDhiT0wwcHpJWUtPbGVVa0pDQQ?oc=5",
-   "publisher": "https://www.fintechbiznews.com/",
-   "published": "2026-07-28T07:21:04+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "https://www.fintechbiznews.com/"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 311,
-  "headline": 268,
-  "mention_only": 43,
+  "company_articles": 316,
+  "headline": 272,
+  "mention_only": 44,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 58
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-25T23:15:24+00:00",
+   "run_at": "2026-11-26T11:17:08+00:00",
    "status": "ok",
    "fetched": 248,
-   "new": 2,
+   "new": 5,
    "per_company": {
     "gokwik": {
-     "fetched": 79,
-     "new": 1
+     "fetched": 123,
+     "new": 4
     },
     "shopflo": {
-     "fetched": 49,
+     "fetched": 48,
      "new": 0
     },
     "simpl": {
-     "fetched": 104,
+     "fetched": 61,
      "new": 1
     },
     "razorpay_magic": {
@@ -2376,6 +2372,32 @@
      },
      "simpl": {
       "fetched": 104,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-26T11:17:08+00:00",
+    "status": "ok",
+    "fetched": 248,
+    "new": 5,
+    "per_company": {
+     "gokwik": {
+      "fetched": 123,
+      "new": 4
+     },
+     "shopflo": {
+      "fetched": 48,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 61,
       "new": 1
      },
      "razorpay_magic": {
