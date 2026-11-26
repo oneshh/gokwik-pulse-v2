@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T11:17:08+00:00",
- "today": "2026-11-26",
+ "generated_at": "2026-11-26T23:13:34+00:00",
+ "today": "2026-11-27",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,61 +33,61 @@
   }
  ],
  "totals": {
-  "articles": 313,
+  "articles": 317,
   "by_company": {
-   "gokwik": 137,
-   "shopflo": 48,
-   "simpl": 116,
+   "gokwik": 139,
+   "shopflo": 49,
+   "simpl": 117,
    "razorpay_magic": 15
   },
   "by_company_headline": {
-   "gokwik": 120,
-   "shopflo": 45,
-   "simpl": 103,
+   "gokwik": 122,
+   "shopflo": 46,
+   "simpl": 104,
    "razorpay_magic": 4
   },
   "shares": {
    "gokwik": 43.4,
-   "shopflo": 15.2,
-   "simpl": 36.7,
+   "shopflo": 15.3,
+   "simpl": 36.6,
    "razorpay_magic": 4.7
   },
-  "added_today": 7,
-  "last_30_days": 27
+  "added_today": 4,
+  "last_30_days": 29
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 27,
+   "gokwik": 29,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 75.0,
-   "shopflo": 5.6,
-   "simpl": 2.8,
-   "razorpay_magic": 16.7
+   "gokwik": 76.3,
+   "shopflo": 5.3,
+   "simpl": 2.6,
+   "razorpay_magic": 15.8
   },
-  "total": 36
+  "total": 38
  },
  "window_headline": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 14,
+   "gokwik": 16,
    "shopflo": 1,
    "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 87.5,
-   "shopflo": 6.2,
-   "simpl": 6.2,
+   "gokwik": 88.9,
+   "shopflo": 5.6,
+   "simpl": 5.6,
    "razorpay_magic": 0.0
   },
-  "total": 16
+  "total": 18
  },
  "weeks": [
   {
@@ -458,7 +458,7 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 4,
+    "gokwik": 6,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,10 +469,10 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 4,
+   "total": 6,
    "headline": {
     "counts": {
-     "gokwik": 2,
+     "gokwik": 4,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
@@ -483,21 +483,11 @@
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 2
+    "total": 4
    }
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-28",
-   "counts": {
-    "gokwik": 0,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 0
-  },
   {
    "date": "2026-10-29",
    "counts": {
@@ -781,15 +771,46 @@
   {
    "date": "2026-11-26",
    "counts": {
-    "gokwik": 1,
+    "gokwik": 3,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 1
+   "total": 3
+  },
+  {
+   "date": "2026-11-27",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
+  {
+   "id": "72f93d526d235199",
+   "title": "GoKwik launches DealSwami aggregating Black Friday deals across India",
+   "url": "https://www.newsbytesapp.com/news/business/gokwik-launches-dealswami-aggregating-black-friday-deals-across-india/tldr",
+   "publisher": "NewsBytes",
+   "published": "2026-11-26T08:54:00+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "NewsBytes"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
   {
    "id": "c05ea2d58742c66e",
    "title": "GoKwik DealSwami gathers Black Friday deals in one place",
@@ -805,6 +826,27 @@
    ],
    "sources": [
     "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "0cf46e365a31cf5e",
+   "title": "GoKwik launches DealSwami, aggregates Black Friday deals from 20,000+ Indian brands",
+   "url": "https://economictimes.indiatimes.com/industry/services/retail/gokwik-launches-dealswami-aggregates-black-friday-deals-from-20000-indian-brands/articleshow/136188737.cms",
+   "publisher": "The Economic Times",
+   "published": "2026-11-26T03:06:00+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "The Economic Times"
+   ],
+   "sources": [
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1163,49 +1205,30 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "55e0ce6d31769395",
-   "title": "Diwali shopping expands beyond essentials as fashion, gifting gain ground",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbmhKbzRfRDBWTm51OUJHUF84VnlwSlM5OEhtWHRQQXIxMThCTzdveEdhajI0LV9fUkhITU9UTFBzWXVVU2VwNEVqYnpBZzNTVXE3NlZRZTViUnJfdVZmZUJkbjFUSkxwY1BPWUM5a2dKMU1aTHdmbXdnNXU2bnIyQk9xRnpmOTV1dmhxdzJCWFNvbzVyZk1MZkJDVTV0M3FQR2xEX1hzR3lWeWRuckRrRHZYanlnNUF1MWNUZ2VoMVV1Xy1EUS1YajVNdzBiSWNHeWtjUHUxVdIB3AFBVV95cUxNa3JvVkdCUXVDSGM2MnNTendNd2JOYUkxeEJuUEgxS0txN0U2eVpkcF9ueDc0WlY5b1A4ck51dndlNk1BeFBKSm5RVmRGX3phbGE4aDZuSTFXNjJIb2NvQ2trZEU3LXdkTEVKeXlTX3FXOUhOcVVYdjlwYVU1UFlmS1gyeXFvVlo1dnRZLUZ1LTN0ZV80b1V1VXR6elpEWUs1NnJyZTROOTZ2X3pFRmJhQVdERWRqM3o1akRqaUlITkdzMXFPTTB2WFh5WXB6ODZqUTRfNjA2aEZXRE1Z?oc=5",
-   "publisher": "Business Standard",
-   "published": "2026-11-09T08:00:00+00:00",
-   "first_seen": "2026-11-16",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Business Standard"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "mention"
-   }
-  },
-  {
-   "id": "d013207dada7a85b",
-   "title": "Festive shopping: Home, kitchen products drive 81% jump in D2C sales to Rs 1,328 crore",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObERvS3dDZDc0Qk1XZG1OZURSdjNNdVhxdHlqcGEwVWp1X3dmcktmZTJiRHJXNVNjS1FKcFU1THBKM1VvTVpZaDI0WVJybzZqQktvN0JkdS1KaGtIOXpYV0tfRjRXOS0yMU5pVEQ4dTVkYy1kVDBmOV9xMkRqM18zTDlNY0thQXhQQjE5SWNMNTlwWEtmaVN1NDZ5VnV5YVp5dWVOZEd1VTlPNUxBelVNajN1R3pNcGNybzR3dWs4NFM3OUNRekNXd0kxejFZNndRQXFfQ1BwaW9BeE5BV1IwX05QRUJyeUJDVlU5SHBNblQ0RVVRV3d30gH8AUFVX3lxTE9uWXNiemlwMnU0UnJhdXZRYzZiR3NVeUtOaGtyQVlzdWlpVFZQQko2VXZjSTlPOE9XYkN6VVl6VTFTd0RVd3psNkMtWldwdm9jUWtPVGFkcVJvc3Nqb2twdkRWTGwzSVdBbldFMnQ2WldkbVl5eFh5S3Y5UmRBeXlpNXhhYXh0cnFxMDVsYWJjM3BTeHlyNS1uUlVKNmxlazlKNWp6X3I5ZVhyZThzUzRRVmRtb2ZreG40ZGVoeXhreGprYVluczhmUUdwdVlMcWFhNWpyZGRsMmE0cHBNTHpMckpKQXhjeXJ0TFd0SWhDb1YxT1ZmdThXbVNmTg?oc=5",
-   "publisher": "The Economic Times",
-   "published": "2026-11-09T08:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "The Economic Times"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "mention"
-   }
   }
  ],
  "latest_headline": [
+  {
+   "id": "72f93d526d235199",
+   "title": "GoKwik launches DealSwami aggregating Black Friday deals across India",
+   "url": "https://www.newsbytesapp.com/news/business/gokwik-launches-dealswami-aggregating-black-friday-deals-across-india/tldr",
+   "publisher": "NewsBytes",
+   "published": "2026-11-26T08:54:00+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "NewsBytes"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
   {
    "id": "c05ea2d58742c66e",
    "title": "GoKwik DealSwami gathers Black Friday deals in one place",
@@ -1221,6 +1244,27 @@
    ],
    "sources": [
     "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "0cf46e365a31cf5e",
+   "title": "GoKwik launches DealSwami, aggregates Black Friday deals from 20,000+ Indian brands",
+   "url": "https://economictimes.indiatimes.com/industry/services/retail/gokwik-launches-dealswami-aggregates-black-friday-deals-from-20000-indian-brands/articleshow/136188737.cms",
+   "publisher": "The Economic Times",
+   "published": "2026-11-26T03:06:00+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "The Economic Times"
+   ],
+   "sources": [
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1574,73 +1618,33 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "a96db425e7518b5d",
-   "title": "Pine Labs Deploys \u20b9975 Cr IPO Capital; Completes \u20b966 Cr Shopflo Acquisition",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNmFVbS1ESnZkZnNNekw3dndsZ1hWZDRScmJxWk5OckhCS3BTWkMybFVmeDB3dGZySWhyQjN5SUl4S0tJOThfWjFYSFhMY2hBdm5Odk5mNGJOb2VrekREWE9Zcy1hX29TNkdjV1Fia3RKb0RmOWhaRDJoMFNKamRrSWlxYjg4eHh5cUpkTjM5RW9QazhvMnRRdG9LRWg?oc=5",
-   "publisher": "Trade Brains",
-   "published": "2026-07-29T07:00:00+00:00",
-   "first_seen": "2026-11-15",
-   "companies": [
-    "shopflo"
-   ],
-   "outlets": [
-    "Trade Brains"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "shopflo": "headline"
-   }
-  },
-  {
-   "id": "ceb28f4b99cb406d",
-   "title": "GoKwik and PayU enable D2C shopping on ChatGPT",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQWlyV1hBbkRVUmk1bVRCRVFOMTFLUTd2TGJJaU1RZ3laVHFlOUszZVhLTGxHMllVRDJXRjdNQW0tZzNvM2w4N3VjSDhndDY3QURvS0J6b0RIRzNjQnpBM0t0SzJjcWNDOENIcF9BOXp6dHRaQUJxZEVKX09ha0FoZUF3c0FNMi1HRGhIVlFB?oc=5",
-   "publisher": "IBS Intelligence",
-   "published": "2026-07-29T07:00:00+00:00",
-   "first_seen": "2026-11-21",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "IBS Intelligence"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 316,
-  "headline": 272,
+  "company_articles": 320,
+  "headline": 276,
   "mention_only": 44,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 58
+  "same_story_other_outlets": 60
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-26T11:17:08+00:00",
+   "run_at": "2026-11-26T23:13:34+00:00",
    "status": "ok",
-   "fetched": 248,
-   "new": 5,
+   "fetched": 251,
+   "new": 4,
    "per_company": {
     "gokwik": {
-     "fetched": 123,
-     "new": 4
+     "fetched": 82,
+     "new": 2
     },
     "shopflo": {
-     "fetched": 48,
-     "new": 0
+     "fetched": 50,
+     "new": 1
     },
     "simpl": {
-     "fetched": 61,
+     "fetched": 103,
      "new": 1
     },
     "razorpay_magic": {
@@ -2398,6 +2402,32 @@
      },
      "simpl": {
       "fetched": 61,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-26T23:13:34+00:00",
+    "status": "ok",
+    "fetched": 251,
+    "new": 4,
+    "per_company": {
+     "gokwik": {
+      "fetched": 82,
+      "new": 2
+     },
+     "shopflo": {
+      "fetched": 50,
+      "new": 1
+     },
+     "simpl": {
+      "fetched": 103,
       "new": 1
      },
      "razorpay_magic": {
