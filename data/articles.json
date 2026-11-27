@@ -1,4 +1,68 @@
 {
+ "03d5cc84ca63f6f3": {
+  "id": "03d5cc84ca63f6f3",
+  "title": "Non-metro shoppers drive 63% surge in early Black Friday spending: GoKwik",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQmhIcjRkQ0U2eWlIb0VzX2NzN1FpUGxoeDR0cDJzamlCOXNHVFNsT2ExOW9PRG0wOGZ4bzJWN0NlQks1NFJScUpxaUo5b0xtMmN5WGJWaU5HMFhUMDN2bThIa05iVklGUUFjT2Nqd0FtZVBja0gwSkhseG1ocGtZYV8wUl9BODFCdUV5bXBYU2xwaklNb0phZGVPeW9GZnMxVXRwRUFBaExhNEhWY09qTUVuZGVDMHQzMldBSk9UVDBpWm9Zd1AtSktDM1Y5dEx3Vnk4djV6SmRRbFdBV3lDUkItdGzSAeoBQVVfeXFMUG9SbDR6RkRfcnMtWG1WcmxpVUhVVGRzSE5MMHpDdG9IM05rTnR4d1RhWXZBQjZKRmNfcEFnUFZJRFZnYjBrVndQcHRvLTFEd0JldVdvVXZpVEw5ajRDX3pWdzREWlJfWmRMV1M5Y1o1b25BQzZLTVpqeGFlNzVZb3BGZDlYSWVqOV9NTWFhc0kwMjJYS2MwRk1ibC13WWF2SE5FQjJQMU9oX0N0bDc2TDdjVlFLNkk1emFmQTFra0ZoTWxXYnRaLWJ5SE1UNEJiQXhycW9ON1M4Ri1zY2FuamlBVzhNeG9uN1NB?oc=5",
+  "publisher": "The Economic Times",
+  "published": "2026-11-27T11:03:15+00:00",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "The Economic Times"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "e8e2397ac6a79884": {
+  "id": "e8e2397ac6a79884",
+  "title": "GoKwik launches district-level e-commerce intelligence platform ‘KwikAtlas’ ahead of BFCM 2026",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1FGYlExVDFiZ09aVHoyMTN4YW1UYXIyak5ZVHY3RXN2dGYtMVd6cXFta3VnVEs2NnhHYmRBNXpkc3k5YVZzczJQZWtSbFVuOU91SzFUZ1J3VXhtdExwMTI5dVBvUGFJN0ViLURVV0xLSk5XR1hGZHBSbnBlVTY2c1dEQW1ZdHlCRl9kMFZ0Z05LdEVBdW5XVHB6U0Q5RzJveE9vMHMySk96SkJzS0x5aHc4R19YRnc?oc=5",
+  "publisher": "MediaBrief",
+  "published": "2026-11-27T10:12:55+00:00",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "MediaBrief"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
+ "fa7d0600ea299457": {
+  "id": "fa7d0600ea299457",
+  "title": "Black Friday D2C Spending Rises 63% as Orders Jump 55%: GoKwik",
+  "url": "https://www.medianews4u.com/black-friday-d2c-spending-rises-63-as-orders-jump-55-gokwik/",
+  "publisher": "MediaNews4U",
+  "published": "2026-11-27T01:23:00+00:00",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "google",
+   "bing"
+  ],
+  "outlets": [
+   "MediaNews4U"
+  ],
+  "relevance": {
+   "gokwik": "headline"
+  }
+ },
  "72f93d526d235199": {
   "id": "72f93d526d235199",
   "title": "GoKwik launches DealSwami aggregating Black Friday deals across India",
@@ -92,7 +156,7 @@
   "publisher": "Exchange4Media",
   "published": "2026-11-25T04:00:03+00:00",
   "first_seen": "2026-11-25",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "companies": [
    "gokwik"
   ],
@@ -1986,7 +2050,7 @@
   "publisher": "Moneycontrol.com",
   "published": "2026-04-25T07:00:00+00:00",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "companies": [
    "shopflo"
   ],
@@ -3115,7 +3179,7 @@
   "publisher": "ET Edge Insights",
   "published": "2025-08-21T07:00:00+00:00",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-27",
   "companies": [
    "shopflo"
   ],
@@ -5455,19 +5519,21 @@
  "a8ee67f27f59a439": {
   "id": "a8ee67f27f59a439",
   "title": "E-commerce enabler GoKwik appoints Amitt Sharma as its chief customer officer",
-  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb3FjazFUVE53WGVuaDF5ZlR4aFZwcTJvS1p3YjRMWng3ODZaLWZIdGg5N1N2Z3VDcTdtWDhoMThKVXZ5dU9XN1g4Zllhd29NSVJnX1FqaE1kMUg5RzJzYml6OVBIcVY5TktrbWUtYjl6Vk9wSVNHV0xyck5pTV9Sa1R5VU8wZTN1Wk1ldnJ6WFlEUHBYc3c0NHRpRGt1TWtIc3VLZ0ctWDVEbnJhM1V2bEFXaWlGa2IzOEZ5Z0lwTl9hSjhpWE9YMU1FR09LZUZhTEVsNlJSdGRhSkMyOEdr0gHkAUFVX3lxTE5YVzBFTzA2UG5KYl83aGs4ekxKZURJOHJrSjc3dHNrQkFVMzIycXNaOXJrQWFNZ0twZlFIbzQ2Z05ockNvWGVKTVdCUk53QUMzdHFXZWhFQ3ZpQi0tMllCWXNFRXNHTVppSjdrTFdqYTl6S242UFRfeVExVjg0cU5BNEI2Si1mZFBqWExYMi1oY3dBOWdfY2lOWG9OZGU5SkFDOGRIUjI5YnM1OE9laVhuamI0QzFJdG13NGpmVVQxWGxrR1NqaHAzQ2FvRldSQ3U5VnJYaF9GQVdUbGdsbmJLRk5yWA?oc=5",
+  "url": "https://retail.economictimes.indiatimes.com/news/e-commerce/e-commerce-enabler-gokwik-appoints-amitt-sharma-as-its-chief-customer-officer/93033283",
   "publisher": "ET Retail",
   "published": "2022-07-21T07:00:00+00:00",
   "first_seen": "2026-11-26",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "companies": [
    "gokwik"
   ],
   "sources": [
-   "google"
+   "google",
+   "bing"
   ],
   "outlets": [
-   "ET Retail"
+   "ET Retail",
+   "retail.economictimes.indiatimes"
   ],
   "relevance": {
    "gokwik": "headline"
@@ -5492,6 +5558,27 @@
   ],
   "relevance": {
    "simpl": "headline"
+  }
+ },
+ "c9d4d41ba6c1fdca": {
+  "id": "c9d4d41ba6c1fdca",
+  "title": "Footwear brand Neeman’s conversion rates increase 30% post GoKwik partnership",
+  "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/footwear/footwear-brand-neemans-conversion-rates-increase-30-post-gokwik-partnership/92872279",
+  "publisher": "retail.economictimes.indiatimes",
+  "published": "2022-07-14T14:30:00+00:00",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27",
+  "companies": [
+   "gokwik"
+  ],
+  "sources": [
+   "bing"
+  ],
+  "outlets": [
+   "retail.economictimes.indiatimes"
+  ],
+  "relevance": {
+   "gokwik": "headline"
   }
  },
  "fca0ef0275f00c89": {
@@ -6096,7 +6183,7 @@
   "publisher": "Fortune India",
   "published": "2022-01-10T08:00:00+00:00",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-27",
   "companies": [
    "simpl"
   ],
@@ -6699,6 +6786,27 @@
   ],
   "relevance": {
    "simpl": "mention"
+  }
+ },
+ "d87168787429eb51": {
+  "id": "d87168787429eb51",
+  "title": "Online payments startup Simpl to focus on offline merchants this year",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEFKaE1PTFlfdHA5OVkzVy02YUdCV2VGQ0Rpd0dPNzdyclV6UEI3N09wbEdlc1VSOVNqZWlMVGwwLVpOZmpBQ3FnVWxfVTR6ZW5ZM2NRcXRyM0w3bnlFNDZmWjFnaFFSZDFwVXE5ejEyWS1MLWs0UUFEemxhc2sxcEVYUjJWSm9zanVkU3NGQW9tcThVQmllMDROdnF2dDNOeWxRb0syM1FBSmxsU015OTZPMXZfR0xXT29wZHNQaFFidUY0Mmdxai0zMlZrQdIB0wFBVV95cUxOaFF0ZWEwYlBXZDNiOUhzVjJJN1pfYXN6aWpKU051cGRTLWJvaWFZYlhtSlVRaWJVTFlUb3hKSlhoRkJRMW5aLXJ0bGM4TGUwNTFSem1sMG9yOFdZS0xodzNlQW9aUEVZUm41T01va1hHSHJmSnc4bzByR29zNWpEN0VrU3JQdHNjbWlmQkV2Wm5ONTJNaDBMYmxVazNFYl96Q3hLOTNwZ2FvS3ctVlVJN283UzZZWFBJdURZYmszRXRGNTRLSEFTaGVMUTU1N3N5Ymo0?oc=5",
+  "publisher": "Moneycontrol.com",
+  "published": "2018-07-24T07:00:00+00:00",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27",
+  "companies": [
+   "simpl"
+  ],
+  "sources": [
+   "google"
+  ],
+  "outlets": [
+   "Moneycontrol.com"
+  ],
+  "relevance": {
+   "simpl": "headline"
   }
  },
  "0559b80c7849d815": {

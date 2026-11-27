@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T23:13:34+00:00",
+ "generated_at": "2026-11-27T11:11:33+00:00",
  "today": "2026-11-27",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,61 +33,61 @@
   }
  ],
  "totals": {
-  "articles": 317,
+  "articles": 322,
   "by_company": {
-   "gokwik": 139,
+   "gokwik": 143,
    "shopflo": 49,
-   "simpl": 117,
+   "simpl": 118,
    "razorpay_magic": 15
   },
   "by_company_headline": {
-   "gokwik": 122,
+   "gokwik": 126,
    "shopflo": 46,
-   "simpl": 104,
+   "simpl": 105,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 43.4,
-   "shopflo": 15.3,
-   "simpl": 36.6,
-   "razorpay_magic": 4.7
+   "gokwik": 44.0,
+   "shopflo": 15.1,
+   "simpl": 36.3,
+   "razorpay_magic": 4.6
   },
-  "added_today": 4,
-  "last_30_days": 29
+  "added_today": 9,
+  "last_30_days": 32
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 29,
+   "gokwik": 32,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 76.3,
-   "shopflo": 5.3,
-   "simpl": 2.6,
-   "razorpay_magic": 15.8
+   "gokwik": 78.0,
+   "shopflo": 4.9,
+   "simpl": 2.4,
+   "razorpay_magic": 14.6
   },
-  "total": 38
+  "total": 41
  },
  "window_headline": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 16,
+   "gokwik": 19,
    "shopflo": 1,
    "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 88.9,
-   "shopflo": 5.6,
-   "simpl": 5.6,
+   "gokwik": 90.5,
+   "shopflo": 4.8,
+   "simpl": 4.8,
    "razorpay_magic": 0.0
   },
-  "total": 18
+  "total": 21
  },
  "weeks": [
   {
@@ -458,7 +458,7 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 6,
+    "gokwik": 9,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,10 +469,10 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 6,
+   "total": 9,
    "headline": {
     "counts": {
-     "gokwik": 4,
+     "gokwik": 7,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
@@ -483,7 +483,7 @@
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 4
+    "total": 7
    }
   }
  ],
@@ -781,15 +781,76 @@
   {
    "date": "2026-11-27",
    "counts": {
-    "gokwik": 0,
+    "gokwik": 3,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 0
+   "total": 3
   }
  ],
  "latest": [
+  {
+   "id": "03d5cc84ca63f6f3",
+   "title": "Non-metro shoppers drive 63% surge in early Black Friday spending: GoKwik",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQmhIcjRkQ0U2eWlIb0VzX2NzN1FpUGxoeDR0cDJzamlCOXNHVFNsT2ExOW9PRG0wOGZ4bzJWN0NlQks1NFJScUpxaUo5b0xtMmN5WGJWaU5HMFhUMDN2bThIa05iVklGUUFjT2Nqd0FtZVBja0gwSkhseG1ocGtZYV8wUl9BODFCdUV5bXBYU2xwaklNb0phZGVPeW9GZnMxVXRwRUFBaExhNEhWY09qTUVuZGVDMHQzMldBSk9UVDBpWm9Zd1AtSktDM1Y5dEx3Vnk4djV6SmRRbFdBV3lDUkItdGzSAeoBQVVfeXFMUG9SbDR6RkRfcnMtWG1WcmxpVUhVVGRzSE5MMHpDdG9IM05rTnR4d1RhWXZBQjZKRmNfcEFnUFZJRFZnYjBrVndQcHRvLTFEd0JldVdvVXZpVEw5ajRDX3pWdzREWlJfWmRMV1M5Y1o1b25BQzZLTVpqeGFlNzVZb3BGZDlYSWVqOV9NTWFhc0kwMjJYS2MwRk1ibC13WWF2SE5FQjJQMU9oX0N0bDc2TDdjVlFLNkk1emFmQTFra0ZoTWxXYnRaLWJ5SE1UNEJiQXhycW9ON1M4Ri1zY2FuamlBVzhNeG9uN1NB?oc=5",
+   "publisher": "The Economic Times",
+   "published": "2026-11-27T11:03:15+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "The Economic Times"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "e8e2397ac6a79884",
+   "title": "GoKwik launches district-level e-commerce intelligence platform \u2018KwikAtlas\u2019 ahead of BFCM 2026",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1FGYlExVDFiZ09aVHoyMTN4YW1UYXIyak5ZVHY3RXN2dGYtMVd6cXFta3VnVEs2NnhHYmRBNXpkc3k5YVZzczJQZWtSbFVuOU91SzFUZ1J3VXhtdExwMTI5dVBvUGFJN0ViLURVV0xLSk5XR1hGZHBSbnBlVTY2c1dEQW1ZdHlCRl9kMFZ0Z05LdEVBdW5XVHB6U0Q5RzJveE9vMHMySk96SkJzS0x5aHc4R19YRnc?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-11-27T10:12:55+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
+   "id": "fa7d0600ea299457",
+   "title": "Black Friday D2C Spending Rises 63% as Orders Jump 55%: GoKwik",
+   "url": "https://www.medianews4u.com/black-friday-d2c-spending-rises-63-as-orders-jump-55-gokwik/",
+   "publisher": "MediaNews4U",
+   "published": "2026-11-27T01:23:00+00:00",
+   "first_seen": "2026-11-27",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaNews4U"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
   {
    "id": "72f93d526d235199",
    "title": "GoKwik launches DealSwami aggregating Black Friday deals across India",
@@ -1144,70 +1205,70 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
+  }
+ ],
+ "latest_headline": [
   {
-   "id": "469b9935bff9b3ca",
-   "title": "Diwali 2026: Online Order Values Rise 8% As Home Appliance Sales Surge",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMVZGZF9zOVNDd3kyVXB2TTdsLWxiNndHM2lIZzZSUTM2cTZ4TDNEaTFGLXQ1dmU0UEUwZXBmM2JCby1hYWlaMFlhZGhkX2lhdHczMUpkODFxR1ZPUERKSjZDdWdFeW5oT0k3aHNQTGFsYVBCZVpaTGVDX1hTdlFkOG00Y0tCOVFCZFlZZ0lWSVh5dUkyZzJMaGJ2ejJrYndXczREMWlUSjBsYl9xVFE?oc=5",
-   "publisher": "BW Disrupt",
-   "published": "2026-11-10T05:11:43+00:00",
-   "first_seen": "2026-11-15",
+   "id": "03d5cc84ca63f6f3",
+   "title": "Non-metro shoppers drive 63% surge in early Black Friday spending: GoKwik",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQmhIcjRkQ0U2eWlIb0VzX2NzN1FpUGxoeDR0cDJzamlCOXNHVFNsT2ExOW9PRG0wOGZ4bzJWN0NlQks1NFJScUpxaUo5b0xtMmN5WGJWaU5HMFhUMDN2bThIa05iVklGUUFjT2Nqd0FtZVBja0gwSkhseG1ocGtZYV8wUl9BODFCdUV5bXBYU2xwaklNb0phZGVPeW9GZnMxVXRwRUFBaExhNEhWY09qTUVuZGVDMHQzMldBSk9UVDBpWm9Zd1AtSktDM1Y5dEx3Vnk4djV6SmRRbFdBV3lDUkItdGzSAeoBQVVfeXFMUG9SbDR6RkRfcnMtWG1WcmxpVUhVVGRzSE5MMHpDdG9IM05rTnR4d1RhWXZBQjZKRmNfcEFnUFZJRFZnYjBrVndQcHRvLTFEd0JldVdvVXZpVEw5ajRDX3pWdzREWlJfWmRMV1M5Y1o1b25BQzZLTVpqeGFlNzVZb3BGZDlYSWVqOV9NTWFhc0kwMjJYS2MwRk1ibC13WWF2SE5FQjJQMU9oX0N0bDc2TDdjVlFLNkk1emFmQTFra0ZoTWxXYnRaLWJ5SE1UNEJiQXhycW9ON1M4Ri1zY2FuamlBVzhNeG9uN1NB?oc=5",
+   "publisher": "The Economic Times",
+   "published": "2026-11-27T11:03:15+00:00",
+   "first_seen": "2026-11-27",
    "companies": [
     "gokwik"
    ],
    "outlets": [
-    "BW Disrupt"
+    "The Economic Times"
    ],
    "sources": [
     "google"
    ],
    "relevance": {
-    "gokwik": "mention"
+    "gokwik": "headline"
    }
   },
   {
-   "id": "89662afaa7433a92",
-   "title": "Diwali spending shifts to high-value purchases as average order value rises 8%",
-   "url": "https://www.storyboard18.com/brand-marketing/diwali-spending-shifts-to-high-value-purchases-as-average-order-value-rises-8-ws-l-114448.htm",
-   "publisher": "Storyboard18",
-   "published": "2026-11-10T04:16:00+00:00",
-   "first_seen": "2026-11-13",
+   "id": "e8e2397ac6a79884",
+   "title": "GoKwik launches district-level e-commerce intelligence platform \u2018KwikAtlas\u2019 ahead of BFCM 2026",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1FGYlExVDFiZ09aVHoyMTN4YW1UYXIyak5ZVHY3RXN2dGYtMVd6cXFta3VnVEs2NnhHYmRBNXpkc3k5YVZzczJQZWtSbFVuOU91SzFUZ1J3VXhtdExwMTI5dVBvUGFJN0ViLURVV0xLSk5XR1hGZHBSbnBlVTY2c1dEQW1ZdHlCRl9kMFZ0Z05LdEVBdW5XVHB6U0Q5RzJveE9vMHMySk96SkJzS0x5aHc4R19YRnc?oc=5",
+   "publisher": "MediaBrief",
+   "published": "2026-11-27T10:12:55+00:00",
+   "first_seen": "2026-11-27",
    "companies": [
     "gokwik"
    ],
    "outlets": [
-    "Storyboard18"
+    "MediaBrief"
    ],
    "sources": [
-    "bing",
     "google"
    ],
    "relevance": {
-    "gokwik": "mention"
+    "gokwik": "headline"
    }
   },
   {
-   "id": "b12b8a43c7815956",
-   "title": "GoKwik\u2019s Diwali 2026 study finds 81% GMV growth across D2C network",
-   "url": "https://mediabrief.com/gokwiks-diwali-2026-study-finds-81-gmv-growth-across-d2c-network/",
-   "publisher": "Mediabrief",
-   "published": "2026-11-10T03:13:00+00:00",
-   "first_seen": "2026-11-13",
+   "id": "fa7d0600ea299457",
+   "title": "Black Friday D2C Spending Rises 63% as Orders Jump 55%: GoKwik",
+   "url": "https://www.medianews4u.com/black-friday-d2c-spending-rises-63-as-orders-jump-55-gokwik/",
+   "publisher": "MediaNews4U",
+   "published": "2026-11-27T01:23:00+00:00",
+   "first_seen": "2026-11-27",
    "companies": [
     "gokwik"
    ],
    "outlets": [
-    "Mediabrief"
+    "MediaNews4U"
    ],
    "sources": [
+    "google",
     "bing"
    ],
    "relevance": {
     "gokwik": "headline"
    }
-  }
- ],
- "latest_headline": [
+  },
   {
    "id": "72f93d526d235199",
    "title": "GoKwik launches DealSwami aggregating Black Friday deals across India",
@@ -1558,71 +1619,11 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "4bdf4286e3f7d967",
-   "title": "GoKwik releases brand film on e-commerce checkout trust",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeldLRC0zakEzUGlJOFBJLWxWWDVCd2tGSmVVRVB1SmptVDR4NFUzY3lqTk9nTmtHNHZYUkxUdnZtZUV2aWw4Z3dJZks3ZVl0c3FNRXFQVUZlRHRSa01MbFlNZ2QwNUJCNHVxX0FqU0dTeWJhemhnanE4WFoxTUdIMTZsZERCTTVHTlBZVHZxSl8zUGY4ZngyNzktSVlrbWxhLVFHNUNDeFMzQVJMYVdCWjN1UnVxN2s4amV5bmRoVGlRcnlGY1BFY3FxUmRFUVZXM0p5enBFd9IB3AFBVV95cUxORXVJdl9TNy1sX2dESjJBSDhzSmZCZmF4XzJjSHpHR043azdNYnFpeU5MMkxFaGlOTnJWVHdGRTlwSUVTZ29ubkdnbWxRMEQ1SFRFUWFFRFgyUnA1bHdWV0ZlMk9KcjZONjNiRHAwWEJPUGZnMmpfbi1DdlVhTjI3ckExLWoyN0ZITDVnQnNBdHY5RFBVQUlCTTNpN28wNERfbzBWTEFLY0FUYmdWVG5GS0dRczNXOUFPU3JWZnBtZDZtQUxkeURuTFVfNl8wVEtWbzVFVXJtLW95SFNo?oc=5",
-   "publisher": "ET BrandEquity",
-   "published": "2026-09-09T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "ET BrandEquity"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "f92e6614b8d42889",
-   "title": "GoKwik records 46% YoY growth in Raksha Bandhan merchandise sales",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZGpKUDlyUlY3Z0JQaEZMUHBnY19lZ1lJZzJyb25McmNYUlgwY1ktTTR2MVhQd3FhWFJrU0VnT2VLSW5KYjhYQ1pFWDZXU1g2MEZ2cVgyLTdRdHlkVHFkRW0yWVBzLW5Mdkp0eC1WcDU0YjQxaXVuN193?oc=5",
-   "publisher": "MediaBrief",
-   "published": "2026-09-03T07:00:00+00:00",
-   "first_seen": "2026-11-24",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "MediaBrief"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
-  },
-  {
-   "id": "821b4470c67a113a",
-   "title": "GoKwik and PayU bring multi-brand D2C shopping to ChatGPT, launch AI-powered commerce experience",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM1liU0t1UDJWSjBtaHFpQjZmdnoycktLWXpHQTZDZzFCUjROT3JkaEZ5M2JJRURKV0VRZWZpc2lsWDBCNGZCSjRVbmtuZExvMHF2SF9hOWQtV2Uxc09mZEVzQ0UzTVhFQV9ldHBZemVVNUVDRmJpdnhiWE1oZG5MNGdn?oc=5",
-   "publisher": "Express Computer",
-   "published": "2026-07-30T07:00:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Express Computer"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 320,
-  "headline": 276,
+  "company_articles": 325,
+  "headline": 281,
   "mention_only": 44,
   "excluded": 2,
   "duplicates": 0,
@@ -1630,25 +1631,25 @@
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-26T23:13:34+00:00",
+   "run_at": "2026-11-27T11:11:33+00:00",
    "status": "ok",
-   "fetched": 251,
-   "new": 4,
+   "fetched": 258,
+   "new": 5,
    "per_company": {
     "gokwik": {
-     "fetched": 82,
-     "new": 2
+     "fetched": 88,
+     "new": 4
     },
     "shopflo": {
      "fetched": 50,
-     "new": 1
+     "new": 0
     },
     "simpl": {
-     "fetched": 103,
+     "fetched": 105,
      "new": 1
     },
     "razorpay_magic": {
-     "fetched": 16,
+     "fetched": 15,
      "new": 0
     }
    },
@@ -1656,32 +1657,6 @@
    "warnings": []
   },
   "recent_runs": [
-   {
-    "run_at": "2026-11-13T13:13:25+00:00",
-    "status": "ok",
-    "fetched": 162,
-    "new": 152,
-    "per_company": {
-     "gokwik": {
-      "fetched": 66,
-      "new": 59
-     },
-     "shopflo": {
-      "fetched": 33,
-      "new": 32
-     },
-     "simpl": {
-      "fetched": 53,
-      "new": 53
-     },
-     "razorpay_magic": {
-      "fetched": 10,
-      "new": 8
-     }
-    },
-    "problems": [],
-    "warnings": []
-   },
    {
     "run_at": "2026-11-13T13:48:09+00:00",
     "status": "ok",
@@ -2432,6 +2407,32 @@
      },
      "razorpay_magic": {
       "fetched": 16,
+      "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-27T11:11:33+00:00",
+    "status": "ok",
+    "fetched": 258,
+    "new": 5,
+    "per_company": {
+     "gokwik": {
+      "fetched": 88,
+      "new": 4
+     },
+     "shopflo": {
+      "fetched": 50,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 105,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 15,
       "new": 0
      }
     },
