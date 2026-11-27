@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T11:11:33+00:00",
- "today": "2026-11-27",
+ "generated_at": "2026-11-27T22:52:48+00:00",
+ "today": "2026-11-28",
  "tracking_since": "2026-11-13",
  "companies": [
   {
@@ -33,61 +33,61 @@
   }
  ],
  "totals": {
-  "articles": 322,
+  "articles": 324,
   "by_company": {
-   "gokwik": 143,
+   "gokwik": 144,
    "shopflo": 49,
    "simpl": 118,
-   "razorpay_magic": 15
+   "razorpay_magic": 16
   },
   "by_company_headline": {
-   "gokwik": 126,
+   "gokwik": 127,
    "shopflo": 46,
    "simpl": 105,
    "razorpay_magic": 4
   },
   "shares": {
    "gokwik": 44.0,
-   "shopflo": 15.1,
-   "simpl": 36.3,
-   "razorpay_magic": 4.6
+   "shopflo": 15.0,
+   "simpl": 36.1,
+   "razorpay_magic": 4.9
   },
-  "added_today": 9,
-  "last_30_days": 32
+  "added_today": 2,
+  "last_30_days": 31
  },
  "window": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 32,
+   "gokwik": 33,
    "shopflo": 2,
    "simpl": 1,
    "razorpay_magic": 6
   },
   "shares": {
-   "gokwik": 78.0,
-   "shopflo": 4.9,
+   "gokwik": 78.6,
+   "shopflo": 4.8,
    "simpl": 2.4,
-   "razorpay_magic": 14.6
+   "razorpay_magic": 14.3
   },
-  "total": 41
+  "total": 42
  },
  "window_headline": {
   "weeks": 12,
   "from": "2026-09-07",
   "counts": {
-   "gokwik": 19,
+   "gokwik": 20,
    "shopflo": 1,
    "simpl": 1,
    "razorpay_magic": 0
   },
   "shares": {
-   "gokwik": 90.5,
-   "shopflo": 4.8,
-   "simpl": 4.8,
+   "gokwik": 90.9,
+   "shopflo": 4.5,
+   "simpl": 4.5,
    "razorpay_magic": 0.0
   },
-  "total": 21
+  "total": 22
  },
  "weeks": [
   {
@@ -458,7 +458,7 @@
    "label": "23 Nov",
    "is_current": true,
    "counts": {
-    "gokwik": 9,
+    "gokwik": 10,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
@@ -469,10 +469,10 @@
     "simpl": 0.0,
     "razorpay_magic": 0.0
    },
-   "total": 9,
+   "total": 10,
    "headline": {
     "counts": {
-     "gokwik": 7,
+     "gokwik": 8,
      "shopflo": 0,
      "simpl": 0,
      "razorpay_magic": 0
@@ -483,21 +483,11 @@
      "simpl": 0.0,
      "razorpay_magic": 0.0
     },
-    "total": 7
+    "total": 8
    }
   }
  ],
  "daily": [
-  {
-   "date": "2026-10-29",
-   "counts": {
-    "gokwik": 2,
-    "shopflo": 0,
-    "simpl": 0,
-    "razorpay_magic": 0
-   },
-   "total": 2
-  },
   {
    "date": "2026-10-30",
    "counts": {
@@ -781,12 +771,22 @@
   {
    "date": "2026-11-27",
    "counts": {
-    "gokwik": 3,
+    "gokwik": 4,
     "shopflo": 0,
     "simpl": 0,
     "razorpay_magic": 0
    },
-   "total": 3
+   "total": 4
+  },
+  {
+   "date": "2026-11-28",
+   "counts": {
+    "gokwik": 0,
+    "shopflo": 0,
+    "simpl": 0,
+    "razorpay_magic": 0
+   },
+   "total": 0
   }
  ],
  "latest": [
@@ -811,11 +811,32 @@
    }
   },
   {
+   "id": "aff658991578cc50",
+   "title": "GoKwik Black Friday data: D2C spending up 63% in first 12 hours, led by non-metro shoppers",
+   "url": "https://mediabrief.com/gokwik-black-friday-data-d2c-spending-up-63-in-first-12-hours-led-by-non-metro-shoppers/",
+   "publisher": "MediaBrief",
+   "published": "2026-11-27T04:12:00+00:00",
+   "first_seen": "2026-11-28",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "e8e2397ac6a79884",
    "title": "GoKwik launches district-level e-commerce intelligence platform \u2018KwikAtlas\u2019 ahead of BFCM 2026",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1FGYlExVDFiZ09aVHoyMTN4YW1UYXIyak5ZVHY3RXN2dGYtMVd6cXFta3VnVEs2NnhHYmRBNXpkc3k5YVZzczJQZWtSbFVuOU91SzFUZ1J3VXhtdExwMTI5dVBvUGFJN0ViLURVV0xLSk5XR1hGZHBSbnBlVTY2c1dEQW1ZdHlCRl9kMFZ0Z05LdEVBdW5XVHB6U0Q5RzJveE9vMHMySk96SkJzS0x5aHc4R19YRnc?oc=5",
+   "url": "https://mediabrief.com/gokwik-launches-district-level-e-commerce-intelligence-platform-kwikatlas-ahead-of-bfcm-2026/",
    "publisher": "MediaBrief",
-   "published": "2026-11-27T10:12:55+00:00",
+   "published": "2026-11-27T02:12:00+00:00",
    "first_seen": "2026-11-27",
    "companies": [
     "gokwik"
@@ -824,7 +845,8 @@
     "MediaBrief"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1183,28 +1205,6 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "bac96c40b9924fdc",
-   "title": "GoKwik\u2019s Golden Handcuffs: Non-Compete Clause Puts Vested ESOPs In Jeopardy",
-   "url": "https://inc42.com/features/gokwiks-golden-handcuffs-non-compete-clause-puts-vested-esops-in-jeopardy/",
-   "publisher": "Inc42",
-   "published": "2026-11-10T17:30:00+00:00",
-   "first_seen": "2026-11-13",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "Inc42",
-    "Newspoint on MSN"
-   ],
-   "sources": [
-    "google",
-    "bing"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "latest_headline": [
@@ -1229,11 +1229,32 @@
    }
   },
   {
+   "id": "aff658991578cc50",
+   "title": "GoKwik Black Friday data: D2C spending up 63% in first 12 hours, led by non-metro shoppers",
+   "url": "https://mediabrief.com/gokwik-black-friday-data-d2c-spending-up-63-in-first-12-hours-led-by-non-metro-shoppers/",
+   "publisher": "MediaBrief",
+   "published": "2026-11-27T04:12:00+00:00",
+   "first_seen": "2026-11-28",
+   "companies": [
+    "gokwik"
+   ],
+   "outlets": [
+    "MediaBrief"
+   ],
+   "sources": [
+    "google",
+    "bing"
+   ],
+   "relevance": {
+    "gokwik": "headline"
+   }
+  },
+  {
    "id": "e8e2397ac6a79884",
    "title": "GoKwik launches district-level e-commerce intelligence platform \u2018KwikAtlas\u2019 ahead of BFCM 2026",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1FGYlExVDFiZ09aVHoyMTN4YW1UYXIyak5ZVHY3RXN2dGYtMVd6cXFta3VnVEs2NnhHYmRBNXpkc3k5YVZzczJQZWtSbFVuOU91SzFUZ1J3VXhtdExwMTI5dVBvUGFJN0ViLURVV0xLSk5XR1hGZHBSbnBlVTY2c1dEQW1ZdHlCRl9kMFZ0Z05LdEVBdW5XVHB6U0Q5RzJveE9vMHMySk96SkJzS0x5aHc4R19YRnc?oc=5",
+   "url": "https://mediabrief.com/gokwik-launches-district-level-e-commerce-intelligence-platform-kwikatlas-ahead-of-bfcm-2026/",
    "publisher": "MediaBrief",
-   "published": "2026-11-27T10:12:55+00:00",
+   "published": "2026-11-27T02:12:00+00:00",
    "first_seen": "2026-11-27",
    "companies": [
     "gokwik"
@@ -1242,7 +1263,8 @@
     "MediaBrief"
    ],
    "sources": [
-    "google"
+    "google",
+    "bing"
    ],
    "relevance": {
     "gokwik": "headline"
@@ -1599,90 +1621,44 @@
    "relevance": {
     "gokwik": "headline"
    }
-  },
-  {
-   "id": "32f202a3a4b2603d",
-   "title": "GoKwik Asks: What If You Could Stop Double-Checking at Checkout?",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa21SSDhocTRMVWloUERrOV9aNHVoMV9sNnd2cnA3aVdJcEpoU3lWVXYxTVppR2MteGh2RGlzS1pNUzY5SzBmWXpBZnNqNjA3dEhSeXRqVFJNMWtWNWQxX0hmMHBLY1BkY0VBRG1SNW0yUUllandwZU51a2ZMWDB0ZFc4clNBRW02aDBvY0ozT194LWZBUVhkTS1SamJtZEpQak9Gc2E5NHNTR2tIdzBxT0FacXNYN0E4Y0E?oc=5",
-   "publisher": "IMPACT Magazine",
-   "published": "2026-09-11T07:00:00+00:00",
-   "first_seen": "2026-11-24",
-   "companies": [
-    "gokwik"
-   ],
-   "outlets": [
-    "IMPACT Magazine"
-   ],
-   "sources": [
-    "google"
-   ],
-   "relevance": {
-    "gokwik": "headline"
-   }
   }
  ],
  "review": {
-  "company_articles": 325,
-  "headline": 281,
-  "mention_only": 44,
+  "company_articles": 327,
+  "headline": 282,
+  "mention_only": 45,
   "excluded": 2,
   "duplicates": 0,
   "same_story_other_outlets": 60
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-27T11:11:33+00:00",
+   "run_at": "2026-11-27T22:52:48+00:00",
    "status": "ok",
-   "fetched": 258,
-   "new": 5,
+   "fetched": 260,
+   "new": 2,
    "per_company": {
     "gokwik": {
-     "fetched": 88,
-     "new": 4
+     "fetched": 92,
+     "new": 1
     },
     "shopflo": {
-     "fetched": 50,
+     "fetched": 49,
      "new": 0
     },
     "simpl": {
-     "fetched": 105,
-     "new": 1
+     "fetched": 103,
+     "new": 0
     },
     "razorpay_magic": {
-     "fetched": 15,
-     "new": 0
+     "fetched": 16,
+     "new": 1
     }
    },
    "problems": [],
    "warnings": []
   },
   "recent_runs": [
-   {
-    "run_at": "2026-11-13T13:48:09+00:00",
-    "status": "ok",
-    "fetched": 162,
-    "new": 1,
-    "per_company": {
-     "gokwik": {
-      "fetched": 66,
-      "new": 1
-     },
-     "shopflo": {
-      "fetched": 33,
-      "new": 0
-     },
-     "simpl": {
-      "fetched": 53,
-      "new": 0
-     },
-     "razorpay_magic": {
-      "fetched": 10,
-      "new": 0
-     }
-    },
-    "problems": [],
-    "warnings": []
-   },
    {
     "run_at": "2026-11-13T13:50:28+00:00",
     "status": "ok",
@@ -2434,6 +2410,32 @@
      "razorpay_magic": {
       "fetched": 15,
       "new": 0
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-27T22:52:48+00:00",
+    "status": "ok",
+    "fetched": 260,
+    "new": 2,
+    "per_company": {
+     "gokwik": {
+      "fetched": 92,
+      "new": 1
+     },
+     "shopflo": {
+      "fetched": 49,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 103,
+      "new": 0
+     },
+     "razorpay_magic": {
+      "fetched": 16,
+      "new": 1
      }
     },
     "problems": [],
