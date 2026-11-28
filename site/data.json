@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T22:52:48+00:00",
+ "generated_at": "2026-11-28T10:44:18+00:00",
  "today": "2026-11-28",
  "tracking_since": "2026-11-13",
  "companies": [
@@ -33,26 +33,26 @@
   }
  ],
  "totals": {
-  "articles": 324,
+  "articles": 329,
   "by_company": {
-   "gokwik": 144,
+   "gokwik": 148,
    "shopflo": 49,
-   "simpl": 118,
+   "simpl": 119,
    "razorpay_magic": 16
   },
   "by_company_headline": {
-   "gokwik": 127,
+   "gokwik": 131,
    "shopflo": 46,
-   "simpl": 105,
+   "simpl": 106,
    "razorpay_magic": 4
   },
   "shares": {
-   "gokwik": 44.0,
-   "shopflo": 15.0,
-   "simpl": 36.1,
-   "razorpay_magic": 4.9
+   "gokwik": 44.6,
+   "shopflo": 14.8,
+   "simpl": 35.8,
+   "razorpay_magic": 4.8
   },
-  "added_today": 2,
+  "added_today": 7,
   "last_30_days": 31
  },
  "window": {
@@ -1624,67 +1624,41 @@
   }
  ],
  "review": {
-  "company_articles": 327,
-  "headline": 282,
+  "company_articles": 332,
+  "headline": 287,
   "mention_only": 45,
   "excluded": 2,
   "duplicates": 0,
-  "same_story_other_outlets": 60
+  "same_story_other_outlets": 62
  },
  "health": {
   "last_run": {
-   "run_at": "2026-11-27T22:52:48+00:00",
+   "run_at": "2026-11-28T10:44:18+00:00",
    "status": "ok",
-   "fetched": 260,
-   "new": 2,
+   "fetched": 291,
+   "new": 5,
    "per_company": {
     "gokwik": {
-     "fetched": 92,
-     "new": 1
+     "fetched": 128,
+     "new": 4
     },
     "shopflo": {
-     "fetched": 49,
+     "fetched": 47,
      "new": 0
     },
     "simpl": {
-     "fetched": 103,
-     "new": 0
+     "fetched": 101,
+     "new": 1
     },
     "razorpay_magic": {
-     "fetched": 16,
-     "new": 1
+     "fetched": 15,
+     "new": 0
     }
    },
    "problems": [],
    "warnings": []
   },
   "recent_runs": [
-   {
-    "run_at": "2026-11-13T13:50:28+00:00",
-    "status": "ok",
-    "fetched": 161,
-    "new": 0,
-    "per_company": {
-     "gokwik": {
-      "fetched": 66,
-      "new": 0
-     },
-     "shopflo": {
-      "fetched": 33,
-      "new": 0
-     },
-     "simpl": {
-      "fetched": 52,
-      "new": 0
-     },
-     "razorpay_magic": {
-      "fetched": 10,
-      "new": 0
-     }
-    },
-    "problems": [],
-    "warnings": []
-   },
    {
     "run_at": "2026-11-13T21:03:23+00:00",
     "status": "ok",
@@ -2436,6 +2410,32 @@
      "razorpay_magic": {
       "fetched": 16,
       "new": 1
+     }
+    },
+    "problems": [],
+    "warnings": []
+   },
+   {
+    "run_at": "2026-11-28T10:44:18+00:00",
+    "status": "ok",
+    "fetched": 291,
+    "new": 5,
+    "per_company": {
+     "gokwik": {
+      "fetched": 128,
+      "new": 4
+     },
+     "shopflo": {
+      "fetched": 47,
+      "new": 0
+     },
+     "simpl": {
+      "fetched": 101,
+      "new": 1
+     },
+     "razorpay_magic": {
+      "fetched": 15,
+      "new": 0
      }
     },
     "problems": [],
